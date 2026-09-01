@@ -64,12 +64,18 @@ jobs:
             '  backend:' \
             '    environment:' \
             '      - BGUTIL_BASE_URL=http://bgutil-pot:4416' \
+            '      - YOUTUBE_COOKIES' \
             > docker-compose.override.yml
           cat docker-compose.override.yml
           docker compose config >/dev/null && echo "compose config valid"
 
       - name: Start OpenShorts (backend + renderer + PO token provider)
         working-directory: openshorts_app
+        # YOUTUBE_COOKIES is listed by name in the override, so compose passes
+        # through whatever this step has. Unset, the backend logs that it has
+        # no cookies and tries without them -- same behaviour as before.
+        env:
+          YOUTUBE_COOKIES: ${{ secrets.YOUTUBE_COOKIES }}
         run: docker compose up -d backend renderer bgutil-pot
 
       - name: Wait for OpenShorts to be healthy
