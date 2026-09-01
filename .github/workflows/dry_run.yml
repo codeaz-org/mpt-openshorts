@@ -51,6 +51,12 @@ jobs:
             | sudo tee /etc/wireguard/wg0.conf > /dev/null
           sudo chmod 600 /etc/wireguard/wg0.conf
           sudo wg-quick up wg0
+          # wg-quick installed the interface but no routes on the first
+          # attempt, so show what the kernel actually ended up with.
+          echo "--- wg show ---";            sudo wg show || true
+          echo "--- ip rule ---";            ip rule show || true
+          echo "--- table 51820 ---";        ip route show table 51820 || true
+          echo "--- default route ---";      ip route show default || true
           after=$(curl -s -m 20 https://ipinfo.io/org || echo unknown)
           echo "exit org before tunnel: $before"
           echo "exit org after tunnel : $after"
