@@ -1,0 +1,5 @@
+.env
+openshorts_app/
+dry_run_output/
+__pycache__/
+*.pyc

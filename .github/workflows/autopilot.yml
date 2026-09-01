@@ -1,0 +1,74 @@
+name: OpenShorts Autopilot (open-source-projects)
+on:
+  schedule:
+    # Once a day to start. A CC-BY talk pool is small; posting more often than
+    # you have real fresh sources just means repeats or thin content. Raise
+    # frequency only after a few weeks of dry runs and real posting history.
+    - cron: "0 14 * * *"
+  workflow_dispatch: {}
+
+concurrency:
+  group: openshorts-autopilot
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 110
+    permissions:
+      contents: write   # commits posted.json back AND creates the Buffer media release
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install this repo's deps
+        run: pip install -r requirements.txt
+
+      - name: Clone OpenShorts
+        run: git clone --depth 1 https://github.com/mutonby/openshorts.git openshorts_app
+
+      - name: Start OpenShorts (backend + renderer)
+        working-directory: openshorts_app
+        run: docker compose up -d backend renderer
+
+      - name: Wait for OpenShorts to be healthy
+        run: |
+          for i in $(seq 1 60); do
+            curl -sf http://localhost:8000/health && break
+            sleep 3
+          done
+          curl -sf http://localhost:8000/health || (echo "OpenShorts never became healthy" && exit 1)
+
+      - name: Run autopilot
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          YT_CLIENT_ID: ${{ secrets.YT_CLIENT_ID }}
+          YT_CLIENT_SECRET: ${{ secrets.YT_CLIENT_SECRET }}
+          YT_REFRESH_TOKEN_CODEAZ: ${{ secrets.YT_REFRESH_TOKEN_CODEAZ }}
+          BUFFER_ACCESS_TOKEN: ${{ secrets.BUFFER_ACCESS_TOKEN }}
+          BUFFER_CHANNEL_ID_CODEAZ: ${{ secrets.BUFFER_CHANNEL_ID_CODEAZ }}
+          BUFFER_MODE: ${{ secrets.BUFFER_MODE }}
+          BUFFER_DRAFT: ${{ secrets.BUFFER_DRAFT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          OPENSHORTS_BASE_URL: http://localhost:8000
+        run: python autopilot.py
+
+      - name: Dump OpenShorts logs on failure
+        if: failure()
+        working-directory: openshorts_app
+        run: docker compose logs --tail=200
+
+      - name: Persist state (keepalive)
+        if: always()
+        run: |
+          git config user.name "openshorts-autopilot-bot"
+          git config user.email "actions@github.com"
+          git add posted.json
+          git diff --cached --quiet || git commit -m "chore: autopilot run $(date -u +%F_%H:%M)"
+          git pull --rebase origin ${{ github.ref_name }} || true
+          git push || echo "push failed (non-fatal)"

@@ -1,0 +1,44 @@
+{
+  "_comment": "Every channel here must genuinely CC-BY-license its uploads on YouTube. research.py re-verifies status.license == 'creativeCommon' per video before use -- being listed here is a hint to search, not a trust shortcut. Add more by finding the channel's About page and confirming their license policy, not by assuming a conference is CC just because it's open source adjacent.",
+  "niche": {
+    "id": "opensource-projects",
+    "_env_suffix_comment": "Suffix for the per-channel secrets (YT_REFRESH_TOKEN_<SUFFIX>, BUFFER_CHANNEL_ID_<SUFFIX>). Set separately from id so the niche can stay descriptive while the secrets are named after the channel they post to.",
+    "env_suffix": "codeaz",
+    "name": "CodeAZ Open Source Spotlight",
+    "purpose": "Clip real conference talks about open source projects -- maintainers explaining design decisions, war stories, architecture -- into shorts. Every clip credits and links the original talk, speaker, and channel.",
+    "cc_channels": [
+      {
+        "channel_id": "UC9NuJImUbaSNKiwF2bdSfAw",
+        "name": "FOSDEM",
+        "note": "Talks are CC BY 2.0 BE per fosdem.org policy. Verify per-video license flag anyway."
+      }
+    ],
+    "search_queries": [
+      "open source project talk",
+      "maintainer conference talk",
+      "why we built this open source"
+    ],
+    "video_duration": "medium",
+    "min_source_seconds": 600,
+    "max_candidates_per_run": 5,
+    "target_clips_per_video": 3,
+    "clip_min_seconds": 20,
+    "clip_max_seconds": 75,
+    "layouts": [
+      "auto"
+    ],
+    "auto_hook": true,
+    "captions": true,
+    "youtube_tags": [
+      "opensource",
+      "programming",
+      "softwareengineering",
+      "devtools",
+      "conference"
+    ],
+    "youtube_category_id": "28",
+    "hashtags": "#opensource #programming #softwareengineering #devtools #buildinpublic",
+    "attribution_required": true,
+    "license_label": "CC BY 2.0"
+  }
+}
