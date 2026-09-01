@@ -65,6 +65,26 @@ jobs:
             exit 1
           fi
 
+      - name: Fit Docker's MTU to the tunnel
+        run: |
+          # wg0 is MTU 1420 but Docker's bridge defaults to 1500, so container
+          # traffic leaves at full size and disappears into a PMTU black hole:
+          # small requests answer, bulk transfers hang. The image build died on
+          # "Failed to fetch http://deb.debian.org ... Connection timed out".
+          # Clamp the bridge below the tunnel and clamp MSS on the way out.
+          if [ -s /etc/docker/daemon.json ]; then
+            sudo python3 -c "import json;p='/etc/docker/daemon.json';d=json.load(open(p));d['mtu']=1380;json.dump(d,open(p,'w'))"
+          else
+            echo '{"mtu": 1380}' | sudo tee /etc/docker/daemon.json > /dev/null
+          fi
+          cat /etc/docker/daemon.json
+          sudo systemctl restart docker
+          sudo iptables -t mangle -A FORWARD -o wg0 -p tcp --tcp-flags SYN,RST SYN \
+            -j TCPMSS --clamp-mss-to-pmtu
+          # Prove a container can actually reach the internet before building.
+          docker run --rm alpine:3.20 sh -c \
+            'apk add --no-cache curl >/dev/null 2>&1 && curl -sS -m 30 -o /dev/null -w "container egress ok: %{http_code}\n" https://deb.debian.org/debian/dists/bookworm/InRelease'
+
       - name: Clone OpenShorts
         run: git clone --depth 1 https://github.com/mutonby/openshorts.git openshorts_app
 
