@@ -21,6 +21,44 @@ jobs:
       - name: Install this repo's deps
         run: pip install -r requirements.txt
 
+      - name: Route the runner through Surfshark (WireGuard)
+        env:
+          SURFSHARK_PRIVATE_KEY: ${{ secrets.SURFSHARK_PRIVATE_KEY }}
+          SURFSHARK_PUBLIC_KEY: ${{ secrets.SURFSHARK_PUBLIC_KEY }}
+        run: |
+          # YouTube refuses GitHub's IP ranges outright ("Sign in to confirm
+          # you're not a bot") -- they are saturated with scrapers. A PO token
+          # provider did not help, because this is IP reputation, not the token
+          # challenge. Surfshark's exit is also a datacenter IP but is not on
+          # that list: verified by hand, yt-dlp fetched the same video through
+          # it with no challenge. Containers inherit the host's routing, so the
+          # tunnel has to come up before docker compose starts.
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq wireguard-tools
+          before=$(curl -s -m 20 https://ipinfo.io/org || echo unknown)
+          sudo mkdir -p /etc/wireguard
+          # No DNS= line: wg-quick shells out to resolvconf for it, which the
+          # runner image does not ship, and the run dies bringing the link up.
+          printf '%s\n' \
+            '[Interface]' \
+            'Address = 10.14.0.2/16' \
+            "PrivateKey = ${SURFSHARK_PRIVATE_KEY}" \
+            '[Peer]' \
+            "PublicKey = ${SURFSHARK_PUBLIC_KEY}" \
+            'AllowedIPs = 0.0.0.0/0' \
+            'Endpoint = ro-buc.prod.surfshark.com:51820' \
+            'PersistentKeepalive = 25' \
+            | sudo tee /etc/wireguard/wg0.conf > /dev/null
+          sudo chmod 600 /etc/wireguard/wg0.conf
+          sudo wg-quick up wg0
+          after=$(curl -s -m 20 https://ipinfo.io/org || echo unknown)
+          echo "exit org before tunnel: $before"
+          echo "exit org after tunnel : $after"
+          if [ "$before" = "$after" ]; then
+            echo "::error::WireGuard came up but the exit IP did not change"
+            exit 1
+          fi
+
       - name: Clone OpenShorts
         run: git clone --depth 1 https://github.com/mutonby/openshorts.git openshorts_app
 
