@@ -39,8 +39,11 @@ jobs:
           # crash-looped on "PermissionError: [Errno 13] Permission denied:
           # 'uploads'" at import time and never served /health. Creating them
           # on the host first is enough; the container writes as appuser.
-          mkdir -p uploads output .cache/huggingface
-          chmod -R 777 uploads output .cache
+          # Not just these dirs: the app also writes into the mount ROOT at
+          # runtime (ultralytics drops yolov8n.pt in the cwd, matplotlib wants
+          # .config), so the whole checkout has to be writable by appuser.
+          mkdir -p uploads output .cache/huggingface .config
+          chmod -R a+rwX .
 
       - name: Start OpenShorts (backend + renderer)
         working-directory: openshorts_app
