@@ -45,9 +45,32 @@ jobs:
           mkdir -p uploads output .cache/huggingface .config
           chmod -R a+rwX .
 
-      - name: Start OpenShorts (backend + renderer)
+      - name: Configure a PO token provider for yt-dlp
         working-directory: openshorts_app
-        run: docker compose up -d backend renderer
+        run: |
+          # YouTube answers datacenter IPs (every GitHub runner) with "Sign in
+          # to confirm you're not a bot", which killed the download step. The
+          # backend image already ships the bgutil PO-token plugin and reads
+          # BGUTIL_BASE_URL, so run the provider alongside it and point the
+          # backend at it. No cookies, no account credentials in CI.
+          # printf, not a heredoc: inside a YAML block scalar every line
+          # carries the block's indentation, which would end up in the file.
+          printf '%s\n' \
+            'services:' \
+            '  bgutil-pot:' \
+            '    image: brainicism/bgutil-ytdlp-pot-provider:1.3.2' \
+            '    container_name: bgutil-pot' \
+            '    restart: unless-stopped' \
+            '  backend:' \
+            '    environment:' \
+            '      - BGUTIL_BASE_URL=http://bgutil-pot:4416' \
+            > docker-compose.override.yml
+          cat docker-compose.override.yml
+          docker compose config >/dev/null && echo "compose config valid"
+
+      - name: Start OpenShorts (backend + renderer + PO token provider)
+        working-directory: openshorts_app
+        run: docker compose up -d backend renderer bgutil-pot
 
       - name: Wait for OpenShorts to be healthy
         working-directory: openshorts_app
