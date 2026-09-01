@@ -30,7 +30,7 @@ jobs:
       - name: Route the runner through Surfshark (WireGuard)
         env:
           SURFSHARK_PRIVATE_KEY: ${{ secrets.SURFSHARK_PRIVATE_KEY }}
-          SURFSHARK_PUBLIC_KEY: ${{ secrets.SURFSHARK_PUBLIC_KEY }}
+          SURFSHARK_PEER_PUBLIC_KEY: ${{ secrets.SURFSHARK_PEER_PUBLIC_KEY }}
         run: |
           # YouTube refuses GitHub's IP ranges outright ("Sign in to confirm
           # you're not a bot") -- they are saturated with scrapers. A PO token
@@ -50,7 +50,7 @@ jobs:
             'Address = 10.14.0.2/16' \
             "PrivateKey = ${SURFSHARK_PRIVATE_KEY}" \
             '[Peer]' \
-            "PublicKey = ${SURFSHARK_PUBLIC_KEY}" \
+            "PublicKey = ${SURFSHARK_PEER_PUBLIC_KEY}" \
             'AllowedIPs = 0.0.0.0/0' \
             'Endpoint = ro-buc.prod.surfshark.com:51820' \
             'PersistentKeepalive = 25' \

@@ -24,7 +24,11 @@ jobs:
       - name: Route the runner through Surfshark (WireGuard)
         env:
           SURFSHARK_PRIVATE_KEY: ${{ secrets.SURFSHARK_PRIVATE_KEY }}
-          SURFSHARK_PUBLIC_KEY: ${{ secrets.SURFSHARK_PUBLIC_KEY }}
+          # The SERVER's key from the config's [Peer] block. Not the client's
+          # own public key: WireGuard drops a peer whose key matches the
+          # device's own, which left wg0 up with no peer, no AllowedIPs and so
+          # no routes -- the tunnel existed and carried nothing.
+          SURFSHARK_PEER_PUBLIC_KEY: ${{ secrets.SURFSHARK_PEER_PUBLIC_KEY }}
         run: |
           # YouTube refuses GitHub's IP ranges outright ("Sign in to confirm
           # you're not a bot") -- they are saturated with scrapers. A PO token
@@ -44,7 +48,7 @@ jobs:
             'Address = 10.14.0.2/16' \
             "PrivateKey = ${SURFSHARK_PRIVATE_KEY}" \
             '[Peer]' \
-            "PublicKey = ${SURFSHARK_PUBLIC_KEY}" \
+            "PublicKey = ${SURFSHARK_PEER_PUBLIC_KEY}" \
             'AllowedIPs = 0.0.0.0/0' \
             'Endpoint = ro-buc.prod.surfshark.com:51820' \
             'PersistentKeepalive = 25' \
