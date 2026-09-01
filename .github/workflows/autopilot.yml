@@ -30,6 +30,18 @@ jobs:
       - name: Clone OpenShorts
         run: git clone --depth 1 https://github.com/mutonby/openshorts.git openshorts_app
 
+      - name: Make OpenShorts' mounted dirs writable
+        working-directory: openshorts_app
+        run: |
+          # docker-compose mounts the checkout over /app, which hides the
+          # directories the image created for its non-root appuser. The
+          # runner's checkout is owned by a different uid, so the backend
+          # crash-looped on "PermissionError: [Errno 13] Permission denied:
+          # 'uploads'" at import time and never served /health. Creating them
+          # on the host first is enough; the container writes as appuser.
+          mkdir -p uploads output .cache/huggingface
+          chmod -R 777 uploads output .cache
+
       - name: Start OpenShorts (backend + renderer)
         working-directory: openshorts_app
         run: docker compose up -d backend renderer
