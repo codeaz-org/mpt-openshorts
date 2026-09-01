@@ -29,12 +29,29 @@ jobs:
         run: docker compose up -d backend renderer
 
       - name: Wait for OpenShorts to be healthy
+        working-directory: openshorts_app
         run: |
-          for i in $(seq 1 60); do
-            curl -sf http://localhost:8000/health && break
-            sleep 3
+          # The backend imports torch/whisper and fetches detection weights on
+          # first boot: 180s was enough locally and not on a runner, where the
+          # dry run died here with the containers still starting. 10 minutes,
+          # and the container's own state is checked so a crash-loop reports as
+          # a crash instead of as a timeout.
+          for i in $(seq 1 120); do
+            if curl -sf http://localhost:8000/health >/dev/null; then
+              echo "healthy after $((i*5))s"; exit 0
+            fi
+            if [ -z "$(docker ps -q -f name=openshorts-backend)" ]; then
+              echo "backend container is not running:"
+              docker compose ps
+              docker compose logs --tail=100 backend
+              exit 1
+            fi
+            sleep 5
           done
-          curl -sf http://localhost:8000/health || (echo "OpenShorts never became healthy" && exit 1)
+          echo "OpenShorts never became healthy in 600s"
+          docker compose ps
+          docker compose logs --tail=200
+          exit 1
 
       - name: Run dry_run
         env:
@@ -47,6 +64,11 @@ jobs:
           else
             python dry_run.py
           fi
+
+      - name: Dump OpenShorts logs on failure
+        if: failure()
+        working-directory: openshorts_app
+        run: docker compose logs --tail=200
 
       - name: Upload clips + report as artifact
         if: always()
