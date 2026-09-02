@@ -56,6 +56,63 @@
         "via": "buffer"
       },
       "ts": "2026-09-02T06:53:50"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5F2qfsVHhko",
+      "source_title": "$350 Gaming PC Build in Japan",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=5F2qfsVHhko",
+      "clip_index": 0,
+      "clip_title": "I found a $100 graphics card in Japan!",
+      "job_id": "24077e99-433e-4d4c-a983-92fd6d59aa71",
+      "youtube": {
+        "video_id": "hEHwwjs8d24",
+        "url": "https://youtu.be/hEHwwjs8d24"
+      },
+      "tiktok": {
+        "post_id": "6a97d1e54ef402cb9b14c523",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T07:36:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5F2qfsVHhko",
+      "source_title": "$350 Gaming PC Build in Japan",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=5F2qfsVHhko",
+      "clip_index": 1,
+      "clip_title": "Building a gaming PC with $12 RAM",
+      "job_id": "24077e99-433e-4d4c-a983-92fd6d59aa71",
+      "youtube": {
+        "video_id": "kcvDZirv6_c",
+        "url": "https://youtu.be/kcvDZirv6_c"
+      },
+      "tiktok": {
+        "post_id": "6a97d201143685ad43448f8e",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T07:36:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5F2qfsVHhko",
+      "source_title": "$350 Gaming PC Build in Japan",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=5F2qfsVHhko",
+      "clip_index": 2,
+      "clip_title": "Will my $300 Japanese PC actually work?",
+      "job_id": "24077e99-433e-4d4c-a983-92fd6d59aa71",
+      "youtube": {
+        "video_id": "N6jFz9nFp20",
+        "url": "https://youtu.be/N6jFz9nFp20"
+      },
+      "tiktok": {
+        "post_id": "6a97d21b3a15d22a0a081970",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T07:37:09"
     }
   ]
 }
