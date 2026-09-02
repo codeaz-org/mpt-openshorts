@@ -13,6 +13,7 @@ Env (per niche, falls back to the unsuffixed name if the suffixed one is unset):
 import os
 import re
 
+from google.auth.exceptions import RefreshError
 from google.oauth2.credentials import Credentials
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
@@ -73,8 +74,21 @@ def upload(video_path, title, description, tags, niche_id, category_id="28", pri
     media = MediaFileUpload(video_path, chunksize=-1, resumable=True, mimetype="video/mp4")
     req = yt.videos().insert(part="snippet,status", body=body, media_body=media)
     resp = None
-    while resp is None:
-        _, resp = req.next_chunk()
+    try:
+        while resp is None:
+            _, resp = req.next_chunk()
+    except RefreshError as e:
+        # The token is only exchanged when the first chunk goes out, so a dead
+        # refresh token surfaces here as a bare RefreshError -- which autopilot
+        # did not catch, so one expired token killed the whole run and TikTok
+        # never got its turn. Re-raise as our own error to keep the platforms
+        # independent, and say what actually fixes it.
+        raise YouTubeUploadError(
+            f"refresh token rejected ({e}). Re-mint it with "
+            f"NICHE={niche_id} python get_youtube_token.py. If the OAuth "
+            f"consent screen is still in Testing, Google expires refresh "
+            f"tokens after 7 days -- publish the app to stop that recurring."
+        ) from e
     video_id = resp["id"]
     watch_url = f"https://youtu.be/{video_id}"
     print(f"[youtube] uploaded: {watch_url}")

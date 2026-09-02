@@ -47,9 +47,14 @@ def post_clip(local_path, title, description, tiktok_caption, niche):
             category_id=niche.get("youtube_category_id", "28"),
         )
         result["youtube"] = {"video_id": video_id, "url": url}
-    except youtube_uploader.YouTubeUploadError as e:
-        print(f"WARNING: YouTube upload failed: {e}", file=sys.stderr)
-        result["youtube"] = {"error": str(e)}
+    except Exception as e:  # noqa: BLE001
+        # Deliberately broad: the docstring above promises the platforms are
+        # independent, but only YouTubeUploadError was caught, so an expired
+        # OAuth token raised RefreshError straight through and aborted the run
+        # before TikTok was attempted. Anything YouTube throws is YouTube's
+        # problem alone.
+        print(f"WARNING: YouTube upload failed: {type(e).__name__}: {e}", file=sys.stderr)
+        result["youtube"] = {"error": f"{type(e).__name__}: {e}"}
 
     if buffer_client.enabled():
         try:
