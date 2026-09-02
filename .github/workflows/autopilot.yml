@@ -1,9 +1,9 @@
-name: OpenShorts Autopilot (open-source-projects)
+name: OpenShorts Autopilot (CodeAZ tech shorts)
 on:
   schedule:
-    # Once a day to start. A CC-BY talk pool is small; posting more often than
-    # you have real fresh sources just means repeats or thin content. Raise
-    # frequency only after a few weeks of dry runs and real posting history.
+    # Once a day. The CC-BY pool is finite (about 93 verified sources across
+    # five channels at the time of writing) and posted.json blocks repeats, so
+    # posting more often than you have fresh sources just drains it faster.
     - cron: "0 14 * * *"
   workflow_dispatch: {}
 
@@ -123,6 +123,7 @@ jobs:
             '    environment:' \
             '      - BGUTIL_BASE_URL=http://bgutil-pot:4416' \
             '      - YOUTUBE_COOKIES' \
+            '      - GENERAL_CONTENT_HEIGHT_RATIO=0.6' \
             > docker-compose.override.yml
           cat docker-compose.override.yml
           docker compose config >/dev/null && echo "compose config valid"

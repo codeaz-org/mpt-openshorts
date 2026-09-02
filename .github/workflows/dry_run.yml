@@ -127,6 +127,7 @@ jobs:
             '    environment:' \
             '      - BGUTIL_BASE_URL=http://bgutil-pot:4416' \
             '      - YOUTUBE_COOKIES' \
+            '      - GENERAL_CONTENT_HEIGHT_RATIO=0.6' \
             > docker-compose.override.yml
           cat docker-compose.override.yml
           docker compose config >/dev/null && echo "compose config valid"

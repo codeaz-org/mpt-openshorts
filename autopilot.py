@@ -122,7 +122,11 @@ def main():
         client.download_clip(job_id, clip, local_path)
 
         title = build_youtube_title(clip, source)
-        yt_description = build_youtube_description(clip, source, " ".join(niche.get("youtube_tags", [])))
+        # niche["hashtags"], not " ".join(youtube_tags): joining the tag list
+        # put bare words in the description ("opensource programming devtools"),
+        # which are not hashtags and read like stray keywords. The tag list
+        # still goes to the API's own tags field below, where it belongs.
+        yt_description = build_youtube_description(clip, source, niche.get("hashtags", ""))
         tiktok_caption = build_caption(clip, source, niche.get("hashtags", ""))
 
         post_result = post_clip(local_path, title, yt_description, tiktok_caption, niche)
