@@ -4,19 +4,41 @@
     "id": "opensource-projects",
     "_env_suffix_comment": "Suffix for the per-channel secrets (YT_REFRESH_TOKEN_<SUFFIX>, BUFFER_CHANNEL_ID_<SUFFIX>). Set separately from id so the niche can stay descriptive while the secrets are named after the channel they post to.",
     "env_suffix": "codeaz",
-    "name": "CodeAZ Open Source Spotlight",
-    "purpose": "Clip real conference talks about open source projects -- maintainers explaining design decisions, war stories, architecture -- into shorts. Every clip credits and links the original talk, speaker, and channel.",
+    "name": "CodeAZ Tech Shorts",
+    "purpose": "Clip CC-BY licensed tech videos from creators who already edit for attention -- B-roll, hooks, cuts -- because the clipper amplifies existing pacing and cannot invent it. Conference talks were tried first and produced unreadable slides in a letterboxed frame. Every clip credits and links the original video, creator and channel.",
     "cc_channels": [
       {
-        "channel_id": "UC9NuJImUbaSNKiwF2bdSfAw",
-        "name": "FOSDEM",
-        "note": "Talks are CC BY 2.0 BE per fosdem.org policy. Verify per-video license flag anyway."
+        "channel_id": "UC7YOGHUfC1Tb6E4pudI9STA",
+        "name": "Mental Outlaw",
+        "note": "Linux/privacy/security. 12 CC videos verified >=10min. Source of the clip this niche is modelled on."
+      },
+      {
+        "channel_id": "UCUoJk48pujh29p8zLsnD5PQ",
+        "name": "Talking Sasquach",
+        "note": "Hardware and hacking gadgets, heavy B-roll. 21 CC videos verified."
+      },
+      {
+        "channel_id": "UCQAbWYfvugVtd5sJ8lXDs4w",
+        "name": "Humor Studios",
+        "note": "Security/hacker story format. 21 CC videos verified."
+      },
+      {
+        "channel_id": "UCCWi3hpnq_Pe03nGxuS7isg",
+        "name": "CampusX",
+        "note": "AI coding and dev education. 20 CC videos verified."
+      },
+      {
+        "channel_id": "UC_sHe3M2R5d_EWnv6Euaqlw",
+        "name": "KristoferYee",
+        "note": "PC building, comedic edit. 19 CC videos verified."
       }
     ],
     "search_queries": [
-      "open source project talk",
-      "maintainer conference talk",
-      "why we built this open source"
+      "linux privacy security tutorial",
+      "self hosting homelab setup",
+      "ai coding agent workflow",
+      "pc build guide",
+      "cybersecurity hacking tools"
     ],
     "video_duration": "medium",
     "min_source_seconds": 600,

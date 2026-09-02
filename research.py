@@ -7,18 +7,26 @@ Two-step verification, not one:
      filter reflects what the uploader flagged and uploaders get this wrong in
      both directions. Only videos that pass BOTH steps are used.
 
-This does NOT rank by "performs well" -- it deliberately searches a small
-allowlist of channels known to license their talks CC-BY (see sources.json)
-plus a few keyword queries, and returns the first unseen, licensed, long-
-enough result. No view-count sorting, no "trending" bias. That's the whole
-point: we're drawing from a small legitimate pool, not competing for what's
-already viral.
+Two arms, and they are ranked differently on purpose:
+
+  1. An allowlist of channels whose CC licensing a human has checked
+     (sources.json), newest first, rotated per run.
+  2. Keyword search across all of YouTube, same licence filter and the same
+     re-verification, ordered by view count.
+
+The keyword arm did rank by relevance, on the reasoning that a legitimate CC
+pool should not chase what is already viral. Watching the output changed that:
+the clipper amplifies pacing the source already has and cannot invent it, so
+an unwatched CC upload is rarely worth clipping. The licence constraint is
+what keeps this legitimate -- every candidate is still verified per video --
+not the refusal to notice which videos people watch.
 
 Requires: YOUTUBE_API_KEY (a plain API key is enough -- no OAuth needed,
 this only reads public search/videos endpoints).
 """
 import json
 import os
+import random
 import sys
 from googleapiclient.discovery import build
 
@@ -75,9 +83,18 @@ def find_candidates(niche, posted, max_results=25):
 
     candidate_ids = []
 
+    # Rotate which channel is asked first. autopilot always takes candidates[0],
+    # so a fixed list order means the first channel is mined until it runs dry
+    # and the rest never get a turn -- with FOSDEM listed first, every single
+    # run picked a FOSDEM talk. Rotating spreads it across the pool.
+    channels = list(niche.get("cc_channels", []))
+    if channels:
+        k = random.randrange(len(channels))
+        channels = channels[k:] + channels[:k]
+
     # 1) Channel-scoped search -- the reliable source, since these channels'
     #    licensing policy has been checked by a human (see sources.json note).
-    for ch in niche.get("cc_channels", []):
+    for ch in channels:
         resp = youtube.search().list(
             part="snippet",
             channelId=ch["channel_id"],
@@ -99,7 +116,10 @@ def find_candidates(niche, posted, max_results=25):
             type="video",
             videoLicense="creativeCommon",
             videoDuration=duration,
-            order="relevance",
+            # viewCount, not relevance: this arm exists to widen the pool
+            # beyond the vetted channels, and a CC video nobody watched is
+            # rarely a video worth clipping.
+            order="viewCount",
             maxResults=10,
         ).execute()
         for item in resp.get("items", []):
