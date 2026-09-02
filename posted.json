@@ -1,3 +1,61 @@
 {
-  "uploads": []
+  "uploads": [
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7CM8E_rLgEI",
+      "source_title": "Support for mini-debuginfo in LLDB How to read the .gnu_debugdata section.",
+      "source_channel": "FOSDEM",
+      "source_url": "https://www.youtube.com/watch?v=7CM8E_rLgEI",
+      "clip_index": 0,
+      "clip_title": "GDB vs LLDB: Debugging and Breakpoint Comparison on Linux",
+      "job_id": "36b1e0b6-71b2-49b7-b4dc-1c7e35a0184b",
+      "youtube": {
+        "video_id": "tl4FsZojvDk",
+        "url": "https://youtu.be/tl4FsZojvDk"
+      },
+      "tiktok": {
+        "post_id": "6a97c7cd201adc854465912c",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T06:53:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7CM8E_rLgEI",
+      "source_title": "Support for mini-debuginfo in LLDB How to read the .gnu_debugdata section.",
+      "source_channel": "FOSDEM",
+      "source_url": "https://www.youtube.com/watch?v=7CM8E_rLgEI",
+      "clip_index": 1,
+      "clip_title": "LLDB 10 Debugger Fix: Setting Breakpoints Finally Works",
+      "job_id": "36b1e0b6-71b2-49b7-b4dc-1c7e35a0184b",
+      "youtube": {
+        "video_id": "CPMiJfl0VO4",
+        "url": "https://youtu.be/CPMiJfl0VO4"
+      },
+      "tiktok": {
+        "post_id": "6a97c7e13a15d22a0a0771e0",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T06:53:31"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7CM8E_rLgEI",
+      "source_title": "Support for mini-debuginfo in LLDB How to read the .gnu_debugdata section.",
+      "source_channel": "FOSDEM",
+      "source_url": "https://www.youtube.com/watch?v=7CM8E_rLgEI",
+      "clip_index": 2,
+      "clip_title": "How to Debug Symbols in Linux Binaries: LLDB vs GDB Shootout",
+      "job_id": "36b1e0b6-71b2-49b7-b4dc-1c7e35a0184b",
+      "youtube": {
+        "video_id": "4Ccfkc6_IYQ",
+        "url": "https://youtu.be/4Ccfkc6_IYQ"
+      },
+      "tiktok": {
+        "post_id": "6a97c7f44ef402cb9b141520",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T06:53:50"
+    }
+  ]
 }
