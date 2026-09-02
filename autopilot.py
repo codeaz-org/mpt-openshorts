@@ -55,6 +55,14 @@ def post_clip(local_path, title, description, tiktok_caption, niche):
         # problem alone.
         print(f"WARNING: YouTube upload failed: {type(e).__name__}: {e}", file=sys.stderr)
         result["youtube"] = {"error": f"{type(e).__name__}: {e}"}
+        if "invalid_grant" in str(e) or "refresh token" in str(e).lower():
+            # A dead token is silent otherwise: the run stays green (TikTok
+            # still posts) and you would only notice by seeing no uploads
+            # appear. ::error:: puts it on the run summary in the Actions UI
+            # without failing the run.
+            print(f"::error title=YouTube token rejected::Re-mint it: "
+                  f"NICHE={niche.get('env_suffix') or niche['id']} python get_youtube_token.py, "
+                  f"then update the YT_REFRESH_TOKEN secret.", flush=True)
 
     if buffer_client.enabled():
         try:
