@@ -113,6 +113,63 @@
         "via": "buffer"
       },
       "ts": "2026-09-02T07:37:09"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "kdJtHKrfixg",
+      "source_title": "Linus Tech Tips Drama Explained",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=kdJtHKrfixg",
+      "clip_index": 0,
+      "clip_title": "The Mouse Review Fail That Almost Ruined LTT's Reputation",
+      "job_id": "179165cf-b86e-4e6c-81cf-296db4ea0eda",
+      "youtube": {
+        "video_id": "jieFQm6-EaE",
+        "url": "https://youtu.be/jieFQm6-EaE"
+      },
+      "tiktok": {
+        "post_id": "6a98656b0cec0c47c805b194",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T18:05:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "kdJtHKrfixg",
+      "source_title": "Linus Tech Tips Drama Explained",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=kdJtHKrfixg",
+      "clip_index": 1,
+      "clip_title": "Why Linus Tech Tips Got Called Out for Bad Data",
+      "job_id": "179165cf-b86e-4e6c-81cf-296db4ea0eda",
+      "youtube": {
+        "video_id": "F9xc7Q60mqg",
+        "url": "https://youtu.be/F9xc7Q60mqg"
+      },
+      "tiktok": {
+        "post_id": "6a986581b03131c04bddd6ee",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T18:06:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "kdJtHKrfixg",
+      "source_title": "Linus Tech Tips Drama Explained",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=kdJtHKrfixg",
+      "clip_index": 2,
+      "clip_title": "The Dark Reality of Working at Linus Tech Tips",
+      "job_id": "179165cf-b86e-4e6c-81cf-296db4ea0eda",
+      "youtube": {
+        "video_id": "gjyuqmA_Xj0",
+        "url": "https://youtu.be/gjyuqmA_Xj0"
+      },
+      "tiktok": {
+        "post_id": "6a986598b03131c04bddd972",
+        "via": "buffer"
+      },
+      "ts": "2026-09-02T18:06:26"
     }
   ]
 }
