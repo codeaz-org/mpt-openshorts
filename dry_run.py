@@ -68,7 +68,7 @@ def lookup_source(url):
         "url": url,
         "title": snippet.get("title"),
         "channel_title": snippet.get("channelTitle"),
-        "license": "CC BY" if cc else f"NOT CC ({status.get('license')})",
+        "license": "CC BY 3.0" if cc else f"NOT CC ({status.get('license')})",
     }
 
 

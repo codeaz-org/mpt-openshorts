@@ -170,7 +170,7 @@ def find_candidates(niche, posted, max_results=25):
             "channel_title": snippet.get("channelTitle"),
             "channel_id": snippet.get("channelId"),
             "duration_seconds": seconds,
-            "license": "CC BY",
+            "license": "CC BY 3.0",
         })
 
     return results

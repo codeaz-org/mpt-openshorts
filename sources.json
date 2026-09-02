@@ -61,6 +61,7 @@
     "youtube_category_id": "28",
     "hashtags": "#opensource #programming #softwareengineering #devtools #buildinpublic",
     "attribution_required": true,
-    "license_label": "CC BY 2.0"
+    "license_label": "CC BY 3.0",
+    "_license_note": "YouTube's 'Creative Commons - Attribution' dropdown grants CC BY 3.0. The CC flag covers what the uploader owns -- not third-party music, game footage or stock B-roll they licensed but cannot sublicense."
   }
 }

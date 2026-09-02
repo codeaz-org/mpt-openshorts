@@ -7,15 +7,25 @@ license. This is not optional flavor text -- skip it and the repost is not
 actually licensed use, license or no license on the source.
 """
 
-LICENSE_URL = "https://creativecommons.org/licenses/by/4.0/"
+# YouTube's "Creative Commons - Attribution" dropdown grants CC BY 3.0, not
+# 4.0. This pointed at 4.0 and every posted clip named the wrong version --
+# which matters, because naming the licence correctly IS the condition we are
+# relying on to repost at all. Sources from elsewhere carry their own URL.
+LICENSE_URL = "https://creativecommons.org/licenses/by/3.0/"
 
 
 def credit_line(source):
-    """source: one of the dicts research.py returns."""
+    """source: one of the dicts research.py returns.
+
+    "Original video", not "Original talk": the sources are no longer conference
+    recordings, and calling a creator's video a talk misdescribes what is being
+    credited. A source may carry its own license_url when it is not a YouTube
+    CC BY 3.0 upload."""
+    license_url = source.get("license_url") or LICENSE_URL
     return (
-        f"Original talk: \"{source['title']}\" by {source['channel_title']}. "
-        f"{source['url']} \u2014 licensed {source.get('license', 'CC BY')} "
-        f"({LICENSE_URL})"
+        f"Original video: \"{source['title']}\" by {source['channel_title']}. "
+        f"{source['url']} \u2014 licensed {source.get('license', 'CC BY 3.0')} "
+        f"({license_url})"
     )
 
 
