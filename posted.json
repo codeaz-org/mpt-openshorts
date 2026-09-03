@@ -170,6 +170,63 @@
         "via": "buffer"
       },
       "ts": "2026-09-02T18:06:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "WawD_4FdJig",
+      "source_title": "When People They Ruined Someone's Life In A Few Seconds [AskReddit]",
+      "source_channel": "Humor Studios",
+      "source_url": "https://www.youtube.com/watch?v=WawD_4FdJig",
+      "clip_index": 0,
+      "clip_title": "I automated 8 hours of work in 30 seconds and got my coworker fired",
+      "job_id": "b95061f4-4420-4ee3-a955-8d0817575fdb",
+      "youtube": {
+        "video_id": "R3vzyBaY8OM",
+        "url": "https://youtu.be/R3vzyBaY8OM"
+      },
+      "tiktok": {
+        "post_id": "6a99b635499be373ccc10494",
+        "via": "buffer"
+      },
+      "ts": "2026-09-03T18:02:40"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "WawD_4FdJig",
+      "source_title": "When People They Ruined Someone's Life In A Few Seconds [AskReddit]",
+      "source_channel": "Humor Studios",
+      "source_url": "https://www.youtube.com/watch?v=WawD_4FdJig",
+      "clip_index": 1,
+      "clip_title": "How I methodically got my toxic boss fired",
+      "job_id": "b95061f4-4420-4ee3-a955-8d0817575fdb",
+      "youtube": {
+        "video_id": "SmRAUxaRytg",
+        "url": "https://youtu.be/SmRAUxaRytg"
+      },
+      "tiktok": {
+        "post_id": "6a99b64b77b444495aa712e6",
+        "via": "buffer"
+      },
+      "ts": "2026-09-03T18:03:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "WawD_4FdJig",
+      "source_title": "When People They Ruined Someone's Life In A Few Seconds [AskReddit]",
+      "source_channel": "Humor Studios",
+      "source_url": "https://www.youtube.com/watch?v=WawD_4FdJig",
+      "clip_index": 2,
+      "clip_title": "The childhood fight I still wonder about today",
+      "job_id": "b95061f4-4420-4ee3-a955-8d0817575fdb",
+      "youtube": {
+        "video_id": "hZCgjPcLrkE",
+        "url": "https://youtu.be/hZCgjPcLrkE"
+      },
+      "tiktok": {
+        "post_id": "6a99b66137fc431bddaa6b3b",
+        "via": "buffer"
+      },
+      "ts": "2026-09-03T18:03:27"
     }
   ]
 }
