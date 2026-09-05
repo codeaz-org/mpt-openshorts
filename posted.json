@@ -227,6 +227,63 @@
         "via": "buffer"
       },
       "ts": "2026-09-03T18:03:27"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zoWCpsvVDZg",
+      "source_title": "These People Have Medical Conditions Doctors Don't Believe Exist [AskReddit]",
+      "source_channel": "Humor Studios",
+      "source_url": "https://www.youtube.com/watch?v=zoWCpsvVDZg",
+      "clip_index": 0,
+      "clip_title": "Doctors ignored my spinal injury for 7 years until an MRI finally revealed the truth",
+      "job_id": "d5a58c46-1bbb-4e26-bc0f-003fa9bc4ad1",
+      "youtube": {
+        "video_id": "UPH8HQ-kafc",
+        "url": "https://youtu.be/UPH8HQ-kafc"
+      },
+      "tiktok": {
+        "post_id": "6a9c49ec85ccb3a22c0644f6",
+        "via": "buffer"
+      },
+      "ts": "2026-09-05T16:57:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zoWCpsvVDZg",
+      "source_title": "These People Have Medical Conditions Doctors Don't Believe Exist [AskReddit]",
+      "source_channel": "Humor Studios",
+      "source_url": "https://www.youtube.com/watch?v=zoWCpsvVDZg",
+      "clip_index": 1,
+      "clip_title": "Doctors ignored my severe condition and called it an eating disorder",
+      "job_id": "d5a58c46-1bbb-4e26-bc0f-003fa9bc4ad1",
+      "youtube": {
+        "video_id": "iX1YeHRMGbQ",
+        "url": "https://youtu.be/iX1YeHRMGbQ"
+      },
+      "tiktok": {
+        "post_id": "6a9c4a00fba008bcd54db03e",
+        "via": "buffer"
+      },
+      "ts": "2026-09-05T16:57:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zoWCpsvVDZg",
+      "source_title": "These People Have Medical Conditions Doctors Don't Believe Exist [AskReddit]",
+      "source_channel": "Humor Studios",
+      "source_url": "https://www.youtube.com/watch?v=zoWCpsvVDZg",
+      "clip_index": 2,
+      "clip_title": "Why my endometriosis and interstitial cystitis went undiagnosed for five years",
+      "job_id": "d5a58c46-1bbb-4e26-bc0f-003fa9bc4ad1",
+      "youtube": {
+        "video_id": "iRG6R1F1eUI",
+        "url": "https://youtu.be/iRG6R1F1eUI"
+      },
+      "tiktok": {
+        "post_id": "6a9c4a14fba008bcd54db150",
+        "via": "buffer"
+      },
+      "ts": "2026-09-05T16:58:06"
     }
   ]
 }
