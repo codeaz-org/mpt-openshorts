@@ -284,6 +284,63 @@
         "via": "buffer"
       },
       "ts": "2026-09-05T16:58:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3-JGhDzG4E0",
+      "source_title": "Her Brother Won't Let Her Play on the Computer",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=3-JGhDzG4E0",
+      "clip_index": 0,
+      "clip_title": "I realized I was a terrible brother",
+      "job_id": "17866f2a-54f7-4172-93aa-a803f2f25577",
+      "youtube": {
+        "video_id": "I1sHhFfaq08",
+        "url": "https://youtu.be/I1sHhFfaq08"
+      },
+      "tiktok": {
+        "post_id": "6a9da15e05c83fb1f625cd5d",
+        "via": "buffer"
+      },
+      "ts": "2026-09-06T17:22:49"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3-JGhDzG4E0",
+      "source_title": "Her Brother Won't Let Her Play on the Computer",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=3-JGhDzG4E0",
+      "clip_index": 1,
+      "clip_title": "Why I gave a stranger a gaming PC",
+      "job_id": "17866f2a-54f7-4172-93aa-a803f2f25577",
+      "youtube": {
+        "video_id": "aUKezxwpGKU",
+        "url": "https://youtu.be/aUKezxwpGKU"
+      },
+      "tiktok": {
+        "post_id": "6a9da1952066ff47cc40eb8a",
+        "via": "buffer"
+      },
+      "ts": "2026-09-06T17:23:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3-JGhDzG4E0",
+      "source_title": "Her Brother Won't Let Her Play on the Computer",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=3-JGhDzG4E0",
+      "clip_index": 2,
+      "clip_title": "The 1% rule that changed my life",
+      "job_id": "17866f2a-54f7-4172-93aa-a803f2f25577",
+      "youtube": {
+        "video_id": "u0WBpLXSkQI",
+        "url": "https://youtu.be/u0WBpLXSkQI"
+      },
+      "tiktok": {
+        "post_id": "6a9da1cf05c83fb1f625db66",
+        "via": "buffer"
+      },
+      "ts": "2026-09-06T17:24:42"
     }
   ]
 }
