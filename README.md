@@ -161,11 +161,47 @@ It measures how much of the frame **width** the content spans and routes those
 scenes to a stacked layout (content over speaker) or to full-width, instead of
 cropping them.
 
+**Discovery** — `search_queries`, `queries_per_run`, `discovery`,
+`blocked_channels`.
+
+Open search across YouTube is the **primary** arm and runs whether or not a
+single channel is listed. `cc_channels` are seeds: a seed buys a guaranteed
+search arm and nothing else.
+
+That ranking used to be the other way round, and the output settled the
+argument. All three channels removed from the allowlist — an AskReddit
+storytime channel, a Hindi lecture channel, and a PC channel that publishes
+sentimental stories — were human-vetted and listed, and **every post that had
+to be deleted came from one of them.** Vetting a channel is a one-time
+judgement about a publisher and goes stale the moment that publisher changes
+format. Licence re-verification, the topic filter and the clip filter are
+evaluated fresh per video and apply identically to both arms.
+
+`queries_per_run` samples the query list rather than running all of it. A
+fixed query set returns the same top results every day, `posted.json` rejects
+them as already used, and the pool goes sterile within days. Each sampled
+query runs under two orderings — `viewCount` for what people actually watch,
+`date` for what that ranking will never surface.
+
+**The pool maintains itself.** `autopilot.py` tallies what each channel's
+clips did into `posted.json` under `channels`, and:
+
+- `promote_after_keeps` (2) — a discovered channel whose clips survive the
+  clip filter earns its own search arm, same as a seed.
+- `auto_block_after_rejects` (4) — a channel whose clips keep getting rejected
+  and are never kept is cut off from future runs.
+- `max_promoted_channels` (12) — ceiling on promoted arms, so quota goes on
+  finding new sources instead of re-mining the same winners.
+
+Auto-blocking is the check that should have removed Humor Studios and
+KristoferYee: from their own output, instead of after someone watched bad
+videos go out and edited a config file. Undo one by editing `posted.json`;
+`blocked_channels` in `sources.json` is the permanent, manual version.
+
 **Source order** — `research.py` interleaves its search arms rather than
 concatenating them. A channel-scoped search returns up to 25 videos and
 `autopilot.py` only ever posts `candidates[0]`, so concatenation meant one
-channel owned every reachable slot and the keyword arm — appended after five
-channel arms — could never be reached at all.
+arm owned every reachable slot and the rest were unreachable in practice.
 
 ## Finding new source channels
 
@@ -205,6 +241,10 @@ as an AskReddit storytime channel before it posted six times.
 
 ## Known limits (honesty section)
 
+- **The pipeline no longer depends on a curated channel list.** Open search
+  runs every time, so an empty `cc_channels` is a valid state — the seeds are
+  a head start, not a requirement. What it does depend on is YouTube's CC
+  filter having something to return for the sampled queries.
 - **The CC-licensed pool for this niche is small, and the topic filter makes
   it smaller.** Unlike scraping "whatever performs well," a properly-licensed
   source pool is genuinely limited — expect this to run out of fresh material

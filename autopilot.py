@@ -17,7 +17,7 @@ import os
 import sys
 import time
 
-from research import find_candidates, load_json, clip_verdict
+from research import find_candidates, load_json, clip_verdict, record_outcome
 from openshorts_client import OpenShortsClient, OpenShortsError
 from attribution import build_caption, build_youtube_description, build_youtube_title, credit_line
 import youtube_uploader
@@ -110,6 +110,7 @@ def main():
             "niche": niche.get("id"),
             "source_video_id": source["video_id"],
             "source_title": source["title"],
+            "source_channel": source.get("channel_title"),
             "error": str(e),
             "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
         })
@@ -139,6 +140,17 @@ def main():
               f"{source['title']!r} were all rejected by the clip filter. "
               f"The source passed research but produced nothing on-niche -- "
               f"check whether that channel still belongs in sources.json.")
+
+    # Tally this source's channel before posting anything. A channel whose
+    # clips keep getting rejected and are never kept gets auto-blocked from
+    # future runs by research.blocked_channel_ids -- which is how Humor Studios
+    # and KristoferYee should have been removed: by their own output, not by a
+    # human noticing bad videos and editing sources.json afterwards.
+    source["_ts"] = time.strftime("%Y-%m-%dT%H:%M:%S")
+    st = record_outcome(posted, source, len(kept), len(clips) - len(kept))
+    if st:
+        print(f"Channel {st['name']!r}: {st['clips_kept']} kept / "
+              f"{st['clips_rejected']} rejected across {st['sources_used']} source(s).")
 
     n = min(len(kept), niche.get("target_clips_per_video", 3))
     print(f"Job produced {len(clips)} clips, {len(kept)} on topic, posting {n}.")

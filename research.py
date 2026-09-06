@@ -7,19 +7,38 @@ Two-step verification, not one:
      filter reflects what the uploader flagged and uploaders get this wrong in
      both directions. Only videos that pass BOTH steps are used.
 
-Two arms, and they are ranked differently on purpose:
+Two arms, and the ranking between them has been inverted:
 
-  1. An allowlist of channels whose CC licensing a human has checked
-     (sources.json), newest first, rotated per run.
-  2. Keyword search across all of YouTube, same licence filter and the same
-     re-verification, ordered by view count.
+  1. OPEN SEARCH across all of YouTube under the CC filter, a random sample of
+     search_queries each run, two orderings per query. This is the primary arm
+     and it runs whether or not a single channel is listed anywhere.
+  2. Channel arms: the seeds in sources.json, plus channels DISCOVERED by arm 1
+     that have since produced clips which survived the clip filter.
 
-The keyword arm did rank by relevance, on the reasoning that a legitimate CC
-pool should not chase what is already viral. Watching the output changed that:
-the clipper amplifies pacing the source already has and cannot invent it, so
-an unwatched CC upload is rarely worth clipping. The licence constraint is
-what keeps this legitimate -- every candidate is still verified per video --
-not the refusal to notice which videos people watch.
+The allowlist used to be arm 1 and open search the "lower trust" fallback.
+That was backwards, and the output proved it: all three channels removed from
+the allowlist so far -- an AskReddit storytime channel, a Hindi lecture
+channel, and a PC channel that publishes sentimental stories -- were vetted by
+a human and listed, and every post that had to be deleted came from one of
+them. Vetting a channel is a one-time judgement about a publisher, and it goes
+stale the moment that publisher changes format. The licence re-verification,
+the topic filter and the clip filter are evaluated fresh, per video, and they
+apply identically to both arms. So the net finds sources and the per-video
+gates qualify them; being listed buys a guaranteed search arm and nothing else.
+
+Ordering within the open arm: viewCount finds what people actually watch (the
+clipper amplifies pacing a source already has and cannot invent it, so an
+unwatched CC upload is rarely worth clipping), and date reaches material the
+viewCount ranking will never surface. Queries are sampled rather than all run,
+because a fixed query set returns the same top results every day, posted.json
+then rejects them as already used, and the pool goes sterile within days.
+
+The pool maintains itself from there: record_outcome tallies what each
+channel's clips did, promoted_channel_ids gives an arm to channels whose clips
+survive, and blocked_channel_ids cuts off channels whose clips keep getting
+rejected. That last one is the check that should have removed Humor Studios
+and KristoferYee -- automatically, from their own output, instead of after a
+human watched bad videos go out and edited a config file.
 
 Then a THIRD check, added after watching what the first two let through: the
 topic filter (topic_verdict). Licensing and channel vetting between them never
@@ -78,6 +97,76 @@ def iso8601_duration_to_seconds(duration):
         return 0
     h, mnt, s = (int(x) if x else 0 for x in m.groups())
     return h * 3600 + mnt * 60 + s
+
+
+def channel_stats(posted):
+    """Per-channel tallies autopilot writes after each run. See record_outcome."""
+    return (posted.get("channels") or {})
+
+
+def blocked_channel_ids(niche, posted):
+    """Channels this run must not draw from.
+
+    Two sources: manual, permanent entries in sources.json, and automatic ones
+    earned in posted.json by a channel whose clips keep getting rejected and
+    never get kept. The automatic half is the point -- Humor Studios and
+    KristoferYee were both removed by hand, after a human watched bad clips go
+    out. A channel's own output is the evidence, and it is available without
+    anyone watching anything.
+    """
+    blocked = set(niche.get("blocked_channels") or [])
+    limit = (niche.get("discovery") or {}).get("auto_block_after_rejects", 4)
+    for cid, st in channel_stats(posted).items():
+        if st.get("status") == "blocked":
+            blocked.add(cid)
+        elif st.get("clips_rejected", 0) >= limit and not st.get("clips_kept"):
+            blocked.add(cid)
+    return blocked
+
+
+def promoted_channel_ids(niche, posted, blocked):
+    """Discovered channels that have earned a search arm of their own.
+
+    A channel reaches this list by having produced clips that survived the clip
+    filter -- which is a claim about output, evaluated fresh, rather than about
+    a note somebody wrote once. Ordered by clips kept so the ceiling drops the
+    weakest first.
+    """
+    cfg = niche.get("discovery") or {}
+    need = cfg.get("promote_after_keeps", 2)
+    ceiling = cfg.get("max_promoted_channels", 12)
+    seeds = {c["channel_id"] for c in niche.get("cc_channels", [])}
+    earned = [
+        (cid, st) for cid, st in channel_stats(posted).items()
+        if cid not in blocked and cid not in seeds
+        and st.get("clips_kept", 0) >= need
+    ]
+    earned.sort(key=lambda kv: kv[1].get("clips_kept", 0), reverse=True)
+    return [cid for cid, _ in earned[:ceiling]]
+
+
+def record_outcome(posted, source, kept, rejected):
+    """Tally one run's result against the source's channel, in posted.json.
+
+    This is what turns the pipeline from "a fixed list a human curates" into
+    something that maintains its own pool: channels that produce usable clips
+    earn more of the search budget, channels that produce rejects lose access
+    entirely, and neither outcome needs anyone to notice and edit a file.
+    """
+    cid = source.get("channel_id")
+    if not cid:
+        return
+    channels = posted.setdefault("channels", {})
+    st = channels.setdefault(cid, {
+        "name": source.get("channel_title") or "",
+        "sources_used": 0, "clips_kept": 0, "clips_rejected": 0,
+    })
+    st["name"] = source.get("channel_title") or st.get("name") or ""
+    st["sources_used"] = st.get("sources_used", 0) + 1
+    st["clips_kept"] = st.get("clips_kept", 0) + kept
+    st["clips_rejected"] = st.get("clips_rejected", 0) + rejected
+    st["last_seen"] = source.get("_ts") or st.get("last_seen")
+    return st
 
 
 def interleave(arms):
@@ -213,44 +302,84 @@ def find_candidates(niche, posted, max_results=25):
     # results, appended last, could never be reached at all.
     arms = []
 
+    blocked = blocked_channel_ids(niche, posted)
+    if blocked:
+        print(f"{len(blocked)} channel(s) blocked this run.", file=sys.stderr)
+
+    # 1) OPEN SEARCH -- the primary arm, and it runs whether or not a single
+    #    channel is listed anywhere. This used to be the "secondary, lower
+    #    trust" arm behind a human-vetted allowlist, and that ranking had it
+    #    exactly backwards: all three channels removed from the allowlist so far
+    #    were human-vetted and listed, and every bad post came from one of them.
+    #    A vetted channel is a stale one-time judgement about a publisher; the
+    #    licence re-verification, topic filter and clip filter are evaluated
+    #    fresh, per video, on both arms alike. So the net is what finds sources
+    #    and the per-video gates are what qualify them.
+    #
+    #    Queries are SAMPLED, not all run: the full list every day costs quota
+    #    and returns the same top results, which posted.json then rejects as
+    #    already used, so a fixed set of queries goes sterile within days.
+    queries = list(niche.get("search_queries", []))
+    per_run = niche.get("queries_per_run", 8)
+    if len(queries) > per_run:
+        queries = random.sample(queries, per_run)
+
+    for q in queries:
+        # Two orderings per query. viewCount finds what people actually watch
+        # (the clipper amplifies pacing a source already has and cannot invent
+        # it); date reaches material the viewCount ranking will never surface,
+        # which is the half that keeps the pool from going stale.
+        for order in ("viewCount", "date"):
+            try:
+                resp = youtube.search().list(
+                    part="snippet",
+                    q=q,
+                    type="video",
+                    videoLicense="creativeCommon",
+                    videoDuration=duration,
+                    order=order,
+                    maxResults=10,
+                ).execute()
+            except Exception as e:  # noqa: BLE001 -- one bad query must not end the run
+                print(f"query {q!r} ({order}) failed: {e}", file=sys.stderr)
+                continue
+            arms.append([i["id"]["videoId"] for i in resp.get("items", [])
+                         if i["snippet"].get("channelId") not in blocked])
+
+    # 2) Channel arms: the seeds from sources.json, plus channels DISCOVERED by
+    #    arm 1 that have since produced clips which survived the clip filter.
+    #    A seed is a guaranteed search arm and nothing more -- it buys no trust
+    #    that the per-video gates do not re-establish every run.
+    channel_ids = [c["channel_id"] for c in niche.get("cc_channels", [])
+                   if c["channel_id"] not in blocked]
+    promoted = promoted_channel_ids(niche, posted, blocked)
+    if promoted:
+        print(f"{len(promoted)} promoted channel(s) earning an arm this run.",
+              file=sys.stderr)
+    channel_ids += promoted
+
     # Rotate which channel is asked first. autopilot always takes candidates[0],
     # so a fixed list order means the first channel is mined until it runs dry
     # and the rest never get a turn -- with FOSDEM listed first, every single
     # run picked a FOSDEM talk. Rotating spreads it across the pool.
-    channels = list(niche.get("cc_channels", []))
-    if channels:
-        k = random.randrange(len(channels))
-        channels = channels[k:] + channels[:k]
+    if channel_ids:
+        k = random.randrange(len(channel_ids))
+        channel_ids = channel_ids[k:] + channel_ids[:k]
 
-    # 1) Channel-scoped search -- the reliable source, since these channels'
-    #    licensing policy has been checked by a human (see sources.json note).
-    for ch in channels:
-        resp = youtube.search().list(
-            part="snippet",
-            channelId=ch["channel_id"],
-            type="video",
-            videoLicense="creativeCommon",
-            videoDuration=duration,
-            order="date",
-            maxResults=max_results,
-        ).execute()
-        arms.append([item["id"]["videoId"] for item in resp.get("items", [])])
-
-    # 2) Keyword search as a secondary source -- wider net, same license
-    #    filter, same re-verification step below. Lower trust than #1.
-    for q in niche.get("search_queries", []):
-        resp = youtube.search().list(
-            part="snippet",
-            q=q,
-            type="video",
-            videoLicense="creativeCommon",
-            videoDuration=duration,
-            # viewCount, not relevance: this arm exists to widen the pool
-            # beyond the vetted channels, and a CC video nobody watched is
-            # rarely a video worth clipping.
-            order="viewCount",
-            maxResults=10,
-        ).execute()
+    for cid in channel_ids:
+        try:
+            resp = youtube.search().list(
+                part="snippet",
+                channelId=cid,
+                type="video",
+                videoLicense="creativeCommon",
+                videoDuration=duration,
+                order="date",
+                maxResults=max_results,
+            ).execute()
+        except Exception as e:  # noqa: BLE001
+            print(f"channel {cid} search failed: {e}", file=sys.stderr)
+            continue
         arms.append([item["id"]["videoId"] for item in resp.get("items", [])])
 
     candidate_ids = interleave(arms)
@@ -267,6 +396,8 @@ def find_candidates(niche, posted, max_results=25):
             continue
         if item.get("status", {}).get("license") != "creativeCommon":
             # The authoritative flag disagrees with the search filter -- skip.
+            continue
+        if item["snippet"].get("channelId") in blocked:
             continue
         seconds = iso8601_duration_to_seconds(item["contentDetails"]["duration"])
         if seconds < min_seconds:
