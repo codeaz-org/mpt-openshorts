@@ -107,6 +107,22 @@ channel can change format under you, which is exactly what happened.
 Hindi ML lecture matches `machine learning` perfectly and is still unusable
 here.
 
+**Clip topic** — `clip_exclude_terms`, checked by `clip_verdict` *after*
+clipping, against the title/description/hook Gemini wrote for each clip.
+
+This is a second gate because source metadata is a weak proxy that fails in a
+specific direction: a channel's description says what the *channel* is, not
+what this video is. "Her Brother Won't Let Her Play on the Computer" carries a
+hardware description because it comes from a PC channel — it passes the source
+filter — and the three clips cut from it were "I realized I was a terrible
+brother", "Why I gave a stranger a gaming PC" and "The 1% rule that changed my
+life". All three had to be deleted by hand. The generated title is the honest
+signal, because it describes the 40 seconds actually being posted.
+
+Rejecting here wastes a render instead of a post, which is the cheaper
+mistake. Only exclusions run at this stage, never `topic_terms` — a legitimate
+clip can open on a line that names no technology at all.
+
 **Framing** — `content_height_ratio` and `layouts`.
 
 `content_height_ratio` becomes the backend's `GENERAL_CONTENT_HEIGHT_RATIO`:

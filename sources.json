@@ -16,11 +16,6 @@
         "channel_id": "UCUoJk48pujh29p8zLsnD5PQ",
         "name": "Talking Sasquach",
         "note": "Flipper Zero, HackRF, hardware hacking and maker builds. Heavy B-roll. 21 CC videos verified."
-      },
-      {
-        "channel_id": "UC_sHe3M2R5d_EWnv6Euaqlw",
-        "name": "KristoferYee",
-        "note": "PC building, comedic edit. 19 CC videos verified. Tech-adjacent rather than dev: its commentary/drama uploads are caught by exclude_terms, its build videos are the reason it stays."
       }
     ],
     "search_queries": [
@@ -58,7 +53,7 @@
     "_layouts_comment": "'screencast' turns on OpenShorts' SCREENCAST_LAYOUT, which is off by default upstream. It measures how much of the frame WIDTH the on-screen content spans and routes those scenes to a stacked or full-width layout instead of the 9:16 tracking crop. Without it a screen recording that contains a face is classified TRACK and the crop keeps a centre strip -- which is how a 75s clip of a Reddit post shipped with every line of text sliced off both edges (youtu.be/UPH8HQ-kafc, 5-sep-2026).",
     "content_height_ratio": 0.31,
     "_content_height_ratio_comment": "GENERAL_CONTENT_HEIGHT_RATIO for the backend: how much of the frame height the content fills in the blurred-background layout, bought by CROPPING THE SIDES. There is a hard floor here and it is 0.316: a 16:9 source fills a 1080px-wide frame at 608px tall, and 608/1920 = 0.316. Every value above that discards width. Measured against reframe_v2's own filtergraph on a real source -- 0.6 (what shipped) keeps 53% of the width, 0.42 (upstream's default) keeps 75%, and both cut sentences in half on anything with text on screen. 0.31 sits under the floor so the max() in general_filtergraph pins the content to full width and nothing is ever cut. The cost is real and worth naming: at full width a 16:9 source is 32% of the frame height with blurred filler above and below, so the text is intact but small. That is the better failure. Cropping throws information away; small is still readable. If a clip looks like a thumbnail floating in soup, the fix is the SOURCE -- a video that is a static full-frame text page cannot be made good by any 9:16 layout -- not a higher ratio.",
-    "_cc_channels_removed": "Removed 5-sep-2026 after auditing what they publish against what their notes claimed: Humor Studios (UCQAbWYfvugVtd5sJ8lXDs4w) is an AskReddit storytime channel, not the 'security/hacker story format' its note claimed, and supplied six consecutive off-niche posts; CampusX (UCCWi3hpnq_Pe03nGxuS7isg) is Hindi-language long-form lecture content, which is the opposite of this niche's stated purpose. Run find_channels.py to source replacements from measured CC coverage rather than from a search result's blurb.",
+    "_cc_channels_removed": "Removed after auditing what these channels publish against what their notes claimed. Humor Studios (UCQAbWYfvugVtd5sJ8lXDs4w): an AskReddit storytime channel, not the 'security/hacker story format' its note claimed; supplied six consecutive off-niche posts. CampusX (UCCWi3hpnq_Pe03nGxuS7isg): Hindi-language long-form lectures, the opposite of this niche's stated purpose. KristoferYee (UC_sHe3M2R5d_EWnv6Euaqlw): kept in the first pass on the reasoning that its build videos justified it, removed on 6-sep-2026 when the very next run cut 'Her Brother Won't Let Her Play on the Computer' into 'I realized I was a terrible brother' and 'The 1% rule that changed my life'. Its format is an emotional story with a PC in it, and a hardware word in the description is enough to pass a metadata filter. Run find_channels.py for replacements.",
     "topic_terms": [
       "linux",
       "ubuntu",
@@ -213,6 +208,51 @@
     "allowed_languages": [
       "en"
     ],
-    "_allowed_languages_comment": "Checked against snippet.defaultAudioLanguage / defaultLanguage. Topic keywords cannot see language: a Hindi machine-learning lecture matches 'machine learning' perfectly and is still unusable here -- that is how CampusX passed every check and got listed. Videos declaring no language are ALLOWED through: the field is optional and widely unset, so rejecting on absence would cost most of the pool to catch a few."
+    "_allowed_languages_comment": "Checked against snippet.defaultAudioLanguage / defaultLanguage. Topic keywords cannot see language: a Hindi machine-learning lecture matches 'machine learning' perfectly and is still unusable here -- that is how CampusX passed every check and got listed. Videos declaring no language are ALLOWED through: the field is optional and widely unset, so rejecting on absence would cost most of the pool to catch a few.",
+    "clip_exclude_terms": [
+      "my life",
+      "changed me",
+      "i realized",
+      "terrible brother",
+      "terrible sister",
+      "wholesome",
+      "emotional",
+      "made me cry",
+      "cried",
+      "heartbreaking",
+      "heartwarming",
+      "stranger",
+      "surprised her",
+      "surprised him",
+      "gave away",
+      "gift",
+      "1% rule",
+      "life lesson",
+      "life advice",
+      "motivation",
+      "mindset",
+      "grateful",
+      "childhood",
+      "my mom",
+      "my dad",
+      "my sister",
+      "my brother",
+      "my ex",
+      "injury",
+      "mri",
+      "surgery",
+      "hospital",
+      "doctors",
+      "undiagnosed",
+      "chronic pain",
+      "coworker",
+      "my boss",
+      "got fired",
+      "fired",
+      "revenge",
+      "quit my job",
+      "toxic workplace"
+    ],
+    "_clip_exclude_terms_comment": "Applied by clip_verdict AFTER clipping, to the title/description/hook Gemini wrote for each clip -- on top of exclude_terms, which apply at both stages. This is the layer that catches what source metadata hides: a PC channel's video carries hardware words in its description and passes the research filter, while the 40 seconds actually cut from it is a sentimental story. Only exclusions run here, never topic_terms: a legitimate clip can open on a line that names no technology at all."
   }
 }

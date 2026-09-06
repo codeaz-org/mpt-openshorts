@@ -160,6 +160,42 @@ def topic_verdict(item, niche):
     return True, ", ".join(hits[:3])
 
 
+def clip_verdict(clip, niche):
+    """(ok, reason) -- the same topic test, applied to what Gemini wrote ABOUT
+    the clip rather than to the source video's metadata.
+
+    Source metadata is a weak proxy and it fails in a specific direction: a
+    channel's description says what the channel is, not what this video is.
+    "Her Brother Won't Let Her Play on the Computer" (KristoferYee, 6-sep-2026)
+    carries a hardware description because it is a PC channel, so the source
+    filter passes it -- and the three clips cut from it were titled "I realized
+    I was a terrible brother", "Why I gave a stranger a gaming PC" and "The 1%
+    rule that changed my life". All three had to be deleted by hand.
+
+    The generated title and hook are the honest signal, because they describe
+    the 40 seconds actually being posted. This runs on them AFTER clipping, so
+    it costs a wasted render rather than a wasted post -- the cheaper mistake.
+
+    Only exclude_terms apply. Requiring a topic term here would reject a clip
+    whose hook is a legitimate cold open ("I deleted the wrong directory"), and
+    the source has already been checked for topic by this point.
+    """
+    text = " ".join([
+        clip.get("video_title_for_youtube_short") or "",
+        clip.get("video_description_for_tiktok") or "",
+        clip.get("viral_hook_text") or "",
+    ]).lower()
+    if not text.strip():
+        return True, "no clip text to judge"
+    for term in niche.get("exclude_terms", []):
+        if _term_re(term).search(text):
+            return False, f"excluded by {term!r}"
+    for term in niche.get("clip_exclude_terms", []):
+        if _term_re(term).search(text):
+            return False, f"excluded by {term!r}"
+    return True, "ok"
+
+
 def find_candidates(niche, posted, max_results=25):
     api_key = os.environ.get("YOUTUBE_API_KEY")
     if not api_key:

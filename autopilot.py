@@ -17,7 +17,7 @@ import os
 import sys
 import time
 
-from research import find_candidates, load_json
+from research import find_candidates, load_json, clip_verdict
 from openshorts_client import OpenShortsClient, OpenShortsError
 from attribution import build_caption, build_youtube_description, build_youtube_title, credit_line
 import youtube_uploader
@@ -117,11 +117,34 @@ def main():
         sys.exit(1)
 
     clips = result.get("clips", [])
-    n = min(len(clips), niche.get("target_clips_per_video", 3))
-    print(f"Job produced {len(clips)} clips, posting {n} of them.")
+
+    # Second topic gate, on what Gemini wrote about each clip rather than on
+    # the source's metadata. A source can pass the research filter and still
+    # yield clips that are off-niche: "Her Brother Won't Let Her Play on the
+    # Computer" is a PC channel's video with a hardware description, and the
+    # three clips cut from it were a sentimental story that had to be deleted
+    # by hand (6-sep-2026). Rejecting here wastes a render; not rejecting
+    # wastes a post, and a post is the expensive one.
+    kept = []
+    for clip in clips:
+        ok, why = clip_verdict(clip, niche)
+        title = clip.get("video_title_for_youtube_short") or "(untitled)"
+        if ok:
+            kept.append(clip)
+        else:
+            print(f"Dropping clip {title!r}: off topic ({why})", file=sys.stderr)
+
+    if not kept:
+        print(f"::warning title=All clips off topic::{len(clips)} clip(s) from "
+              f"{source['title']!r} were all rejected by the clip filter. "
+              f"The source passed research but produced nothing on-niche -- "
+              f"check whether that channel still belongs in sources.json.")
+
+    n = min(len(kept), niche.get("target_clips_per_video", 3))
+    print(f"Job produced {len(clips)} clips, {len(kept)} on topic, posting {n}.")
 
     for i in range(n):
-        clip = clips[i]
+        clip = kept[i]
         local_path = os.path.join(DOWNLOAD_DIR, f"{job_id}_clip{i}.mp4")
         client.download_clip(job_id, clip, local_path)
 
@@ -147,6 +170,21 @@ def main():
             "job_id": job_id,
             "youtube": post_result.get("youtube"),
             "tiktok": post_result.get("tiktok"),
+            "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        })
+
+    if not kept:
+        # Record the source anyway. already_used() keys on source_video_id, so
+        # without this row the next run re-downloads and re-clips the same
+        # video to reject it again.
+        posted.setdefault("uploads", []).append({
+            "niche": niche.get("id"),
+            "source_video_id": source["video_id"],
+            "source_title": source["title"],
+            "source_channel": source["channel_title"],
+            "source_url": source["url"],
+            "job_id": job_id,
+            "skipped": f"all {len(clips)} clips rejected by the clip topic filter",
             "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
         })
 
