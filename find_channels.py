@@ -25,19 +25,92 @@ Usage:
     python find_channels.py --query "neovim config" --query "rust tutorial"
     python find_channels.py --min-videos 5 --json
 
+No API key? It falls back to the OAuth refresh token this repo already uses to
+upload, which can come from another project's .env:
+
+    python find_channels.py --env-file ../mpt/.env
+
 Quota: each query costs 100 units (search.list) plus 1 per 50 videos checked.
 The default 10k/day key affords roughly 90 queries.
 """
 import argparse
 import json
 import os
+import re
 import sys
 from collections import defaultdict
+from pathlib import Path
 
 from googleapiclient.discovery import build
 
 from research import (SOURCES_PATH, load_json, iso8601_duration_to_seconds,
                       topic_verdict)
+
+
+def load_env_file(path):
+    """Read KEY=VALUE lines into os.environ without overwriting what's set.
+
+    Same parser get_youtube_token.py already uses. Exists so credentials can
+    come from a .env this repo does not own -- the OAuth client and the CodeAZ
+    refresh token live in the sibling `mpt` project, and re-minting a second
+    copy of a token that already exists is pure ceremony.
+    """
+    p = Path(path).expanduser()
+    if not p.exists():
+        return False
+    for line in p.read_text().splitlines():
+        line = line.split("#", 1)[0].strip()
+        if "=" in line:
+            k, v = line.split("=", 1)
+            os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
+    return True
+
+
+def youtube_client(niche):
+    """An API key if there is one, otherwise the niche's OAuth refresh token.
+
+    search.list and videos.list are public reads: an API key is the usual way
+    in, but an OAuth credential authorizes them too, and this repo already
+    holds one for the channel it posts to. That matters because the API key
+    and the refresh token tend to live in different places -- the key in CI
+    secrets, the token on the machine that minted it -- and the discovery tool
+    is useless if it can only run where the key is.
+    """
+    api_key = (os.environ.get("YOUTUBE_API_KEY") or "").strip()
+    if api_key:
+        print("auth: YOUTUBE_API_KEY", file=sys.stderr)
+        return build("youtube", "v3", developerKey=api_key)
+
+    suffix = re.sub(r"[^A-Za-z0-9]", "",
+                    niche.get("env_suffix") or niche.get("id") or "").upper()
+    client_id = (os.environ.get(f"YT_CLIENT_ID_{suffix}")
+                 or os.environ.get("YT_CLIENT_ID") or "").strip()
+    client_secret = (os.environ.get(f"YT_CLIENT_SECRET_{suffix}")
+                     or os.environ.get("YT_CLIENT_SECRET") or "").strip()
+    refresh_token = (os.environ.get(f"YT_REFRESH_TOKEN_{suffix}") or "").strip()
+
+    if not (client_id and client_secret and refresh_token):
+        print("ERROR: set YOUTUBE_API_KEY, or provide OAuth credentials "
+              f"(YT_CLIENT_ID, YT_CLIENT_SECRET, YT_REFRESH_TOKEN_{suffix}) -- "
+              "pass --env-file to read them from another project's .env.",
+              file=sys.stderr)
+        sys.exit(1)
+
+    from google.oauth2.credentials import Credentials
+    # The token this repo mints carries the upload scope. Public reads are
+    # normally granted alongside it; if YouTube answers 403
+    # insufficientPermissions, re-mint with youtube.readonly instead.
+    creds = Credentials(
+        None,
+        refresh_token=refresh_token,
+        token_uri="https://oauth2.googleapis.com/token",
+        client_id=client_id,
+        client_secret=client_secret,
+        scopes=["https://www.googleapis.com/auth/youtube.readonly",
+                "https://www.googleapis.com/auth/youtube.upload"],
+    )
+    print(f"auth: OAuth refresh token (YT_REFRESH_TOKEN_{suffix})", file=sys.stderr)
+    return build("youtube", "v3", credentials=creds)
 
 
 def search_cc(youtube, query, duration, order, per_query):
@@ -80,12 +153,14 @@ def main():
                         help="Results per search (max 50).")
     parser.add_argument("--json", action="store_true",
                         help="Print a cc_channels block ready to paste into sources.json.")
+    parser.add_argument("--env-file", action="append", default=[],
+                        help="Read credentials from this .env too (repeatable). "
+                             "./.env is always read when present.")
     args = parser.parse_args()
 
-    api_key = os.environ.get("YOUTUBE_API_KEY")
-    if not api_key:
-        print("ERROR: YOUTUBE_API_KEY is not set.", file=sys.stderr)
-        sys.exit(1)
+    for path in [".env"] + args.env_file:
+        if load_env_file(path):
+            print(f"loaded {path}", file=sys.stderr)
 
     niche = load_json(SOURCES_PATH, {}).get("niche", {})
     known = {c["channel_id"]: c.get("name", "?") for c in niche.get("cc_channels", [])}
@@ -100,7 +175,7 @@ def main():
               file=sys.stderr)
         sys.exit(1)
 
-    youtube = build("youtube", "v3", developerKey=api_key)
+    youtube = youtube_client(niche)
 
     # Two orderings per query on purpose. viewCount finds the channels people
     # actually watch; relevance finds the ones that are on topic but smaller,

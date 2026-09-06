@@ -175,6 +175,17 @@ python find_channels.py --json
 python find_channels.py --query "neovim config" --query "proxmox homelab"
 ```
 
+No API key on the machine? It falls back to the OAuth refresh token this repo
+already uses to upload, and `--env-file` can read it from another project:
+
+```bash
+python find_channels.py --env-file ../mpt/.env --json
+```
+
+`search.list` and `videos.list` are public reads, so either credential
+authorizes them. If YouTube answers `403 insufficientPermissions`, the token
+was minted upload-only — re-mint it with the `youtube.readonly` scope.
+
 Runs the niche's search queries with YouTube's CC filter, re-verifies every
 hit's licence per video, drops what the topic filter rejects, and groups the
 survivors **by channel** — so what you see is how many long, on-topic,
