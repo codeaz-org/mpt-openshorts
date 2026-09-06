@@ -93,6 +93,8 @@ def main():
 
     source = pick_source(args.url, niche, posted)
     print(f"Source: {source['title']}  ({source['url']})")
+    if source.get("topic_match"):
+        print(f"On topic via: {source['topic_match']}")
     if source.get("license") != "unverified":
         print(credit_line(source))
 
@@ -120,7 +122,12 @@ def main():
         "Watch every clip below before trusting this niche/source config for a live run.",
         "Check specifically: does the vertical crop keep the speaker in frame, do the",
         "subtitles match the audio, does the hook text overstate what the clip shows,",
-        "and does the clip make sense on its own without the rest of the talk.",
+        "and does the clip make sense on its own without the rest of the video.",
+        "",
+        "And check the framing on anything with text on screen: a clip whose lines are",
+        "cut off at both edges means the scene took a cropping layout instead of the",
+        "SCREENCAST/WIDE route. Confirm 'screencast' is still in niche.layouts, then",
+        "lower content_height_ratio (0.32 stops side-cropping entirely).",
         "",
     ]
 

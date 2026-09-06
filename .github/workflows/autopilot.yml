@@ -113,6 +113,13 @@ jobs:
           # backend at it. No cookies, no account credentials in CI.
           # printf, not a heredoc: inside a YAML block scalar every line
           # carries the block's indentation, which would end up in the file.
+          #
+          # The framing ratio comes from sources.json, not from this file: it is
+          # a property of the material this niche clips, so tuning framing used
+          # to mean the same YAML edit in two workflows. See that file's
+          # _content_height_ratio_comment for what the number actually does.
+          ratio=$(python3 -c "import json;print(json.load(open('../sources.json'))['niche'].get('content_height_ratio', 0.42))")
+          echo "GENERAL_CONTENT_HEIGHT_RATIO=$ratio (from sources.json)"
           printf '%s\n' \
             'services:' \
             '  bgutil-pot:' \
@@ -123,7 +130,7 @@ jobs:
             '    environment:' \
             '      - BGUTIL_BASE_URL=http://bgutil-pot:4416' \
             '      - YOUTUBE_COOKIES' \
-            '      - GENERAL_CONTENT_HEIGHT_RATIO=0.6' \
+            "      - GENERAL_CONTENT_HEIGHT_RATIO=${ratio}" \
             > docker-compose.override.yml
           cat docker-compose.override.yml
           docker compose config >/dev/null && echo "compose config valid"

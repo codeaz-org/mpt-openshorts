@@ -1,7 +1,7 @@
-# OpenShorts Autopilot — open-source-projects niche
+# OpenShorts Autopilot — CodeAZ tech shorts
 
-Automated clipping pipeline for CodeAZ: finds CC-BY-licensed conference talks
-about open source projects, cuts them into shorts with
+Automated clipping pipeline for CodeAZ: finds CC-BY-licensed tech videos —
+Linux, security, self-hosting, dev tooling, hardware — cuts them into shorts with
 [OpenShorts](https://github.com/mutonby/openshorts)'s clip generator, credits
 the original speaker/talk in every caption, and posts directly to **YouTube
 (OAuth, no middleman)** and **TikTok (via Buffer)**. Runs on GitHub Actions,
@@ -42,7 +42,7 @@ Buffer's plan limits apply instead.
 5. **Buffer** — [publish.buffer.com](https://publish.buffer.com), connect your TikTok account under Channels, then grab a personal API key from Settings → API. Save as `BUFFER_ACCESS_TOKEN`.
 6. Copy `.env.example` to `.env` and fill it in for local testing.
 7. Once you push this repo, add every secret from `.env.example` (except the two commented-optional ones) under Settings → Secrets and variables → Actions.
-8. Edit `sources.json` — the `cc_channels` list currently has one entry (FOSDEM). Add more only after you've personally confirmed the channel's CC policy; don't add a channel just because it's open-source-adjacent.
+8. Edit `sources.json` — see **Tuning what gets picked** below. Add a channel to `cc_channels` only after you've personally watched one of its videos and confirmed its CC policy; `find_channels.py` narrows the field for you but does not vet anything.
 
 ## Test it locally before it ever posts anything
 
@@ -71,9 +71,10 @@ tuning `sources.json`.
 
 Watch the clips and specifically check:
 - Does the vertical crop keep the speaker in frame (TRACK mode can lose them during slide-heavy segments)?
+- **Is any on-screen text cut off at the left and right edges?** This is the failure that shipped six times: see `content_height_ratio` below.
 - Do the subtitles actually match what's said?
 - Does the AI-generated hook text overstate or misrepresent what the clip shows?
-- Does the clip make sense as a standalone 20–75s piece, or does it need context from earlier in the talk?
+- Does the clip make sense as a standalone 20–75s piece, or does it need context from earlier in the video?
 
 To dry-run one specific talk instead of letting research pick:
 ```bash
@@ -85,6 +86,72 @@ real run or two — clips get queued in Buffer as drafts you approve by hand
 instead of publishing immediately, while you build trust in the pipeline
 without a dry run's total isolation.
 
+## Tuning what gets picked, and how it's framed
+
+Everything below lives in `sources.json` under `niche`, so a change to any of
+it is one commit and no YAML edit.
+
+**Topic** — `topic_terms`, `exclude_terms`, `allowed_languages`. A candidate
+must match at least one topic term (in its title, the first 600 characters of
+its description, or its tags), must match no exclude term, and must not
+declare a language outside `allowed_languages`. Exclude terms are checked
+first and win.
+
+This check did not exist until 5-sep-2026, and its absence is the whole reason
+six consecutive posts on a channel called *CodeAZ Tech Shorts* were AskReddit
+stories about undiagnosed medical conditions. Licence verification answers
+"may we repost this"; the channel allowlist answers "does this uploader
+license CC". **Neither answers "is it about our subject"** — and a vetted
+channel can change format under you, which is exactly what happened.
+`allowed_languages` is a separate axis because keywords cannot see language: a
+Hindi ML lecture matches `machine learning` perfectly and is still unusable
+here.
+
+**Framing** — `content_height_ratio` and `layouts`.
+
+`content_height_ratio` becomes the backend's `GENERAL_CONTENT_HEIGHT_RATIO`:
+how much of the frame height the content fills in the blurred-background
+layout, paid for by cropping the sides. It was hardcoded to `0.6` in both
+workflows, which scales a 16:9 source to 2048px wide and then crops it to
+1080 — **47% of the width discarded**. On a talking head that reads as
+punchy; on anything with text on screen the discarded columns are the point,
+and a 75s clip of a Reddit thread shipped with every line sliced off both
+edges. Now `0.42` (upstream's default, keeps ~76% of the width); `0.32` keeps
+all of it and lets the content sit smaller in the frame.
+
+`layouts` now includes `screencast`, which turns on OpenShorts'
+`SCREENCAST_LAYOUT`. It is off by default upstream, and its own module
+docstring describes our exact failure: *"a screen recording that happens to
+contain a face gets classified TRACK, the 9:16 crop keeps a centre strip, and
+the chart or headline the shot is actually about comes out sliced mid-word."*
+It measures how much of the frame **width** the content spans and routes those
+scenes to a stacked layout (content over speaker) or to full-width, instead of
+cropping them.
+
+**Source order** — `research.py` interleaves its search arms rather than
+concatenating them. A channel-scoped search returns up to 25 videos and
+`autopilot.py` only ever posts `candidates[0]`, so concatenation meant one
+channel owned every reachable slot and the keyword arm — appended after five
+channel arms — could never be reached at all.
+
+## Finding new source channels
+
+```bash
+export YOUTUBE_API_KEY=...
+python find_channels.py --json
+python find_channels.py --query "neovim config" --query "proxmox homelab"
+```
+
+Runs the niche's search queries with YouTube's CC filter, re-verifies every
+hit's licence per video, drops what the topic filter rejects, and groups the
+survivors **by channel** — so what you see is how many long, on-topic,
+genuinely CC-licensed videos a channel actually has, plus its median view
+count and a sample of titles.
+
+Read the titles before adding anything. That is the step that would have
+caught "Humor Studios", listed with the note *"Security/hacker story format"*,
+as an AskReddit storytime channel before it posted six times.
+
 ## Running for real
 
 1. Push this repo to GitHub.
@@ -94,11 +161,20 @@ without a dry run's total isolation.
 
 ## Known limits (honesty section)
 
-- **The CC-licensed pool for this niche is small.** Unlike scraping "whatever
-  performs well," a properly-licensed source pool is genuinely limited —
-  expect this to run out of fresh material from one channel faster than a
-  general-purpose channel would. Add more verified CC channels as you find
-  them; don't lower the bar to keep the pipeline fed.
+- **The CC-licensed pool for this niche is small, and the topic filter makes
+  it smaller.** Unlike scraping "whatever performs well," a properly-licensed
+  source pool is genuinely limited — expect this to run out of fresh material
+  from one channel faster than a general-purpose channel would, and
+  `topic_terms` / `exclude_terms` deliberately throw away more of what's left.
+  That trade is the right one: the alternative is what shipped before the
+  filter existed. Widen `topic_terms` or run `find_channels.py` for more
+  sources; don't lower the bar to keep the pipeline fed.
+- **A channel's note in `sources.json` is a claim, not a fact.** Two of the
+  five originally-listed channels turned out not to match their own notes —
+  one an AskReddit storytime channel described as "security/hacker story
+  format", one Hindi-language lectures described as "AI coding and dev
+  education". Watch a video before you add a channel, and re-check the ones
+  that are already there when their output starts looking wrong.
 - **YouTube's upload quota is per Google Cloud project, not per channel** —
   roughly 6 uploads/day. At `target_clips_per_video: 3` you'll hit that in
   two runs. Lower the clip count, run less often, or give this niche its own

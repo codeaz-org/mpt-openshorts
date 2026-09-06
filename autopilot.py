@@ -95,6 +95,10 @@ def main():
 
     source = candidates[0]
     print(f"Selected source: {source['title']} ({source['url']}) by {source['channel_title']}")
+    # Which topic terms matched, so a bad pick is diagnosable from the run log
+    # alone -- the six off-niche posts of 3-sep/5-sep-2026 left no trace of WHY
+    # they were chosen, because nothing was choosing on topic at all.
+    print(f"On topic via: {source.get('topic_match', 'n/a')}")
     print(credit_line(source))
 
     try:

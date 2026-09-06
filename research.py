@@ -21,12 +21,21 @@ an unwatched CC upload is rarely worth clipping. The licence constraint is
 what keeps this legitimate -- every candidate is still verified per video --
 not the refusal to notice which videos people watch.
 
+Then a THIRD check, added after watching what the first two let through: the
+topic filter (topic_verdict). Licensing and channel vetting between them never
+ask whether a video is about the subject the channel exists for, and both of
+the answers they do give go stale -- a vetted channel changes format, and the
+keyword arm reaches channels nobody vetted. Six consecutive posts about
+undiagnosed medical conditions went out on a channel called CodeAZ Tech Shorts
+because every check upstream of this one passed.
+
 Requires: YOUTUBE_API_KEY (a plain API key is enough -- no OAuth needed,
 this only reads public search/videos endpoints).
 """
 import json
 import os
 import random
+import re
 import sys
 from googleapiclient.discovery import build
 
@@ -71,6 +80,86 @@ def iso8601_duration_to_seconds(duration):
     return h * 3600 + mnt * 60 + s
 
 
+def interleave(arms):
+    """One id from each arm in turn, deduped, order preserved.
+
+    autopilot.py posts candidates[0] and nothing else, so the ORDER of this
+    list is the entire editorial decision the pipeline makes. Concatenated
+    arms made that decision badly: a channel arm returns up to 25 videos, so
+    the first arm owned every slot a run could reach and the keyword arm --
+    appended after five channel arms -- was unreachable in practice. Taking
+    one from each arm per round means the top of the list is one video from
+    each distinct source, which is what "pick something fresh" should mean.
+    """
+    out = []
+    seen = set()
+    for i in range(max((len(a) for a in arms), default=0)):
+        for arm in arms:
+            if i >= len(arm):
+                continue
+            vid = arm[i]
+            if vid in seen:
+                continue
+            seen.add(vid)
+            out.append(vid)
+    return out
+
+
+def _term_re(term):
+    """A term matches on word boundaries, so 'ai' does not fire inside
+    'explain' and 'r/' still matches literally."""
+    return re.compile(r"(?<!\w)" + re.escape(term.strip().lower()) + r"(?!\w)")
+
+
+def topic_verdict(item, niche):
+    """(ok, reason) -- is this video about what the channel is about?
+
+    Nothing upstream asked this question. The licence check answers "may we
+    repost it" and the channel allowlist answers "does this uploader license
+    CC", and neither answers "is it on topic". So an AskReddit channel listed
+    with the note "security/hacker story format" supplied six straight posts
+    about undiagnosed medical conditions to a channel called CodeAZ Tech
+    Shorts (3-sep and 5-sep-2026 runs). A vetted channel drifts, and the
+    keyword arm reaches channels nobody vetted at all.
+
+    exclude_terms are checked FIRST and beat everything: a storytime video
+    whose description happens to say "tech" is still a storytime video.
+
+    Language is checked as its own axis, because topic keywords cannot see it:
+    a Hindi machine-learning lecture matches "machine learning" perfectly and
+    is still unusable on an English shorts channel. Videos that declare no
+    language PASS -- the field is optional and widely unset, so rejecting on
+    absence would throw away most of the pool to catch a few.
+    """
+    snippet = item.get("snippet") or {}
+    allowed = [l.lower() for l in niche.get("allowed_languages", [])]
+    if allowed:
+        declared = (snippet.get("defaultAudioLanguage")
+                    or snippet.get("defaultLanguage") or "")
+        # "en-GB" and "en" are the same language for this purpose.
+        primary = declared.split("-")[0].lower()
+        if primary and primary not in allowed:
+            return False, f"language {declared!r}"
+
+    hay = " ".join([
+        snippet.get("title") or "",
+        (snippet.get("description") or "")[:600],
+        " ".join(snippet.get("tags") or []),
+    ]).lower()
+
+    for term in niche.get("exclude_terms", []):
+        if _term_re(term).search(hay):
+            return False, f"excluded by {term!r}"
+
+    topics = niche.get("topic_terms", [])
+    if not topics:
+        return True, "no topic_terms configured"
+    hits = [t for t in topics if _term_re(t).search(hay)]
+    if not hits:
+        return False, "no topic term matched"
+    return True, ", ".join(hits[:3])
+
+
 def find_candidates(niche, posted, max_results=25):
     api_key = os.environ.get("YOUTUBE_API_KEY")
     if not api_key:
@@ -81,7 +170,12 @@ def find_candidates(niche, posted, max_results=25):
     min_seconds = niche.get("min_source_seconds", 600)
     duration = niche.get("video_duration", "medium")
 
-    candidate_ids = []
+    # Each search becomes its own ARM, and the arms are interleaved below.
+    # Concatenating them meant one channel's whole recent catalogue sat ahead of
+    # every other arm, and autopilot only ever takes candidates[0] -- so a run
+    # was always three clips from a single channel, and the keyword arm's
+    # results, appended last, could never be reached at all.
+    arms = []
 
     # Rotate which channel is asked first. autopilot always takes candidates[0],
     # so a fixed list order means the first channel is mined until it runs dry
@@ -104,8 +198,7 @@ def find_candidates(niche, posted, max_results=25):
             order="date",
             maxResults=max_results,
         ).execute()
-        for item in resp.get("items", []):
-            candidate_ids.append(item["id"]["videoId"])
+        arms.append([item["id"]["videoId"] for item in resp.get("items", [])])
 
     # 2) Keyword search as a secondary source -- wider net, same license
     #    filter, same re-verification step below. Lower trust than #1.
@@ -122,10 +215,9 @@ def find_candidates(niche, posted, max_results=25):
             order="viewCount",
             maxResults=10,
         ).execute()
-        for item in resp.get("items", []):
-            candidate_ids.append(item["id"]["videoId"])
+        arms.append([item["id"]["videoId"] for item in resp.get("items", [])])
 
-    candidate_ids = list(dict.fromkeys(candidate_ids))  # dedupe, keep order
+    candidate_ids = interleave(arms)
     candidate_ids = [v for v in candidate_ids if not already_used(v, posted)]
     if not candidate_ids:
         return []
@@ -142,6 +234,11 @@ def find_candidates(niche, posted, max_results=25):
             continue
         seconds = iso8601_duration_to_seconds(item["contentDetails"]["duration"])
         if seconds < min_seconds:
+            continue
+        on_topic, why = topic_verdict(item, niche)
+        if not on_topic:
+            print(f"Skipping {vid}: off topic ({why}) -- "
+                  f"{(item['snippet'].get('title') or '')!r}", file=sys.stderr)
             continue
         snippet = item["snippet"]
         # OpenShorts names the downloaded file after the video title and hands
@@ -171,6 +268,7 @@ def find_candidates(niche, posted, max_results=25):
             "channel_id": snippet.get("channelId"),
             "duration_seconds": seconds,
             "license": "CC BY 3.0",
+            "topic_match": why,
         })
 
     return results
