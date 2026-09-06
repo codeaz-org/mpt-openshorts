@@ -1,10 +1,23 @@
 name: OpenShorts Autopilot (CodeAZ tech shorts)
 on:
-  schedule:
-    # Once a day. The CC-BY pool is finite (about 93 verified sources across
-    # five channels at the time of writing) and posted.json blocks repeats, so
-    # posting more often than you have fresh sources just drains it faster.
-    - cron: "0 14 * * *"
+  # SCHEDULE PAUSED 6-sep-2026. Manual runs only until the framing and topic
+  # fixes are confirmed on a real render.
+  #
+  # Why: the 3-sep, 5-sep and 6-sep runs all posted clips that had to be
+  # deleted by hand -- AskReddit stories and a sentimental PC story on a
+  # channel called CodeAZ Tech Shorts, all of them framed with the text
+  # cropped off both edges. The fixes for both are in, but nothing has been
+  # rendered through the new config yet, and an unattended daily cron is the
+  # wrong place to find out they are wrong.
+  #
+  # To re-enable: uncomment the two lines below. Trigger dry_run.yml first and
+  # watch the clips -- specifically that on-screen text is not cut off, and
+  # that the clip titles are about tech.
+  #
+  # schedule:
+  #   # Once a day. The CC-BY pool is finite and posted.json blocks repeats, so
+  #   # posting more often than you have fresh sources just drains it faster.
+  #   - cron: "0 14 * * *"
   workflow_dispatch: {}
 
 concurrency:
