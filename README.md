@@ -111,13 +111,30 @@ here.
 
 `content_height_ratio` becomes the backend's `GENERAL_CONTENT_HEIGHT_RATIO`:
 how much of the frame height the content fills in the blurred-background
-layout, paid for by cropping the sides. It was hardcoded to `0.6` in both
-workflows, which scales a 16:9 source to 2048px wide and then crops it to
-1080 — **47% of the width discarded**. On a talking head that reads as
-punchy; on anything with text on screen the discarded columns are the point,
-and a 75s clip of a Reddit thread shipped with every line sliced off both
-edges. Now `0.42` (upstream's default, keeps ~76% of the width); `0.32` keeps
-all of it and lets the content sit smaller in the frame.
+layout, paid for by **cropping the sides**.
+
+There is a hard floor and it is **0.316** — a 16:9 source fills the 1080px
+frame width at 608px tall, and 608/1920 = 0.316. Every value above that
+discards width. Measured against `reframe_v2`'s own filtergraph on a real
+source:
+
+| ratio | content height | width kept |
+|-------|----------------|------------|
+| 0.60 (was hardcoded in both workflows) | 1152px | **53%** |
+| 0.42 (upstream default) | 806px | **75%** |
+| 0.31 (now) | 608px | **100%** |
+
+At 0.60 a 75s clip of a Reddit thread shipped with every line sliced off both
+edges. 0.42 is not enough either — it still cuts a quarter of the width, which
+is still mid-sentence. 0.31 sits under the floor, so the `max()` in
+`general_filtergraph` pins the content to full width and nothing is ever cut.
+
+The cost is real: at full width a 16:9 source is 32% of the frame height with
+blurred filler above and below, so text is intact but small. That is the
+better failure — cropping throws information away, small is still readable.
+**If a clip looks like a thumbnail floating in soup, the fix is the source.**
+A video that is a static full-frame text page cannot be made good by any 9:16
+layout, at any ratio.
 
 `layouts` now includes `screencast`, which turns on OpenShorts'
 `SCREENCAST_LAYOUT`. It is off by default upstream, and its own module

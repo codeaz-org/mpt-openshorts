@@ -127,7 +127,7 @@ def main():
         "And check the framing on anything with text on screen: a clip whose lines are",
         "cut off at both edges means the scene took a cropping layout instead of the",
         "SCREENCAST/WIDE route. Confirm 'screencast' is still in niche.layouts, then",
-        "lower content_height_ratio (0.32 stops side-cropping entirely).",
+        "lower content_height_ratio (anything above 0.316 crops the sides).",
         "",
     ]
 
