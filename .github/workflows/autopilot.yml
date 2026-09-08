@@ -1,23 +1,22 @@
 name: OpenShorts Autopilot (CodeAZ tech shorts)
 on:
-  # SCHEDULE PAUSED 6-sep-2026. Manual runs only until the framing and topic
-  # fixes are confirmed on a real render.
+  # RE-ENABLED 8-sep-2026 after dry_run.yml (run 34188901361) verified the
+  # framing and topic fixes on a real render: the 0.31 ratio and screencast
+  # layout both kept on-screen text intact (a UniFi network diagram clip came
+  # out full-width with every label readable -- the same shape of clip that
+  # shipped sliced in half before), and all three clips picked by OPEN
+  # DISCOVERY (no seed channel) were genuinely on-niche. That run also
+  # surfaced two filter bugs (exclude_terms reading descriptions, real gaps in
+  # topic_terms) which are fixed in the commit alongside this one.
   #
-  # Why: the 3-sep, 5-sep and 6-sep runs all posted clips that had to be
-  # deleted by hand -- AskReddit stories and a sentimental PC story on a
-  # channel called CodeAZ Tech Shorts, all of them framed with the text
-  # cropped off both edges. The fixes for both are in, but nothing has been
-  # rendered through the new config yet, and an unattended daily cron is the
-  # wrong place to find out they are wrong.
-  #
-  # To re-enable: uncomment the two lines below. Trigger dry_run.yml first and
-  # watch the clips -- specifically that on-screen text is not cut off, and
-  # that the clip titles are about tech.
-  #
-  # schedule:
-  #   # Once a day. The CC-BY pool is finite and posted.json blocks repeats, so
-  #   # posting more often than you have fresh sources just drains it faster.
-  #   - cron: "0 14 * * *"
+  # Paused 6-sep through 8-sep-2026 after three straight runs posted clips
+  # that had to be deleted by hand. If that happens again, comment the
+  # schedule block back out and re-run this same verification loop before
+  # re-enabling -- don't just fix and re-enable in the same breath next time.
+  schedule:
+    # Once a day. The CC-BY pool is finite and posted.json blocks repeats, so
+    # posting more often than you have fresh sources just drains it faster.
+    - cron: "0 14 * * *"
   workflow_dispatch: {}
 
 concurrency:
