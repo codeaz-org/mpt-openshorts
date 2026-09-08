@@ -230,15 +230,29 @@ def topic_verdict(item, niche):
         if primary and primary not in allowed:
             return False, f"language {declared!r}"
 
-    hay = " ".join([
-        snippet.get("title") or "",
-        (snippet.get("description") or "")[:600],
-        " ".join(snippet.get("tags") or []),
-    ]).lower()
+    title = (snippet.get("title") or "").lower()
+    tags = " ".join(snippet.get("tags") or []).lower()
 
+    # Exclusions read the TITLE and TAGS only, never the description.
+    # Descriptions carry sponsor copy, chapter lists and links to the channel's
+    # other uploads, so a word from this list lands there for reasons that have
+    # nothing to do with the video: the 8-sep-2026 dry run rejected "What every
+    # Flipper One video COMPLETELY hid from you" -- an on-niche hardware video --
+    # because something in its description matched 'drama'. Exclusions are
+    # precision-critical, since a false positive silently discards a good source,
+    # so they get the field the uploader wrote about THIS video.
+    haystack_exclude = f"{title} {tags}"
     for term in niche.get("exclude_terms", []):
-        if _term_re(term).search(hay):
+        if _term_re(term).search(haystack_exclude):
             return False, f"excluded by {term!r}"
+
+    # Topic terms are recall-oriented and do read the description: a video can
+    # be squarely on subject with a title that names none of it.
+    hay = " ".join([
+        title,
+        (snippet.get("description") or "")[:600].lower(),
+        tags,
+    ])
 
     topics = niche.get("topic_terms", [])
     if not topics:
