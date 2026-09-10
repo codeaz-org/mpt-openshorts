@@ -398,6 +398,14 @@
         "via": "buffer"
       },
       "ts": "2026-09-08T18:09:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "FGbnULQ_mDA",
+      "source_title": "AI TOOLS Guidance",
+      "source_channel": "Tech Blueprint  |  Alok Srivastava",
+      "error": "Job e8547e3e-52e6-46e7-945f-b4428544d50e failed: raise RuntimeError( | RuntimeError: Clip detection failed \u2014 the AI model did not return usable clips for this video. | Process failed with exit code 1",
+      "ts": "2026-09-10T17:36:17"
     }
   ],
   "channels": {
