@@ -93,116 +93,151 @@ def main():
         print("No new CC-licensed candidates found this run. Nothing to do.")
         return
 
-    source = candidates[0]
-    print(f"Selected source: {source['title']} ({source['url']}) by {source['channel_title']}")
-    # Which topic terms matched, so a bad pick is diagnosable from the run log
-    # alone -- the six off-niche posts of 3-sep/5-sep-2026 left no trace of WHY
-    # they were chosen, because nothing was choosing on topic at all.
-    print(f"On topic via: {source.get('topic_match', 'n/a')}")
-    print(credit_line(source))
+    print(f"{len(candidates)} candidate(s) this run.")
+    posted_anything = False
+    last_error = None
 
-    try:
-        job_id = client.submit_job(source["url"], niche)
-        result = client.wait_for_result(job_id)
-    except OpenShortsError as e:
-        print(f"ERROR: clipping failed: {e}", file=sys.stderr)
-        posted.setdefault("uploads", []).append({
-            "niche": niche.get("id"),
-            "source_video_id": source["video_id"],
-            "source_title": source["title"],
-            "source_channel": source.get("channel_title"),
-            "error": str(e),
-            "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
-        })
+    # Try candidates IN ORDER until one actually posts something, instead of
+    # stopping at the first. 10-sep-2026: research correctly rejected 27
+    # off-topic/wrong-language/non-ASCII videos and found one genuinely on-
+    # topic candidate ("AI TOOLS Guidance", matched on docker/kubernetes/
+    # programming) -- and the whole run still ended empty because OpenShorts'
+    # clip detection failed on that ONE video ("the AI model did not return
+    # usable clips for this video") and the old code treated any clipping
+    # failure as fatal. find_candidates already returns up to
+    # max_candidates_per_run fallbacks for exactly this reason; nothing was
+    # using them.
+    for idx, source in enumerate(candidates):
+        print(f"\n--- Candidate {idx + 1}/{len(candidates)}: {source['title']} "
+              f"({source['url']}) by {source['channel_title']} ---")
+        # Which topic terms matched, so a bad pick is diagnosable from the run
+        # log alone -- the six off-niche posts of 3-sep/5-sep-2026 left no
+        # trace of WHY they were chosen, because nothing was choosing on topic
+        # at all.
+        print(f"On topic via: {source.get('topic_match', 'n/a')}")
+        print(credit_line(source))
+
+        try:
+            job_id = client.submit_job(source["url"], niche)
+            result = client.wait_for_result(job_id)
+        except OpenShortsError as e:
+            # A clip-detection or render failure on THIS video is not a
+            # statement about the pipeline -- it must not end the run while
+            # other candidates are still untried.
+            print(f"ERROR: clipping failed: {e}", file=sys.stderr)
+            last_error = str(e)
+            posted.setdefault("uploads", []).append({
+                "niche": niche.get("id"),
+                "source_video_id": source["video_id"],
+                "source_title": source["title"],
+                "source_channel": source.get("channel_title"),
+                "error": str(e),
+                "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
+            })
+            save_json(POSTED_PATH, posted)
+            continue
+
+        clips = result.get("clips", [])
+
+        # Second topic gate, on what Gemini wrote about each clip rather than on
+        # the source's metadata. A source can pass the research filter and still
+        # yield clips that are off-niche: "Her Brother Won't Let Her Play on the
+        # Computer" is a PC channel's video with a hardware description, and the
+        # three clips cut from it were a sentimental story that had to be deleted
+        # by hand (6-sep-2026). Rejecting here wastes a render; not rejecting
+        # wastes a post, and a post is the expensive one.
+        kept = []
+        for clip in clips:
+            ok, why = clip_verdict(clip, niche)
+            title = clip.get("video_title_for_youtube_short") or "(untitled)"
+            if ok:
+                kept.append(clip)
+            else:
+                print(f"Dropping clip {title!r}: off topic ({why})", file=sys.stderr)
+
+        # Tally this source's channel before posting anything. A channel whose
+        # clips keep getting rejected and are never kept gets auto-blocked from
+        # future runs by research.blocked_channel_ids -- which is how Humor Studios
+        # and KristoferYee should have been removed: by their own output, not by a
+        # human noticing bad videos and editing sources.json afterwards.
+        source["_ts"] = time.strftime("%Y-%m-%dT%H:%M:%S")
+        st = record_outcome(posted, source, len(kept), len(clips) - len(kept))
+        if st:
+            print(f"Channel {st['name']!r}: {st['clips_kept']} kept / "
+                  f"{st['clips_rejected']} rejected across {st['sources_used']} source(s).")
+
+        if not kept:
+            print(f"::warning title=All clips off topic::{len(clips)} clip(s) from "
+                  f"{source['title']!r} were all rejected by the clip filter. "
+                  f"The source passed research but produced nothing on-niche -- "
+                  f"check whether that channel still belongs in sources.json.")
+            # Record the source anyway. already_used() keys on source_video_id, so
+            # without this row the next run re-downloads and re-clips the same
+            # video to reject it again.
+            posted.setdefault("uploads", []).append({
+                "niche": niche.get("id"),
+                "source_video_id": source["video_id"],
+                "source_title": source["title"],
+                "source_channel": source["channel_title"],
+                "source_url": source["url"],
+                "job_id": job_id,
+                "skipped": f"all {len(clips)} clips rejected by the clip topic filter",
+                "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
+            })
+            save_json(POSTED_PATH, posted)
+            print("Trying next candidate.")
+            continue
+
+        n = min(len(kept), niche.get("target_clips_per_video", 3))
+        print(f"Job produced {len(clips)} clips, {len(kept)} on topic, posting {n}.")
+
+        for i in range(n):
+            clip = kept[i]
+            local_path = os.path.join(DOWNLOAD_DIR, f"{job_id}_clip{i}.mp4")
+            client.download_clip(job_id, clip, local_path)
+
+            title = build_youtube_title(clip, source)
+            # niche["hashtags"], not " ".join(youtube_tags): joining the tag list
+            # put bare words in the description ("opensource programming devtools"),
+            # which are not hashtags and read like stray keywords. The tag list
+            # still goes to the API's own tags field below, where it belongs.
+            yt_description = build_youtube_description(clip, source, niche.get("hashtags", ""))
+            tiktok_caption = build_caption(clip, source, niche.get("hashtags", ""))
+
+            post_result = post_clip(local_path, title, yt_description, tiktok_caption, niche)
+            print(f"Clip {i}: {post_result}")
+            posted_anything = True
+
+            posted.setdefault("uploads", []).append({
+                "niche": niche.get("id"),
+                "source_video_id": source["video_id"],
+                "source_title": source["title"],
+                "source_channel": source["channel_title"],
+                "source_url": source["url"],
+                "clip_index": i,
+                "clip_title": title,
+                "job_id": job_id,
+                "youtube": post_result.get("youtube"),
+                "tiktok": post_result.get("tiktok"),
+                "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
+            })
+
         save_json(POSTED_PATH, posted)
+        break  # stop at the first candidate that actually posts something
+
+    if not posted_anything:
+        msg = f"No candidate produced a postable clip this run ({len(candidates)} tried)."
+        if last_error:
+            msg += f" Last clipping error: {last_error}"
+        print(f"::warning title=Run produced nothing::{msg}")
+        print(msg, file=sys.stderr)
+        # Exit non-zero here, unlike the per-candidate OpenShortsError above:
+        # this means the ENTIRE candidate pool was exhausted honestly (every
+        # clip-detection attempt failed, or every source's clips were off
+        # topic), which is worth a red run in Actions -- it says "nothing
+        # went out today", not "one video had a bad day".
         sys.exit(1)
 
-    clips = result.get("clips", [])
-
-    # Second topic gate, on what Gemini wrote about each clip rather than on
-    # the source's metadata. A source can pass the research filter and still
-    # yield clips that are off-niche: "Her Brother Won't Let Her Play on the
-    # Computer" is a PC channel's video with a hardware description, and the
-    # three clips cut from it were a sentimental story that had to be deleted
-    # by hand (6-sep-2026). Rejecting here wastes a render; not rejecting
-    # wastes a post, and a post is the expensive one.
-    kept = []
-    for clip in clips:
-        ok, why = clip_verdict(clip, niche)
-        title = clip.get("video_title_for_youtube_short") or "(untitled)"
-        if ok:
-            kept.append(clip)
-        else:
-            print(f"Dropping clip {title!r}: off topic ({why})", file=sys.stderr)
-
-    if not kept:
-        print(f"::warning title=All clips off topic::{len(clips)} clip(s) from "
-              f"{source['title']!r} were all rejected by the clip filter. "
-              f"The source passed research but produced nothing on-niche -- "
-              f"check whether that channel still belongs in sources.json.")
-
-    # Tally this source's channel before posting anything. A channel whose
-    # clips keep getting rejected and are never kept gets auto-blocked from
-    # future runs by research.blocked_channel_ids -- which is how Humor Studios
-    # and KristoferYee should have been removed: by their own output, not by a
-    # human noticing bad videos and editing sources.json afterwards.
-    source["_ts"] = time.strftime("%Y-%m-%dT%H:%M:%S")
-    st = record_outcome(posted, source, len(kept), len(clips) - len(kept))
-    if st:
-        print(f"Channel {st['name']!r}: {st['clips_kept']} kept / "
-              f"{st['clips_rejected']} rejected across {st['sources_used']} source(s).")
-
-    n = min(len(kept), niche.get("target_clips_per_video", 3))
-    print(f"Job produced {len(clips)} clips, {len(kept)} on topic, posting {n}.")
-
-    for i in range(n):
-        clip = kept[i]
-        local_path = os.path.join(DOWNLOAD_DIR, f"{job_id}_clip{i}.mp4")
-        client.download_clip(job_id, clip, local_path)
-
-        title = build_youtube_title(clip, source)
-        # niche["hashtags"], not " ".join(youtube_tags): joining the tag list
-        # put bare words in the description ("opensource programming devtools"),
-        # which are not hashtags and read like stray keywords. The tag list
-        # still goes to the API's own tags field below, where it belongs.
-        yt_description = build_youtube_description(clip, source, niche.get("hashtags", ""))
-        tiktok_caption = build_caption(clip, source, niche.get("hashtags", ""))
-
-        post_result = post_clip(local_path, title, yt_description, tiktok_caption, niche)
-        print(f"Clip {i}: {post_result}")
-
-        posted.setdefault("uploads", []).append({
-            "niche": niche.get("id"),
-            "source_video_id": source["video_id"],
-            "source_title": source["title"],
-            "source_channel": source["channel_title"],
-            "source_url": source["url"],
-            "clip_index": i,
-            "clip_title": title,
-            "job_id": job_id,
-            "youtube": post_result.get("youtube"),
-            "tiktok": post_result.get("tiktok"),
-            "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
-        })
-
-    if not kept:
-        # Record the source anyway. already_used() keys on source_video_id, so
-        # without this row the next run re-downloads and re-clips the same
-        # video to reject it again.
-        posted.setdefault("uploads", []).append({
-            "niche": niche.get("id"),
-            "source_video_id": source["video_id"],
-            "source_title": source["title"],
-            "source_channel": source["channel_title"],
-            "source_url": source["url"],
-            "job_id": job_id,
-            "skipped": f"all {len(clips)} clips rejected by the clip topic filter",
-            "ts": time.strftime("%Y-%m-%dT%H:%M:%S"),
-        })
-
-    save_json(POSTED_PATH, posted)
     print("Done. posted.json updated.")
-
-
 if __name__ == "__main__":
     main()
