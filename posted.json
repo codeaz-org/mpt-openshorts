@@ -406,6 +406,60 @@
       "source_channel": "Tech Blueprint  |  Alok Srivastava",
       "error": "Job e8547e3e-52e6-46e7-945f-b4428544d50e failed: raise RuntimeError( | RuntimeError: Clip detection failed \u2014 the AI model did not return usable clips for this video. | Process failed with exit code 1",
       "ts": "2026-09-10T17:36:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jV6q0cJSBNA",
+      "source_title": "The Hacking Tool Everyone's Talking About (NyanBox)",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=jV6q0cJSBNA",
+      "clip_index": 0,
+      "clip_title": "Detecting Hidden Axon Cameras, Skimmers, and AirTags with the NyanBOX",
+      "job_id": "c36534d3-fe36-4f52-9431-c0ac7f680e09",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa44087b49b9e48d022886d",
+        "via": "buffer"
+      },
+      "ts": "2026-09-11T17:55:29"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jV6q0cJSBNA",
+      "source_title": "The Hacking Tool Everyone's Talking About (NyanBox)",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=jV6q0cJSBNA",
+      "clip_index": 1,
+      "clip_title": "How Bluetooth Spamming Actually Works",
+      "job_id": "c36534d3-fe36-4f52-9431-c0ac7f680e09",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa4409dd9fa202f610890e8",
+        "via": "buffer"
+      },
+      "ts": "2026-09-11T17:55:52"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jV6q0cJSBNA",
+      "source_title": "The Hacking Tool Everyone's Talking About (NyanBox)",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=jV6q0cJSBNA",
+      "clip_index": 2,
+      "clip_title": "Detecting Hidden Card Skimmers and AirTags with the NyanBOX",
+      "job_id": "c36534d3-fe36-4f52-9431-c0ac7f680e09",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa440b1b49b9e48d0228d4c",
+        "via": "buffer"
+      },
+      "ts": "2026-09-11T17:56:12"
     }
   ],
   "channels": {
@@ -415,6 +469,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-08T18:07:51"
+    },
+    "UCUoJk48pujh29p8zLsnD5PQ": {
+      "name": "Talking Sasquach",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-11T17:55:06"
     }
   }
 }
