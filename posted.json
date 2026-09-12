@@ -460,6 +460,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-11T17:56:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3DEy-vxky8Y",
+      "source_title": "Check Out Our Rack / Servers  / Network / 10GbE Cabling Tour and The UnIFI US-16-XG",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=3DEy-vxky8Y",
+      "clip_index": 0,
+      "clip_title": "How to secure FreeNAS boot drives against physical theft",
+      "job_id": "45ac3582-9c15-41ef-b372-8e1928ce9009",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa587bc9a7f0553d16f0d31",
+        "via": "buffer"
+      },
+      "ts": "2026-09-12T17:11:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3DEy-vxky8Y",
+      "source_title": "Check Out Our Rack / Servers  / Network / 10GbE Cabling Tour and The UnIFI US-16-XG",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=3DEy-vxky8Y",
+      "clip_index": 1,
+      "clip_title": "Designing a secure, non-routed 10Gb storage network in yEd",
+      "job_id": "45ac3582-9c15-41ef-b372-8e1928ce9009",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa58800ef23d0656aeb3275",
+        "via": "buffer"
+      },
+      "ts": "2026-09-12T17:12:42"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3DEy-vxky8Y",
+      "source_title": "Check Out Our Rack / Servers  / Network / 10GbE Cabling Tour and The UnIFI US-16-XG",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=3DEy-vxky8Y",
+      "clip_index": 2,
+      "clip_title": "Designing a modular 10Gb network lab for storage and testing",
+      "job_id": "45ac3582-9c15-41ef-b372-8e1928ce9009",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa588393da5f87153349f87",
+        "via": "buffer"
+      },
+      "ts": "2026-09-12T17:13:39"
     }
   ],
   "channels": {
@@ -476,6 +530,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-11T17:55:06"
+    },
+    "UCHkYOD-3fZbuGhwsADBd9ZQ": {
+      "name": "Lawrence Systems",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-12T17:08:13"
     }
   }
 }
