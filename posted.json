@@ -568,6 +568,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-13T17:39:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LERCwH3F474",
+      "source_title": "How NOT to build a PC - The Verge of Awful Computers",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=LERCwH3F474",
+      "clip_index": 0,
+      "clip_title": "Worst PC Building Advice Ever?",
+      "job_id": "6d3eb1f5-2926-47ff-b186-4c28712ee89e",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa848ae1c2cae647ba98f55",
+        "via": "buffer"
+      },
+      "ts": "2026-09-14T19:19:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LERCwH3F474",
+      "source_title": "How NOT to build a PC - The Verge of Awful Computers",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=LERCwH3F474",
+      "clip_index": 1,
+      "clip_title": "Don't Build Your PC Like This!",
+      "job_id": "6d3eb1f5-2926-47ff-b186-4c28712ee89e",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa848c1c6a378d2b286b1e5",
+        "via": "buffer"
+      },
+      "ts": "2026-09-14T19:19:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LERCwH3F474",
+      "source_title": "How NOT to build a PC - The Verge of Awful Computers",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=LERCwH3F474",
+      "clip_index": 2,
+      "clip_title": "The Worst Benchmarking Choice Ever",
+      "job_id": "6d3eb1f5-2926-47ff-b186-4c28712ee89e",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aa848d4c6a378d2b286b3a8",
+        "via": "buffer"
+      },
+      "ts": "2026-09-14T19:19:58"
     }
   ],
   "channels": {
@@ -598,6 +652,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-13T17:38:48"
+    },
+    "UC_sHe3M2R5d_EWnv6Euaqlw": {
+      "name": "KristoferYee",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-14T19:19:00"
     }
   }
 }
