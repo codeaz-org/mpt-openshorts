@@ -676,6 +676,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-15T18:10:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Z5aGH4XltP4",
+      "source_title": "Forget Kubernetes, This Is How I Run my Docker Containers",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=Z5aGH4XltP4",
+      "clip_index": 0,
+      "clip_title": "Stop using public websites for these IT tools",
+      "job_id": "2f006bb9-900d-4188-9cd1-17fbdb94dc54",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aaadd176014e27136ca0c70",
+        "via": "buffer"
+      },
+      "ts": "2026-09-16T18:17:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Z5aGH4XltP4",
+      "source_title": "Forget Kubernetes, This Is How I Run my Docker Containers",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=Z5aGH4XltP4",
+      "clip_index": 1,
+      "clip_title": "Control your entire server rack from a web browser",
+      "job_id": "2f006bb9-900d-4188-9cd1-17fbdb94dc54",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aaadd2a6014e27136ca0e3f",
+        "via": "buffer"
+      },
+      "ts": "2026-09-16T18:17:25"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Z5aGH4XltP4",
+      "source_title": "Forget Kubernetes, This Is How I Run my Docker Containers",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=Z5aGH4XltP4",
+      "clip_index": 2,
+      "clip_title": "The easiest way to monitor your Docker containers",
+      "job_id": "2f006bb9-900d-4188-9cd1-17fbdb94dc54",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aaadd3ec19c71d2e2c715b6",
+        "via": "buffer"
+      },
+      "ts": "2026-09-16T18:17:44"
     }
   ],
   "channels": {
@@ -695,10 +749,10 @@
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-09-15T18:09:13"
+      "last_seen": "2026-09-16T18:16:46"
     },
     "UCVls1GmFKf6WlTraIb_IaJg": {
       "name": "DistroTube",
