@@ -730,6 +730,57 @@
         "via": "buffer"
       },
       "ts": "2026-09-16T18:17:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "j262kCYZxZI",
+      "source_title": "A Curiously Minty Cyberdeck",
+      "source_channel": "Exercising Ingenuity",
+      "source_url": "https://www.youtube.com/watch?v=j262kCYZxZI",
+      "clip_index": 0,
+      "clip_title": "How to Build a Cyberdeck Inside an Altoids Tin",
+      "job_id": "bff06e49-c9a6-4f69-a909-bec8a4310a64",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "ts": "2026-09-17T18:17:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "j262kCYZxZI",
+      "source_title": "A Curiously Minty Cyberdeck",
+      "source_channel": "Exercising Ingenuity",
+      "source_url": "https://www.youtube.com/watch?v=j262kCYZxZI",
+      "clip_index": 1,
+      "clip_title": "Building an Altoids Tin Cyberdeck with a 3D Printed Frame",
+      "job_id": "bff06e49-c9a6-4f69-a909-bec8a4310a64",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "error": "github POST assets?name=1789669055-bff06e49-c9a6-4f69-a909-bec8a4310a64_clip1.mp4: 500 {\"message\":\"Error saving asset\",\"request_id\":\"A306:2D93B6:275EB:36C85:6AAC2EBF\"}"
+      },
+      "ts": "2026-09-17T18:18:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "j262kCYZxZI",
+      "source_title": "A Curiously Minty Cyberdeck",
+      "source_channel": "Exercising Ingenuity",
+      "source_url": "https://www.youtube.com/watch?v=j262kCYZxZI",
+      "clip_index": 2,
+      "clip_title": "Building a custom Raspberry Pi computer inside an Altoids tin",
+      "job_id": "bff06e49-c9a6-4f69-a909-bec8a4310a64",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+      },
+      "ts": "2026-09-17T18:20:58"
     }
   ],
   "channels": {
@@ -767,6 +818,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-14T19:19:00"
+    },
+    "UCOJV9jf1qKzzrgomdYTr9bg": {
+      "name": "Exercising Ingenuity",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-17T18:14:46"
     }
   }
 }
