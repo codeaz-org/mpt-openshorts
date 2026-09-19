@@ -781,6 +781,60 @@
         "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
       },
       "ts": "2026-09-17T18:20:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "NOHalB4DQfg",
+      "source_title": "NO MORE EXTERNAL SSDs?! THIS WILL CHANGE YOUR EDITING WORKFLOW | UGREEN NAS DXP480T PLUS",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=NOHalB4DQfg",
+      "clip_index": 0,
+      "clip_title": "Stop paying for Google Drive and Dropbox",
+      "job_id": "a14a4f76-0765-4bbf-a2c1-4eb414af0e02",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aaec4536e039ccbc820be9b",
+        "via": "buffer"
+      },
+      "ts": "2026-09-19T17:20:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "NOHalB4DQfg",
+      "source_title": "NO MORE EXTERNAL SSDs?! THIS WILL CHANGE YOUR EDITING WORKFLOW | UGREEN NAS DXP480T PLUS",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=NOHalB4DQfg",
+      "clip_index": 1,
+      "clip_title": "How to edit video directly off a NAS in DaVinci Resolve",
+      "job_id": "a14a4f76-0765-4bbf-a2c1-4eb414af0e02",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aaec4646e039ccbc820c04d",
+        "via": "buffer"
+      },
+      "ts": "2026-09-19T17:20:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "NOHalB4DQfg",
+      "source_title": "NO MORE EXTERNAL SSDs?! THIS WILL CHANGE YOUR EDITING WORKFLOW | UGREEN NAS DXP480T PLUS",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=NOHalB4DQfg",
+      "clip_index": 2,
+      "clip_title": "How AI image recognition works on my NAS system",
+      "job_id": "a14a4f76-0765-4bbf-a2c1-4eb414af0e02",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aaec4759a30e1221c102e09",
+        "via": "buffer"
+      },
+      "ts": "2026-09-19T17:21:03"
     }
   ],
   "channels": {
@@ -825,6 +879,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-17T18:14:46"
+    },
+    "UCBSkxS1vn41aJqT7E8s2ueA": {
+      "name": "Herokme",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-19T17:20:12"
     }
   }
 }
