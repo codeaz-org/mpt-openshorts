@@ -835,6 +835,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-19T17:21:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "vtkQiLkNgOI",
+      "source_title": "Building the ultimate ThinkPad!",
+      "source_channel": "Ionic1k",
+      "source_url": "https://www.youtube.com/watch?v=vtkQiLkNgOI",
+      "clip_index": 0,
+      "clip_title": "Linux RAM Usage vs Windows is Insane",
+      "job_id": "ed4dbcc0-5832-454a-8e2d-ef7913649559",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab01a7eb07e536c5a17e90a",
+        "via": "buffer"
+      },
+      "ts": "2026-09-20T17:40:24"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "vtkQiLkNgOI",
+      "source_title": "Building the ultimate ThinkPad!",
+      "source_channel": "Ionic1k",
+      "source_url": "https://www.youtube.com/watch?v=vtkQiLkNgOI",
+      "clip_index": 1,
+      "clip_title": "Fixing a $50 ThinkPad T440P Laptop",
+      "job_id": "ed4dbcc0-5832-454a-8e2d-ef7913649559",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab01a91c88b75a7de27fe4b",
+        "via": "buffer"
+      },
+      "ts": "2026-09-20T17:40:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "vtkQiLkNgOI",
+      "source_title": "Building the ultimate ThinkPad!",
+      "source_channel": "Ionic1k",
+      "source_url": "https://www.youtube.com/watch?v=vtkQiLkNgOI",
+      "clip_index": 2,
+      "clip_title": "The Moment of Truth: Will My ThinkPad Boot?",
+      "job_id": "ed4dbcc0-5832-454a-8e2d-ef7913649559",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab01aa2c88b75a7de28012f",
+        "via": "buffer"
+      },
+      "ts": "2026-09-20T17:41:01"
     }
   ],
   "channels": {
@@ -886,6 +940,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-19T17:20:12"
+    },
+    "UCqnKDzxO2M_-B-MJYx5qz1Q": {
+      "name": "Ionic1k",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-20T17:40:06"
     }
   }
 }
