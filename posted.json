@@ -889,6 +889,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-20T17:41:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "gngxoDibiOg",
+      "source_title": "Control a Servo Motor with a Clap! ESP32-S3 + INMP441 Audio Control Guide",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=gngxoDibiOg",
+      "clip_index": 0,
+      "clip_title": "How to Build a Clap-Controlled SG90 Servo Motor with ESP32",
+      "job_id": "73378862-5d7f-4c74-80f8-00addc782a2e",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab18743640ac1a51da720a2",
+        "via": "buffer"
+      },
+      "ts": "2026-09-21T19:36:45"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "gngxoDibiOg",
+      "source_title": "Control a Servo Motor with a Clap! ESP32-S3 + INMP441 Audio Control Guide",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=gngxoDibiOg",
+      "clip_index": 1,
+      "clip_title": "How to Wire the MAX98357A I2S Mono Amplifier Module",
+      "job_id": "73378862-5d7f-4c74-80f8-00addc782a2e",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab18758640ac1a51da721e1",
+        "via": "buffer"
+      },
+      "ts": "2026-09-21T19:37:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "gngxoDibiOg",
+      "source_title": "Control a Servo Motor with a Clap! ESP32-S3 + INMP441 Audio Control Guide",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=gngxoDibiOg",
+      "clip_index": 2,
+      "clip_title": "Control and Monitor Smart Lights Remotely with Arduino IoT Cloud",
+      "job_id": "73378862-5d7f-4c74-80f8-00addc782a2e",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab1876c4ee0883d657e15bc",
+        "via": "buffer"
+      },
+      "ts": "2026-09-21T19:37:27"
     }
   ],
   "channels": {
@@ -947,6 +1001,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-20T17:40:06"
+    },
+    "UCg000s7WtHV0yps-hQ-SHwA": {
+      "name": "Upload Ideas With Itamar",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-21T19:36:25"
     }
   }
 }
