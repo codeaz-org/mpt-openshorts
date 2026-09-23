@@ -943,6 +943,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-21T19:37:27"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YRAIUA-Oc1Y",
+      "source_title": "How to make advanced image recognition bots using python",
+      "source_channel": "Kian Brose",
+      "source_url": "https://www.youtube.com/watch?v=YRAIUA-Oc1Y",
+      "clip_index": 0,
+      "clip_title": "How to create an image recognition script in Python using pyautogui",
+      "job_id": "bf8cfcd0-7ef1-4ff2-9eab-8666aaa59df1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab41d011c9dfc33cb2dc4a6",
+        "via": "buffer"
+      },
+      "ts": "2026-09-23T18:40:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YRAIUA-Oc1Y",
+      "source_title": "How to make advanced image recognition bots using python",
+      "source_channel": "Kian Brose",
+      "source_url": "https://www.youtube.com/watch?v=YRAIUA-Oc1Y",
+      "clip_index": 1,
+      "clip_title": "How to Automate Piano Tiles with Python",
+      "job_id": "bf8cfcd0-7ef1-4ff2-9eab-8666aaa59df1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab41d193483bdd50d4a4820",
+        "via": "buffer"
+      },
+      "ts": "2026-09-23T18:40:36"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YRAIUA-Oc1Y",
+      "source_title": "How to make advanced image recognition bots using python",
+      "source_channel": "Kian Brose",
+      "source_url": "https://www.youtube.com/watch?v=YRAIUA-Oc1Y",
+      "clip_index": 2,
+      "clip_title": "How to make a Python aim bot for AimBooster",
+      "job_id": "bf8cfcd0-7ef1-4ff2-9eab-8666aaa59df1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab41d2c3483bdd50d4a4b8e",
+        "via": "buffer"
+      },
+      "ts": "2026-09-23T18:40:54"
     }
   ],
   "channels": {
@@ -1008,6 +1062,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-21T19:36:25"
+    },
+    "UC1AgWV7PLk_uVDkh35VVf9w": {
+      "name": "Kian Brose",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-23T18:39:52"
     }
   }
 }
