@@ -997,6 +997,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-23T18:40:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nHQv4blla7g",
+      "source_title": "Why Are Open Source Alternatives So Bad?",
+      "source_channel": "Eric Murphy",
+      "source_url": "https://www.youtube.com/watch?v=nHQv4blla7g",
+      "clip_index": 0,
+      "clip_title": "Why Open Source Software Design Sucks",
+      "job_id": "572ba569-17ff-4d56-9e31-93b5c9a0ff5b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab56c5973e53e7453aeade7",
+        "via": "buffer"
+      },
+      "ts": "2026-09-24T18:30:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nHQv4blla7g",
+      "source_title": "Why Are Open Source Alternatives So Bad?",
+      "source_channel": "Eric Murphy",
+      "source_url": "https://www.youtube.com/watch?v=nHQv4blla7g",
+      "clip_index": 1,
+      "clip_title": "Why Blender Is The Only Open Source Success",
+      "job_id": "572ba569-17ff-4d56-9e31-93b5c9a0ff5b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab56c6ba286641c0b1dcd9e",
+        "via": "buffer"
+      },
+      "ts": "2026-09-24T18:31:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nHQv4blla7g",
+      "source_title": "Why Are Open Source Alternatives So Bad?",
+      "source_channel": "Eric Murphy",
+      "source_url": "https://www.youtube.com/watch?v=nHQv4blla7g",
+      "clip_index": 2,
+      "clip_title": "GIMP vs Photoshop: The Harsh Reality",
+      "job_id": "572ba569-17ff-4d56-9e31-93b5c9a0ff5b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab56c7c73e53e7453aeb15b",
+        "via": "buffer"
+      },
+      "ts": "2026-09-24T18:31:35"
     }
   ],
   "channels": {
@@ -1069,6 +1123,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-23T18:39:52"
+    },
+    "UC5KDiSAFxrDWhmysBcNqtMA": {
+      "name": "Eric Murphy",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-24T18:30:41"
     }
   }
 }
