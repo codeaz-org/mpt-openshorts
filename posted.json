@@ -1051,6 +1051,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-24T18:31:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5AoyRNhat3E",
+      "source_title": "Aaron Honeycutt - Running a homelab with NixOS",
+      "source_channel": "Nix Vegas",
+      "source_url": "https://www.youtube.com/watch?v=5AoyRNhat3E",
+      "clip_index": 0,
+      "clip_title": "Stop Paying for Streaming: Build Your Own Private Media Server",
+      "job_id": "816f5284-5d75-42d3-ac3a-4790a88f6de6",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab6bcd79c15eda2774187b0",
+        "via": "buffer"
+      },
+      "ts": "2026-09-25T18:26:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5AoyRNhat3E",
+      "source_title": "Aaron Honeycutt - Running a homelab with NixOS",
+      "source_channel": "Nix Vegas",
+      "source_url": "https://www.youtube.com/watch?v=5AoyRNhat3E",
+      "clip_index": 1,
+      "clip_title": "Ditch Google Photos and Spotify for Good",
+      "job_id": "816f5284-5d75-42d3-ac3a-4790a88f6de6",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab6bce79c15eda27741889c",
+        "via": "buffer"
+      },
+      "ts": "2026-09-25T18:26:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5AoyRNhat3E",
+      "source_title": "Aaron Honeycutt - Running a homelab with NixOS",
+      "source_channel": "Nix Vegas",
+      "source_url": "https://www.youtube.com/watch?v=5AoyRNhat3E",
+      "clip_index": 2,
+      "clip_title": "The Best Way to Manage Secrets in Your Homelab",
+      "job_id": "816f5284-5d75-42d3-ac3a-4790a88f6de6",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab6bcf825fe0dd5edcb9e34",
+        "via": "buffer"
+      },
+      "ts": "2026-09-25T18:27:14"
     }
   ],
   "channels": {
@@ -1130,6 +1184,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-24T18:30:41"
+    },
+    "UCuQgR7PR43SDj_2ZGPuTlSw": {
+      "name": "Nix Vegas",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-25T18:26:24"
     }
   }
 }
