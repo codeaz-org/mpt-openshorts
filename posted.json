@@ -1105,6 +1105,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-25T18:27:14"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "9FxlQXuXxFU",
+      "source_title": "BASH  - USB Credit Card Swiper Script - Code for Magnetic Stripe HID Linux Shell",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=9FxlQXuXxFU",
+      "clip_index": 0,
+      "clip_title": "What actually happens when you swipe your credit card",
+      "job_id": "dcd25314-8a81-46c8-a194-8671e831c85f",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab8058accccb9429c359a1f",
+        "via": "buffer"
+      },
+      "ts": "2026-09-26T17:49:09"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "9FxlQXuXxFU",
+      "source_title": "BASH  - USB Credit Card Swiper Script - Code for Magnetic Stripe HID Linux Shell",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=9FxlQXuXxFU",
+      "clip_index": 1,
+      "clip_title": "How to parse credit card data in Bash using cut",
+      "job_id": "dcd25314-8a81-46c8-a194-8671e831c85f",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab8059c9f89edbefe7a56ca",
+        "via": "buffer"
+      },
+      "ts": "2026-09-26T17:49:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "9FxlQXuXxFU",
+      "source_title": "BASH  - USB Credit Card Swiper Script - Code for Magnetic Stripe HID Linux Shell",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=9FxlQXuXxFU",
+      "clip_index": 2,
+      "clip_title": "Extracting credit card info with a simple Bash script",
+      "job_id": "dcd25314-8a81-46c8-a194-8671e831c85f",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab805b10f79a37c5d369c0d",
+        "via": "buffer"
+      },
+      "ts": "2026-09-26T17:49:48"
     }
   ],
   "channels": {
@@ -1191,6 +1245,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-25T18:26:24"
+    },
+    "UCf93fPKwotph47H3_KDcRyg": {
+      "name": "Kris Occhipinti",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-26T17:48:51"
     }
   }
 }
