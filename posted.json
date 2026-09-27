@@ -1159,6 +1159,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-26T17:49:48"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "yW3ovyQCwpw",
+      "source_title": "NVChad - Turn Neovim Into An Awesome IDE",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=yW3ovyQCwpw",
+      "clip_index": 0,
+      "clip_title": "Turn Neovim into a fully featured IDE with this one-liner",
+      "job_id": "d30ec902-aa7b-4d92-a1b3-2dbfdbe17b69",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab95f5070ec211d1d2290d8",
+        "via": "buffer"
+      },
+      "ts": "2026-09-27T18:24:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "yW3ovyQCwpw",
+      "source_title": "NVChad - Turn Neovim Into An Awesome IDE",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=yW3ovyQCwpw",
+      "clip_index": 1,
+      "clip_title": "Master File Navigation in Neovim with NvimTree",
+      "job_id": "d30ec902-aa7b-4d92-a1b3-2dbfdbe17b69",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab95f6043493a0ede99462e",
+        "via": "buffer"
+      },
+      "ts": "2026-09-27T18:24:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "yW3ovyQCwpw",
+      "source_title": "NVChad - Turn Neovim Into An Awesome IDE",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=yW3ovyQCwpw",
+      "clip_index": 2,
+      "clip_title": "Master Vim split window navigation with HJKL and Control",
+      "job_id": "d30ec902-aa7b-4d92-a1b3-2dbfdbe17b69",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ab95f7170ec211d1d229264",
+        "via": "buffer"
+      },
+      "ts": "2026-09-27T18:24:59"
     }
   ],
   "channels": {
@@ -1252,6 +1306,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-09-26T17:48:51"
+    },
+    "UC7YOGHUfC1Tb6E4pudI9STA": {
+      "name": "Mental Outlaw",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-09-27T18:24:10"
     }
   }
 }
