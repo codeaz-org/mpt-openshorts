@@ -1213,6 +1213,60 @@
         "via": "buffer"
       },
       "ts": "2026-09-27T18:24:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6uR-xThSEYo",
+      "source_title": "Everything I Self Host in 2026: The Full List",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=6uR-xThSEYo",
+      "clip_index": 0,
+      "clip_title": "How to Use Kasm Workspaces for Untrackable Ephemeral Browsing",
+      "job_id": "cea8026a-cdcb-4307-9c0c-e1b7ed2a511b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6abad29793a81b612b4e95d5",
+        "via": "buffer"
+      },
+      "ts": "2026-09-28T20:48:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6uR-xThSEYo",
+      "source_title": "Everything I Self Host in 2026: The Full List",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=6uR-xThSEYo",
+      "clip_index": 1,
+      "clip_title": "Automate Proxmox Shutdowns Safely with Your UPS",
+      "job_id": "cea8026a-cdcb-4307-9c0c-e1b7ed2a511b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6abad2aab6b261489582a751",
+        "via": "buffer"
+      },
+      "ts": "2026-09-28T20:48:52"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6uR-xThSEYo",
+      "source_title": "Everything I Self Host in 2026: The Full List",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=6uR-xThSEYo",
+      "clip_index": 2,
+      "clip_title": "How to Manage Your Docker Containers and Services with Homarr",
+      "job_id": "cea8026a-cdcb-4307-9c0c-e1b7ed2a511b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6abad2bd320ca548b4ccba11",
+        "via": "buffer"
+      },
+      "ts": "2026-09-28T20:49:11"
     }
   ],
   "channels": {
@@ -1232,10 +1286,10 @@
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
-      "sources_used": 3,
-      "clips_kept": 9,
+      "sources_used": 4,
+      "clips_kept": 12,
       "clips_rejected": 0,
-      "last_seen": "2026-09-16T18:16:46"
+      "last_seen": "2026-09-28T20:48:15"
     },
     "UCVls1GmFKf6WlTraIb_IaJg": {
       "name": "DistroTube",
