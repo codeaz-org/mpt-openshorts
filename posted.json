@@ -1267,6 +1267,24 @@
         "via": "buffer"
       },
       "ts": "2026-09-28T20:49:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "apZwCXy8E9U",
+      "source_title": "Wubuntu - An Illegal Windows Like Distro",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=apZwCXy8E9U",
+      "clip_index": 0,
+      "clip_title": "Is Paying $35 For WinX Power Tools Registration Worth It?",
+      "job_id": "9d45c7a9-5cf5-4833-bd30-c3d388b881f5",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6abeb6a20d6dc6150ea3df33",
+        "via": "buffer"
+      },
+      "ts": "2026-10-01T19:38:20"
     }
   ],
   "channels": {
@@ -1363,10 +1381,10 @@
     },
     "UC7YOGHUfC1Tb6E4pudI9STA": {
       "name": "Mental Outlaw",
-      "sources_used": 1,
-      "clips_kept": 3,
-      "clips_rejected": 0,
-      "last_seen": "2026-09-27T18:24:10"
+      "sources_used": 2,
+      "clips_kept": 4,
+      "clips_rejected": 2,
+      "last_seen": "2026-10-01T19:38:02"
     }
   }
 }
