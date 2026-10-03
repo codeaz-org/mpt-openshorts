@@ -1285,6 +1285,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-01T19:38:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ob9KYL6g6t4",
+      "source_title": "These 8 GitHub Tools Will Change How You Code in 2026",
+      "source_channel": "AI Tools Quest",
+      "source_url": "https://www.youtube.com/watch?v=Ob9KYL6g6t4",
+      "clip_index": 0,
+      "clip_title": "4 GitHub Tools to Use Before Uploading Your Private Codebase",
+      "job_id": "cb551deb-cfd1-4ee0-9248-b77b635bd9a5",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac1435d3bfd38430fec2136",
+        "via": "buffer"
+      },
+      "ts": "2026-10-03T18:03:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ob9KYL6g6t4",
+      "source_title": "These 8 GitHub Tools Will Change How You Code in 2026",
+      "source_channel": "AI Tools Quest",
+      "source_url": "https://www.youtube.com/watch?v=Ob9KYL6g6t4",
+      "clip_index": 1,
+      "clip_title": "Stop your AI agent from wasting tokens with Codebase Memory MCP",
+      "job_id": "cb551deb-cfd1-4ee0-9248-b77b635bd9a5",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac143703bfd38430fec2440",
+        "via": "buffer"
+      },
+      "ts": "2026-10-03T18:03:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ob9KYL6g6t4",
+      "source_title": "These 8 GitHub Tools Will Change How You Code in 2026",
+      "source_channel": "AI Tools Quest",
+      "source_url": "https://www.youtube.com/watch?v=Ob9KYL6g6t4",
+      "clip_index": 2,
+      "clip_title": "Turn Any GitHub Repository Into AI Context With This One Trick",
+      "job_id": "cb551deb-cfd1-4ee0-9248-b77b635bd9a5",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac143823bfd38430fec26bf",
+        "via": "buffer"
+      },
+      "ts": "2026-10-03T18:03:56"
     }
   ],
   "channels": {
@@ -1385,6 +1439,13 @@
       "clips_kept": 4,
       "clips_rejected": 2,
       "last_seen": "2026-10-01T19:38:02"
+    },
+    "UC709hclecm3T8_3jkRWhG1Q": {
+      "name": "AI Tools Quest",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-03T18:03:00"
     }
   }
 }
