@@ -1339,6 +1339,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-03T18:03:56"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "mnfWprsGwJ8",
+      "source_title": "Running Local AI   Demo and Everything you need to Know!",
+      "source_channel": "The Tech Girl",
+      "source_url": "https://www.youtube.com/watch?v=mnfWprsGwJ8",
+      "clip_index": 0,
+      "clip_title": "How to Run AI Completely Offline",
+      "job_id": "14eb717d-1925-42ea-87bb-8765ee068152",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac2979b63761da98b577ffc",
+        "via": "buffer"
+      },
+      "ts": "2026-10-04T18:15:02"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "mnfWprsGwJ8",
+      "source_title": "Running Local AI   Demo and Everything you need to Know!",
+      "source_channel": "The Tech Girl",
+      "source_url": "https://www.youtube.com/watch?v=mnfWprsGwJ8",
+      "clip_index": 1,
+      "clip_title": "Understanding AI Model Sizes: 4B vs 8B vs 14B vs 70B",
+      "job_id": "14eb717d-1925-42ea-87bb-8765ee068152",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac297adfe1389e4133c0af5",
+        "via": "buffer"
+      },
+      "ts": "2026-10-04T18:15:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "mnfWprsGwJ8",
+      "source_title": "Running Local AI   Demo and Everything you need to Know!",
+      "source_channel": "The Tech Girl",
+      "source_url": "https://www.youtube.com/watch?v=mnfWprsGwJ8",
+      "clip_index": 2,
+      "clip_title": "Stop Paying Monthly for AI: Run Unlimited Local Models Like Qwen 3.5-9b",
+      "job_id": "14eb717d-1925-42ea-87bb-8765ee068152",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac297befe1389e4133c0f68",
+        "via": "buffer"
+      },
+      "ts": "2026-10-04T18:15:37"
     }
   ],
   "channels": {
@@ -1446,6 +1500,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-03T18:03:00"
+    },
+    "UCjzWsRM05uCgkSEELJZWciA": {
+      "name": "The Tech Girl",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-04T18:14:45"
     }
   }
 }
