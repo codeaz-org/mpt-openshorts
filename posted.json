@@ -1393,6 +1393,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-04T18:15:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZeWfksNXlbU",
+      "source_title": "Claude COWORK Clearly Explained (& how to use it for beginners)",
+      "source_channel": "Eliot Prince",
+      "source_url": "https://www.youtube.com/watch?v=ZeWfksNXlbU",
+      "clip_index": 0,
+      "clip_title": "Automatically Organize Files Using AI: Sorting 60 Screenshots in Seconds",
+      "job_id": "6ad4c0d1-0234-4dd3-a947-38615a328964",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac419e55b14a019116bcddf",
+        "via": "buffer"
+      },
+      "ts": "2026-10-05T21:43:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZeWfksNXlbU",
+      "source_title": "Claude COWORK Clearly Explained (& how to use it for beginners)",
+      "source_channel": "Eliot Prince",
+      "source_url": "https://www.youtube.com/watch?v=ZeWfksNXlbU",
+      "clip_index": 1,
+      "clip_title": "How to Use Claude Co-Work to Automatically Organize and Reconcile Messy Invoices",
+      "job_id": "6ad4c0d1-0234-4dd3-a947-38615a328964",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac419f84e17d6a1b2594e04",
+        "via": "buffer"
+      },
+      "ts": "2026-10-05T21:43:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZeWfksNXlbU",
+      "source_title": "Claude COWORK Clearly Explained (& how to use it for beginners)",
+      "source_channel": "Eliot Prince",
+      "source_url": "https://www.youtube.com/watch?v=ZeWfksNXlbU",
+      "clip_index": 2,
+      "clip_title": "How to add 100+ GitHub plugins to Claude AI",
+      "job_id": "6ad4c0d1-0234-4dd3-a947-38615a328964",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac41a0ce8b512ed4f5a2dfe",
+        "via": "buffer"
+      },
+      "ts": "2026-10-05T21:43:51"
     }
   ],
   "channels": {
@@ -1507,6 +1561,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-04T18:14:45"
+    },
+    "UCrEd_gD_cq7GzGSpn892tFg": {
+      "name": "Eliot Prince",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-05T21:42:48"
     }
   }
 }
