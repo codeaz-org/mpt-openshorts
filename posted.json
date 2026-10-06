@@ -1447,6 +1447,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-05T21:43:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bjr0rm93uVA",
+      "source_title": "Basic Setup and Configuring pfsense Firewall Rules For Home",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=bjr0rm93uVA",
+      "clip_index": 0,
+      "clip_title": "How to Secure IoT Cameras with pfSense Network Isolation",
+      "job_id": "5b191d40-b47e-4a01-a047-d1bde7a6e1a0",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac54cbc3f882bac50133b70",
+        "via": "buffer"
+      },
+      "ts": "2026-10-06T19:32:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bjr0rm93uVA",
+      "source_title": "Basic Setup and Configuring pfsense Firewall Rules For Home",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=bjr0rm93uVA",
+      "clip_index": 1,
+      "clip_title": "How to Configure Firewall Rules in pfSense for Enhanced Network Security",
+      "job_id": "5b191d40-b47e-4a01-a047-d1bde7a6e1a0",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac54ccd535ade2f59d10b26",
+        "via": "buffer"
+      },
+      "ts": "2026-10-06T19:32:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bjr0rm93uVA",
+      "source_title": "Basic Setup and Configuring pfsense Firewall Rules For Home",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=bjr0rm93uVA",
+      "clip_index": 2,
+      "clip_title": "Why I use the LTS_TOM network in pfSense for my home office",
+      "job_id": "5b191d40-b47e-4a01-a047-d1bde7a6e1a0",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac54cdf299f8672071c7ea2",
+        "via": "buffer"
+      },
+      "ts": "2026-10-06T19:32:58"
     }
   ],
   "channels": {
@@ -1466,10 +1520,10 @@
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
-      "sources_used": 4,
-      "clips_kept": 12,
+      "sources_used": 5,
+      "clips_kept": 15,
       "clips_rejected": 0,
-      "last_seen": "2026-09-28T20:48:15"
+      "last_seen": "2026-10-06T19:32:05"
     },
     "UCVls1GmFKf6WlTraIb_IaJg": {
       "name": "DistroTube",
