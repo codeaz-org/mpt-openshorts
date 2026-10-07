@@ -1501,6 +1501,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-06T19:32:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3SEAcIEznp0",
+      "source_title": "Stop Using Two PC Cases to Stream (ONE ULTIMATE Dual-System Build)",
+      "source_channel": "The Real Hustler",
+      "source_url": "https://www.youtube.com/watch?v=3SEAcIEznp0",
+      "clip_index": 0,
+      "clip_title": "Installing the Intel Core Ultra 5 into the LGA1851 Socket",
+      "job_id": "ca096eba-7459-499a-9126-88b0e2a84b65",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac6a8d82a8ddf9255cd1c7a",
+        "via": "buffer"
+      },
+      "ts": "2026-10-07T20:17:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3SEAcIEznp0",
+      "source_title": "Stop Using Two PC Cases to Stream (ONE ULTIMATE Dual-System Build)",
+      "source_channel": "The Real Hustler",
+      "source_url": "https://www.youtube.com/watch?v=3SEAcIEznp0",
+      "clip_index": 1,
+      "clip_title": "Installing a 4K Elgato Capture Card and Front Panel Connectors",
+      "job_id": "ca096eba-7459-499a-9126-88b0e2a84b65",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac6a8ebb47a34c6c48ab2fd",
+        "via": "buffer"
+      },
+      "ts": "2026-10-07T20:17:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3SEAcIEznp0",
+      "source_title": "Stop Using Two PC Cases to Stream (ONE ULTIMATE Dual-System Build)",
+      "source_channel": "The Real Hustler",
+      "source_url": "https://www.youtube.com/watch?v=3SEAcIEznp0",
+      "clip_index": 2,
+      "clip_title": "How to Splice Your GPU Water Cooling Loop Without Losing Flow Rate",
+      "job_id": "ca096eba-7459-499a-9126-88b0e2a84b65",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac6a8ff5116513c48a79754",
+        "via": "buffer"
+      },
+      "ts": "2026-10-07T20:18:18"
     }
   ],
   "channels": {
@@ -1622,6 +1676,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-05T21:42:48"
+    },
+    "UCftj4IUKeXshoTheoyQyXLQ": {
+      "name": "The Real Hustler",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-07T20:17:19"
     }
   }
 }
