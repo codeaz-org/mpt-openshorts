@@ -1555,15 +1555,69 @@
         "via": "buffer"
       },
       "ts": "2026-10-07T20:18:18"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zvXUYHyIhVg",
+      "source_title": "I Built a Business in One Weekend With One AI Agent",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=zvXUYHyIhVg",
+      "clip_index": 0,
+      "clip_title": "I Built a Business in One Weekend Using AI",
+      "job_id": "f0655217-a4e5-4c9d-8bad-52bcf41b8389",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac7f4da53e023600017236e",
+        "via": "buffer"
+      },
+      "ts": "2026-10-08T19:54:13"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zvXUYHyIhVg",
+      "source_title": "I Built a Business in One Weekend With One AI Agent",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=zvXUYHyIhVg",
+      "clip_index": 1,
+      "clip_title": "Organize Your Entire Semester in Seconds with Augmentor AI",
+      "job_id": "f0655217-a4e5-4c9d-8bad-52bcf41b8389",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac7f4ed74384ca756d89a69",
+        "via": "buffer"
+      },
+      "ts": "2026-10-08T19:54:31"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zvXUYHyIhVg",
+      "source_title": "I Built a Business in One Weekend With One AI Agent",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=zvXUYHyIhVg",
+      "clip_index": 2,
+      "clip_title": "Converting a Web App to Mobile Using Abacus AI and Opus 5.5",
+      "job_id": "f0655217-a4e5-4c9d-8bad-52bcf41b8389",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac7f4ffe45f6d165ef9d5b5",
+        "via": "buffer"
+      },
+      "ts": "2026-10-08T19:54:50"
     }
   ],
   "channels": {
     "UC9HwoV7VQpDRDXOzviV2DIQ": {
       "name": "Manolo Remiddi",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-08T18:07:51"
+      "last_seen": "2026-10-08T19:53:53"
     },
     "UCUoJk48pujh29p8zLsnD5PQ": {
       "name": "Talking Sasquach",
