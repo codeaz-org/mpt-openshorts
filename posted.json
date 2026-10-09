@@ -1609,6 +1609,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-08T19:54:50"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cRJvXRKBGMM",
+      "source_title": "How Do You Handle A Delete My Data Request? (2026/769)",
+      "source_channel": "Ask Charly Leetham",
+      "source_url": "https://www.youtube.com/watch?v=cRJvXRKBGMM",
+      "clip_index": 0,
+      "clip_title": "How to Safely Process Personal Data Export Requests in WordPress",
+      "job_id": "4f8df4a5-8b80-4903-b88a-9afa114bdb85",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac94775bba9419ccbdcaa93",
+        "via": "buffer"
+      },
+      "ts": "2026-10-09T19:58:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cRJvXRKBGMM",
+      "source_title": "How Do You Handle A Delete My Data Request? (2026/769)",
+      "source_channel": "Ask Charly Leetham",
+      "source_url": "https://www.youtube.com/watch?v=cRJvXRKBGMM",
+      "clip_index": 1,
+      "clip_title": "How to download and view your WordPress personal data export",
+      "job_id": "4f8df4a5-8b80-4903-b88a-9afa114bdb85",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac94786f91f772d456ec5d0",
+        "via": "buffer"
+      },
+      "ts": "2026-10-09T19:59:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cRJvXRKBGMM",
+      "source_title": "How Do You Handle A Delete My Data Request? (2026/769)",
+      "source_channel": "Ask Charly Leetham",
+      "source_url": "https://www.youtube.com/watch?v=cRJvXRKBGMM",
+      "clip_index": 2,
+      "clip_title": "How to erase personal data in WordPress",
+      "job_id": "4f8df4a5-8b80-4903-b88a-9afa114bdb85",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ac94797c4de2d2b1204ce47",
+        "via": "buffer"
+      },
+      "ts": "2026-10-09T19:59:29"
     }
   ],
   "channels": {
@@ -1737,6 +1791,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-07T20:17:19"
+    },
+    "UCyZbv9psPFzdHnJAEkHYDtA": {
+      "name": "Ask Charly Leetham",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-09T19:58:38"
     }
   }
 }
