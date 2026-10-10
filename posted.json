@@ -1663,6 +1663,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-09T19:59:29"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PD_8pMGiORc",
+      "source_title": "Build a Smart RFID Door Lock with VoiceAudio Alerts (Arduino Tutorial)",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=PD_8pMGiORc",
+      "clip_index": 0,
+      "clip_title": "How to wire the RC522 RFID module to an Arduino Uno",
+      "job_id": "2abe18ac-0662-4b58-b587-4d83dc905372",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aca8329c4de2d2b12380379",
+        "via": "buffer"
+      },
+      "ts": "2026-10-10T18:25:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PD_8pMGiORc",
+      "source_title": "Build a Smart RFID Door Lock with VoiceAudio Alerts (Arduino Tutorial)",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=PD_8pMGiORc",
+      "clip_index": 1,
+      "clip_title": "How to wire a 12V Solenoid lock to an Arduino using a Relay Module",
+      "job_id": "2abe18ac-0662-4b58-b587-4d83dc905372",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aca833df91f772d45a22bfe",
+        "via": "buffer"
+      },
+      "ts": "2026-10-10T18:26:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PD_8pMGiORc",
+      "source_title": "Build a Smart RFID Door Lock with VoiceAudio Alerts (Arduino Tutorial)",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=PD_8pMGiORc",
+      "clip_index": 2,
+      "clip_title": "How to Read RFID Card UID Using Arduino and MFRC522",
+      "job_id": "2abe18ac-0662-4b58-b587-4d83dc905372",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aca834fed92ed8fa5dab903",
+        "via": "buffer"
+      },
+      "ts": "2026-10-10T18:26:33"
     }
   ],
   "channels": {
@@ -1724,10 +1778,10 @@
     },
     "UCg000s7WtHV0yps-hQ-SHwA": {
       "name": "Upload Ideas With Itamar",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-21T19:36:25"
+      "last_seen": "2026-10-10T18:25:35"
     },
     "UC1AgWV7PLk_uVDkh35VVf9w": {
       "name": "Kian Brose",
