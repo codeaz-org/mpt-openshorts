@@ -1717,6 +1717,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-10T18:26:33"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ab6ryHD_ahQ",
+      "source_title": "\"Caring about privacy almost ruined my life.\"",
+      "source_channel": "Eric Murphy",
+      "source_url": "https://www.youtube.com/watch?v=Ab6ryHD_ahQ",
+      "clip_index": 0,
+      "clip_title": "The Truth About Privacy Fatigue: Why You Can Never Be Truly Private",
+      "job_id": "c79e972d-c3d1-47ae-85e1-8abfbb707b88",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6acd5c523d6121df4030bf77",
+        "via": "buffer"
+      },
+      "ts": "2026-10-12T22:17:00"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ab6ryHD_ahQ",
+      "source_title": "\"Caring about privacy almost ruined my life.\"",
+      "source_channel": "Eric Murphy",
+      "source_url": "https://www.youtube.com/watch?v=Ab6ryHD_ahQ",
+      "clip_index": 1,
+      "clip_title": "Is it safe to do your banking and investing on the Tor browser?",
+      "job_id": "c79e972d-c3d1-47ae-85e1-8abfbb707b88",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6acd5c629f22b96ae7e50e82",
+        "via": "buffer"
+      },
+      "ts": "2026-10-12T22:17:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ab6ryHD_ahQ",
+      "source_title": "\"Caring about privacy almost ruined my life.\"",
+      "source_channel": "Eric Murphy",
+      "source_url": "https://www.youtube.com/watch?v=Ab6ryHD_ahQ",
+      "clip_index": 2,
+      "clip_title": "How to care about online privacy without going insane",
+      "job_id": "c79e972d-c3d1-47ae-85e1-8abfbb707b88",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6acd5c745462be2e90276440",
+        "via": "buffer"
+      },
+      "ts": "2026-10-12T22:17:34"
     }
   ],
   "channels": {
@@ -1792,10 +1846,10 @@
     },
     "UC5KDiSAFxrDWhmysBcNqtMA": {
       "name": "Eric Murphy",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-24T18:30:41"
+      "last_seen": "2026-10-12T22:16:42"
     },
     "UCuQgR7PR43SDj_2ZGPuTlSw": {
       "name": "Nix Vegas",
