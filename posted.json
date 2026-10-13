@@ -1771,6 +1771,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-12T22:17:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ChG_dJLkMTY",
+      "source_title": "ESP32 Breadboard Basics: External LED, Push Button & If/Else Logic",
+      "source_channel": "GO Where The Toes Go",
+      "source_url": "https://www.youtube.com/watch?v=ChG_dJLkMTY",
+      "clip_index": 0,
+      "clip_title": "How to Debug ESP32 Button Input with VS Code Terminal",
+      "job_id": "8764bf8c-c275-4f0c-9bc7-6be97b41972a",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ace95ec7421bce705946de6",
+        "via": "buffer"
+      },
+      "ts": "2026-10-13T20:35:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ChG_dJLkMTY",
+      "source_title": "ESP32 Breadboard Basics: External LED, Push Button & If/Else Logic",
+      "source_channel": "GO Where The Toes Go",
+      "source_url": "https://www.youtube.com/watch?v=ChG_dJLkMTY",
+      "clip_index": 1,
+      "clip_title": "How to Properly Mount a Button Switch on an ESP32 Breadboard",
+      "job_id": "8764bf8c-c275-4f0c-9bc7-6be97b41972a",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ace95ff1044e5796a6a2a0f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-13T20:35:21"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ChG_dJLkMTY",
+      "source_title": "ESP32 Breadboard Basics: External LED, Push Button & If/Else Logic",
+      "source_channel": "GO Where The Toes Go",
+      "source_url": "https://www.youtube.com/watch?v=ChG_dJLkMTY",
+      "clip_index": 2,
+      "clip_title": "Why Your LED Isn't Turning On (Fixed!)",
+      "job_id": "8764bf8c-c275-4f0c-9bc7-6be97b41972a",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ace961348ff980feab253c2",
+        "via": "buffer"
+      },
+      "ts": "2026-10-13T20:35:41"
     }
   ],
   "channels": {
@@ -1906,6 +1960,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-09T19:58:38"
+    },
+    "UCorIKMKL_F4KY3ESsYRRC1w": {
+      "name": "GO Where The Toes Go",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-13T20:34:43"
     }
   }
 }
