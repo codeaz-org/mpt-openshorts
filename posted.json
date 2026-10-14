@@ -1825,6 +1825,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-13T20:35:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LSAvE7mKCSQ",
+      "source_title": "Top 6 Best Electric Screwdriver For PC Building 2026!",
+      "source_channel": "PowerGearsPro",
+      "source_url": "https://www.youtube.com/watch?v=LSAvE7mKCSQ",
+      "clip_index": 0,
+      "clip_title": "The Swiss Army Knife of PC Building Tools",
+      "job_id": "a20a0e7c-348d-49a2-98e5-bcd928958b03",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6acfd411199c0449d73b4e86",
+        "via": "buffer"
+      },
+      "ts": "2026-10-14T19:12:27"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LSAvE7mKCSQ",
+      "source_title": "Top 6 Best Electric Screwdriver For PC Building 2026!",
+      "source_channel": "PowerGearsPro",
+      "source_url": "https://www.youtube.com/watch?v=LSAvE7mKCSQ",
+      "clip_index": 1,
+      "clip_title": "Why the DeWALT FlexDrive is a game changer for PC building",
+      "job_id": "a20a0e7c-348d-49a2-98e5-bcd928958b03",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6acfd46d199c0449d73b57d6",
+        "via": "buffer"
+      },
+      "ts": "2026-10-14T19:13:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LSAvE7mKCSQ",
+      "source_title": "Top 6 Best Electric Screwdriver For PC Building 2026!",
+      "source_channel": "PowerGearsPro",
+      "source_url": "https://www.youtube.com/watch?v=LSAvE7mKCSQ",
+      "clip_index": 2,
+      "clip_title": "Why The Amire Cordless Screwdriver Is A Must-Have For PC Builders",
+      "job_id": "a20a0e7c-348d-49a2-98e5-bcd928958b03",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6acfd50ba94addd88cd19f0f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-14T19:16:37"
     }
   ],
   "channels": {
@@ -1967,6 +2021,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-13T20:34:43"
+    },
+    "UCYii0nAt48CQgKWFK7AyeBg": {
+      "name": "PowerGearsPro",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-14T19:11:02"
     }
   }
 }
