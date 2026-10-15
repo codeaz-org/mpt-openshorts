@@ -1879,6 +1879,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-14T19:16:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "wgRwITQHszU",
+      "source_title": "Installing MySQL and Creating Databases | MySQL for Beginners",
+      "source_channel": "Alex The Analyst",
+      "source_url": "https://www.youtube.com/watch?v=wgRwITQHszU",
+      "clip_index": 0,
+      "clip_title": "How to execute specific SQL queries in MySQL Workbench",
+      "job_id": "eb68f38b-a642-4554-840a-84642e0e93db",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad118410d0594a866c6c56a",
+        "via": "buffer"
+      },
+      "ts": "2026-10-15T18:15:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "wgRwITQHszU",
+      "source_title": "Installing MySQL and Creating Databases | MySQL for Beginners",
+      "source_channel": "Alex The Analyst",
+      "source_url": "https://www.youtube.com/watch?v=wgRwITQHszU",
+      "clip_index": 1,
+      "clip_title": "How to execute SQL scripts and populate your MySQL database",
+      "job_id": "eb68f38b-a642-4554-840a-84642e0e93db",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad11853cc4d8570370d375f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-15T18:15:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "wgRwITQHszU",
+      "source_title": "Installing MySQL and Creating Databases | MySQL for Beginners",
+      "source_channel": "Alex The Analyst",
+      "source_url": "https://www.youtube.com/watch?v=wgRwITQHszU",
+      "clip_index": 2,
+      "clip_title": "How to Properly Install and Configure MySQL Server 8.0.32",
+      "job_id": "eb68f38b-a642-4554-840a-84642e0e93db",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad118664313e4161eac97a9",
+        "via": "buffer"
+      },
+      "ts": "2026-10-15T18:16:16"
     }
   ],
   "channels": {
@@ -2028,6 +2082,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-14T19:11:02"
+    },
+    "UC7cs8q-gJRlGwj4A8OmCmXg": {
+      "name": "Alex The Analyst",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-15T18:15:22"
     }
   }
 }
