@@ -1933,6 +1933,68 @@
         "via": "buffer"
       },
       "ts": "2026-10-15T18:16:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "dQG2oHp-4Qw",
+      "source_title": "I Tested the High Boy : Is It the Next Flipper Zero?",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 60454d94-8547-4a76-9c1f-2949f70753b0 failed: raise RuntimeError( | RuntimeError: Clip detection failed \u2014 the AI model did not return usable clips for this video. | Process failed with exit code 1",
+      "ts": "2026-10-16T18:02:14"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "iA5UCVDKe_Y",
+      "source_title": "Viewer Submitted Script for PDF Conversions",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=iA5UCVDKe_Y",
+      "clip_index": 0,
+      "clip_title": "Why you should never run code from the internet blindly",
+      "job_id": "3787124d-2090-4a08-bc77-330dc6679c07",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad268e4c5dca815991af9e0",
+        "via": "buffer"
+      },
+      "ts": "2026-10-16T18:11:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "iA5UCVDKe_Y",
+      "source_title": "Viewer Submitted Script for PDF Conversions",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=iA5UCVDKe_Y",
+      "clip_index": 1,
+      "clip_title": "Convert HTML to PDF using a simple bash script",
+      "job_id": "3787124d-2090-4a08-bc77-330dc6679c07",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad268f7c5dca815991afe9e",
+        "via": "buffer"
+      },
+      "ts": "2026-10-16T18:12:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "iA5UCVDKe_Y",
+      "source_title": "Viewer Submitted Script for PDF Conversions",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=iA5UCVDKe_Y",
+      "clip_index": 2,
+      "clip_title": "Bash script tips for cleaner code",
+      "job_id": "3787124d-2090-4a08-bc77-330dc6679c07",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad26909b54530c2c99cfb1e",
+        "via": "buffer"
+      },
+      "ts": "2026-10-16T18:12:35"
     }
   ],
   "channels": {
@@ -2022,10 +2084,10 @@
     },
     "UCf93fPKwotph47H3_KDcRyg": {
       "name": "Kris Occhipinti",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-26T17:48:51"
+      "last_seen": "2026-10-16T18:11:39"
     },
     "UC7YOGHUfC1Tb6E4pudI9STA": {
       "name": "Mental Outlaw",
