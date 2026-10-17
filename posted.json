@@ -1995,6 +1995,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-16T18:12:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6B2V8MqI8Vc",
+      "source_title": "Claude Code + HeyGen = Content Creation CHEAT CODE!",
+      "source_channel": "Duncan Rogoff | Learn Claude Code",
+      "source_url": "https://www.youtube.com/watch?v=6B2V8MqI8Vc",
+      "clip_index": 0,
+      "clip_title": "How to Build a Custom Claude AI Pipeline for Authentic Content Creation",
+      "job_id": "c40d06f2-de45-4319-b78f-d231d38e6dd2",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad3aba3e272c4918f950a44",
+        "via": "buffer"
+      },
+      "ts": "2026-10-17T17:09:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6B2V8MqI8Vc",
+      "source_title": "Claude Code + HeyGen = Content Creation CHEAT CODE!",
+      "source_channel": "Duncan Rogoff | Learn Claude Code",
+      "source_url": "https://www.youtube.com/watch?v=6B2V8MqI8Vc",
+      "clip_index": 1,
+      "clip_title": "Why Your AI Content Is Invisible (And How To Fix It)",
+      "job_id": "c40d06f2-de45-4319-b78f-d231d38e6dd2",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad3abb6769b457934898087",
+        "via": "buffer"
+      },
+      "ts": "2026-10-17T17:09:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6B2V8MqI8Vc",
+      "source_title": "Claude Code + HeyGen = Content Creation CHEAT CODE!",
+      "source_channel": "Duncan Rogoff | Learn Claude Code",
+      "source_url": "https://www.youtube.com/watch?v=6B2V8MqI8Vc",
+      "clip_index": 2,
+      "clip_title": "How to Use AI Research to Build a Viral 30-Second Video Template",
+      "job_id": "c40d06f2-de45-4319-b78f-d231d38e6dd2",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad3abca0a208cb3232eacf8",
+        "via": "buffer"
+      },
+      "ts": "2026-10-17T17:09:41"
     }
   ],
   "channels": {
@@ -2151,6 +2205,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-15T18:15:22"
+    },
+    "UC37JpWP5PxLSma2lh79HU9A": {
+      "name": "Duncan Rogoff | Learn Claude Code",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-17T17:08:41"
     }
   }
 }
