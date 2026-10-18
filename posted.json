@@ -2049,6 +2049,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-17T17:09:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N2dbyFddcIs",
+      "source_title": "Ubuntu Will Replace GNU Core Utilities With Rust",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=N2dbyFddcIs",
+      "clip_index": 0,
+      "clip_title": "Ubuntu Is Replacing Core Linux Utilities With Rust",
+      "job_id": "2c7656e2-1e0e-4b66-9485-1f603637692b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad50659ae173d6e00111944",
+        "via": "buffer"
+      },
+      "ts": "2026-10-18T17:48:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N2dbyFddcIs",
+      "source_title": "Ubuntu Will Replace GNU Core Utilities With Rust",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=N2dbyFddcIs",
+      "clip_index": 1,
+      "clip_title": "Uutils Sort vs GNU Sort: Live Benchmark at FOSDEM 25",
+      "job_id": "2c7656e2-1e0e-4b66-9485-1f603637692b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad5066ca48c8f8371aa8c5b",
+        "via": "buffer"
+      },
+      "ts": "2026-10-18T17:48:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N2dbyFddcIs",
+      "source_title": "Ubuntu Will Replace GNU Core Utilities With Rust",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=N2dbyFddcIs",
+      "clip_index": 2,
+      "clip_title": "How Intel Secretly Used MINIX in Their Management Engine",
+      "job_id": "2c7656e2-1e0e-4b66-9485-1f603637692b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad50682938409f1d0df2c2c",
+        "via": "buffer"
+      },
+      "ts": "2026-10-18T17:49:01"
     }
   ],
   "channels": {
@@ -2145,10 +2199,10 @@
     },
     "UC7YOGHUfC1Tb6E4pudI9STA": {
       "name": "Mental Outlaw",
-      "sources_used": 2,
-      "clips_kept": 4,
+      "sources_used": 3,
+      "clips_kept": 7,
       "clips_rejected": 2,
-      "last_seen": "2026-10-01T19:38:02"
+      "last_seen": "2026-10-18T17:47:51"
     },
     "UC709hclecm3T8_3jkRWhG1Q": {
       "name": "AI Tools Quest",
