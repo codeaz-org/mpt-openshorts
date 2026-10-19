@@ -2103,6 +2103,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-18T17:49:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "sMEkx0D22Q4",
+      "source_title": "Can PikaOS Replace Windows for Good?",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=sMEkx0D22Q4",
+      "clip_index": 0,
+      "clip_title": "Halo Infinite Competitive Gameplay on PicaOS: Testing Performance and Latency",
+      "job_id": "f519f166-55a8-49dc-bd72-5658f57600db",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad67f3a6bdc031c4ce36a91",
+        "via": "buffer"
+      },
+      "ts": "2026-10-19T20:36:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "sMEkx0D22Q4",
+      "source_title": "Can PikaOS Replace Windows for Good?",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=sMEkx0D22Q4",
+      "clip_index": 1,
+      "clip_title": "Hogwarts Legacy pe Linux: Performan\u021b\u0103 stabil\u0103 la peste 100 FPS",
+      "job_id": "f519f166-55a8-49dc-bd72-5658f57600db",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad67f589060b48b23bc0c7a",
+        "via": "buffer"
+      },
+      "ts": "2026-10-19T20:36:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "sMEkx0D22Q4",
+      "source_title": "Can PikaOS Replace Windows for Good?",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=sMEkx0D22Q4",
+      "clip_index": 2,
+      "clip_title": "Performan\u021ba Tom Clancy's The Division 2 pe Linux testat\u0103 la 135 FPS",
+      "job_id": "f519f166-55a8-49dc-bd72-5658f57600db",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad67f716bdc031c4ce37343",
+        "via": "buffer"
+      },
+      "ts": "2026-10-19T20:37:15"
     }
   ],
   "channels": {
@@ -2266,6 +2320,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-17T17:08:41"
+    },
+    "UC7txXhmfldON1qREhxMGNXA": {
+      "name": "Linux Network",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-19T20:34:10"
     }
   }
 }
