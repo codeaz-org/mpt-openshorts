@@ -2157,6 +2157,126 @@
         "via": "buffer"
       },
       "ts": "2026-10-19T20:37:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PDmAvZKtqq8",
+      "source_title": "The AI Music Tech Takeover: Emulators, Hacks, and Vibe Coding",
+      "source_channel": "J\u00fcrgen Mo\u00dfgraber",
+      "error": "Job ae6fba15-3949-4327-8d52-fc79a89a6236 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T18:36:13"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "hKGPH9C-EFc",
+      "source_title": "Setting Up the Perfect Developer Environment on Linux for 2025",
+      "source_channel": "CodeOps HQ",
+      "error": "Job e3858719-90a7-40be-94cf-9bdf324d1835 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T18:41:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7w8eRWnUUA8",
+      "source_title": "Jev and Herdr: The Best Way to Route Models (Must-Try Workflow)",
+      "source_channel": "Nidhi Singh",
+      "error": "Job 829772ba-43bd-498a-9341-fe2e32a3a9c8 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T18:46:25"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "JpQXj8Skm5Y",
+      "source_title": "POV: Using Kali Linux to hack a vulnerable Web App",
+      "source_channel": "Declan Middleton",
+      "error": "Job 093cd844-1b02-428a-94a3-1ba62e98a3b6 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T18:51:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "i16PHb8EagE",
+      "source_title": "A.I. Bots Have Taken Over Our Lives",
+      "source_channel": "DistroTube",
+      "error": "Job f5ecb6f0-cb02-4252-9b50-cf645dca23e0 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T18:56:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Hr2ARNsKwHA",
+      "source_title": "Art Craft Cloned Adobe Creative Cloud and Made it Open Source",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 15c0c98e-4957-4626-96bb-eecc1b4bab06 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:01:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "KWrDbuPDzyY",
+      "source_title": "I Added 50+ Updates to My DIY Surveillance Detector",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 19cc31a2-8073-4148-8e8b-6776b4cbb466 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:06:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "W5xU4xSWaC4",
+      "source_title": "Building an Arduino Uno R3 Ultrasonic Radar Scanning Detector with HC-SR04 and Sensor Shield V.05",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 85f0a247-d8fa-4c5a-a1c7-2839c1616b97 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:12:05"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "qRvK2t4EwMg",
+      "source_title": "Finishing the Ultimate ThinkPad",
+      "source_channel": "Ionic1k",
+      "error": "Job d51db30f-c7cf-4402-b662-1e810a9a0edc failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:17:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "UyheS8lTbyc",
+      "source_title": "Flipper One is in Trouble: Meet the FreeWilli 2",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 08e5329e-2a59-452b-aa17-226f2ebb57ae failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:22:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "CbMbGV9GT8I",
+      "source_title": "8 Command Line Tools that will Change Your Terminal Experience",
+      "source_channel": "Seth Phaeno",
+      "error": "Job df985070-2e05-4fa1-93e2-60abf80e0bb4 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:27:24"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "aZYvyy_R4jU",
+      "source_title": "My Ethical Hacker EDC: Every Gadget I Actually Carry",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 939bf9ca-56b0-4571-862a-38d6d0e2ce8a failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:32:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "oTsXNxMapj8",
+      "source_title": "Farid Zakaria - Guix by Nix: Stealing an entire distro's bootstrap, one .drv at a time",
+      "source_channel": "Nix Vegas",
+      "error": "Job 18cb2a77-e9b5-4651-9d7f-47ded1bb2514 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:37:49"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "i_T9ARBP3nw",
+      "source_title": "F-Droid 2.0 - The Biggest Update In Years",
+      "source_channel": "Mental Outlaw",
+      "error": "Job e58ffed0-f802-429e-9f64-705594fafa87 failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:42:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "NHpgyOU7T64",
+      "source_title": "ESP32-S3 + INMP441 I2S Microphone: Ultimate Audio Guide & Wiring",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job a371af40-87ca-4c76-b15e-2938288ed4fe failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
+      "ts": "2026-10-20T19:48:03"
     }
   ],
   "channels": {
