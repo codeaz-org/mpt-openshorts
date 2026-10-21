@@ -2277,6 +2277,60 @@
       "source_channel": "Upload Ideas With Itamar",
       "error": "Job a371af40-87ca-4c76-b15e-2938288ed4fe failed: raise DownloadError(message, exc_info) | yt_dlp.utils.DownloadError: ERROR: \r[download] Got error: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1016). Giving up after 10 retries | Process failed with exit code 1",
       "ts": "2026-10-20T19:48:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nusNLswIXEs",
+      "source_title": "I Let an AI Reverse Engineer Notion, Here's What It Found | Reverse Engineer Anything REA Explained",
+      "source_channel": "SuperUzer",
+      "source_url": "https://www.youtube.com/watch?v=nusNLswIXEs",
+      "clip_index": 0,
+      "clip_title": "How REA Reverse Engineers Any App Without Source Code",
+      "job_id": "da4407a3-11bf-4b35-93dd-c3681eb9d1c2",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad90be74a56e83620dc6a0f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-21T19:01:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nusNLswIXEs",
+      "source_title": "I Let an AI Reverse Engineer Notion, Here's What It Found | Reverse Engineer Anything REA Explained",
+      "source_channel": "SuperUzer",
+      "source_url": "https://www.youtube.com/watch?v=nusNLswIXEs",
+      "clip_index": 1,
+      "clip_title": "What happens when you click 'Copy' in Notion?",
+      "job_id": "da4407a3-11bf-4b35-93dd-c3681eb9d1c2",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad90c0aeaafbeb8d21188fe",
+        "via": "buffer"
+      },
+      "ts": "2026-10-21T19:01:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nusNLswIXEs",
+      "source_title": "I Let an AI Reverse Engineer Notion, Here's What It Found | Reverse Engineer Anything REA Explained",
+      "source_channel": "SuperUzer",
+      "source_url": "https://www.youtube.com/watch?v=nusNLswIXEs",
+      "clip_index": 2,
+      "clip_title": "The Dangerous Fake Version of this Viral AI Tool",
+      "job_id": "da4407a3-11bf-4b35-93dd-c3681eb9d1c2",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ad90c2dbffa7c22bb7aa1f8",
+        "via": "buffer"
+      },
+      "ts": "2026-10-21T19:02:16"
     }
   ],
   "channels": {
@@ -2447,6 +2501,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-19T20:34:10"
+    },
+    "UCxIRBSD4f1dbeqVqsykAQXg": {
+      "name": "SuperUzer",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-21T19:00:05"
     }
   }
 }
