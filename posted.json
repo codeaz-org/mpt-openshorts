@@ -2331,6 +2331,68 @@
         "via": "buffer"
       },
       "ts": "2026-10-21T19:02:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "87F0KdqDXwQ",
+      "source_title": "The Forgotten Distro",
+      "source_channel": "YouTux Channel",
+      "error": "Job b4b12dea-247d-40a3-9fcd-22f09d1fc0b2 failed: raise RuntimeError( | RuntimeError: Clip detection failed \u2014 the AI model did not return usable clips for this video. | Process failed with exit code 1",
+      "ts": "2026-10-22T18:26:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "n3_sMAAERwo",
+      "source_title": "The Dark Webs Most Popular Forum Got Hacked",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=n3_sMAAERwo",
+      "clip_index": 0,
+      "clip_title": "How a Drug Habit Took Down the Dark Web's Reddit",
+      "job_id": "909e94ae-0591-4c27-8e75-592e6253e4b8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ada59ee77984f39b2b24bbb",
+        "via": "buffer"
+      },
+      "ts": "2026-10-22T18:46:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "n3_sMAAERwo",
+      "source_title": "The Dark Webs Most Popular Forum Got Hacked",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=n3_sMAAERwo",
+      "clip_index": 1,
+      "clip_title": "AI is Now Writing Dark Web Forums",
+      "job_id": "909e94ae-0591-4c27-8e75-592e6253e4b8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ada5a00ca69a1b7d3d0d43a",
+        "via": "buffer"
+      },
+      "ts": "2026-10-22T18:46:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "n3_sMAAERwo",
+      "source_title": "The Dark Webs Most Popular Forum Got Hacked",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=n3_sMAAERwo",
+      "clip_index": 2,
+      "clip_title": "The Dark Web's New Cyberwar",
+      "job_id": "909e94ae-0591-4c27-8e75-592e6253e4b8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ada5a1177984f39b2b250b3",
+        "via": "buffer"
+      },
+      "ts": "2026-10-22T18:46:51"
     }
   ],
   "channels": {
@@ -2427,10 +2489,10 @@
     },
     "UC7YOGHUfC1Tb6E4pudI9STA": {
       "name": "Mental Outlaw",
-      "sources_used": 3,
-      "clips_kept": 7,
+      "sources_used": 4,
+      "clips_kept": 10,
       "clips_rejected": 2,
-      "last_seen": "2026-10-18T17:47:51"
+      "last_seen": "2026-10-22T18:46:00"
     },
     "UC709hclecm3T8_3jkRWhG1Q": {
       "name": "AI Tools Quest",
