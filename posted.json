@@ -2393,6 +2393,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-22T18:46:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "S61lbhaiP2E",
+      "source_title": "Building a NAS with Parts From My Gaming PC : Watch What Works and What Doesn't",
+      "source_channel": "Mackey Tech",
+      "source_url": "https://www.youtube.com/watch?v=S61lbhaiP2E",
+      "clip_index": 0,
+      "clip_title": "Converting my Ryzen 7 5800X Gaming PC into a Dedicated NAS Test Bench",
+      "job_id": "aee4b0da-1840-4a64-a1ca-60aa09ea96da",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6adba63c8b3d437ddc7e7891",
+        "via": "buffer"
+      },
+      "ts": "2026-10-23T18:24:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "S61lbhaiP2E",
+      "source_title": "Building a NAS with Parts From My Gaming PC : Watch What Works and What Doesn't",
+      "source_channel": "Mackey Tech",
+      "source_url": "https://www.youtube.com/watch?v=S61lbhaiP2E",
+      "clip_index": 1,
+      "clip_title": "How to Add 8 Hard Drives Using an HBA Card",
+      "job_id": "aee4b0da-1840-4a64-a1ca-60aa09ea96da",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6adba64f9acae620d8118257",
+        "via": "buffer"
+      },
+      "ts": "2026-10-23T18:24:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "S61lbhaiP2E",
+      "source_title": "Building a NAS with Parts From My Gaming PC : Watch What Works and What Doesn't",
+      "source_channel": "Mackey Tech",
+      "source_url": "https://www.youtube.com/watch?v=S61lbhaiP2E",
+      "clip_index": 2,
+      "clip_title": "How to Check Drive Health in TrueNAS Using smartctl",
+      "job_id": "aee4b0da-1840-4a64-a1ca-60aa09ea96da",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6adba6619acae620d811881c",
+        "via": "buffer"
+      },
+      "ts": "2026-10-23T18:24:44"
     }
   ],
   "channels": {
@@ -2570,6 +2624,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-21T19:00:05"
+    },
+    "UCbRly0JoGWZJaqaw0juOcQg": {
+      "name": "Mackey Tech",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-23T18:23:47"
     }
   }
 }
