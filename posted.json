@@ -2447,6 +2447,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-23T18:24:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jQi02L46kvA",
+      "source_title": "Master the WiFi Pineapple Pager: Ultimate Beginner's Guide",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=jQi02L46kvA",
+      "clip_index": 0,
+      "clip_title": "The most satisfying part of unboxing the WiFi Pineapple Pager",
+      "job_id": "76c65778-5e82-4ae5-a976-e836421187cc",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ade42273d5b27036be570f3",
+        "via": "buffer"
+      },
+      "ts": "2026-10-25T17:53:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jQi02L46kvA",
+      "source_title": "Master the WiFi Pineapple Pager: Ultimate Beginner's Guide",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=jQi02L46kvA",
+      "clip_index": 1,
+      "clip_title": "This hacking pager sounds like a Geiger counter",
+      "job_id": "76c65778-5e82-4ae5-a976-e836421187cc",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ade423d6887a2efc1194da4",
+        "via": "buffer"
+      },
+      "ts": "2026-10-25T17:54:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jQi02L46kvA",
+      "source_title": "Master the WiFi Pineapple Pager: Ultimate Beginner's Guide",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=jQi02L46kvA",
+      "clip_index": 2,
+      "clip_title": "How to unlock secret developer mode on the Pineapple Pager",
+      "job_id": "76c65778-5e82-4ae5-a976-e836421187cc",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ade42536887a2efc11952e8",
+        "via": "buffer"
+      },
+      "ts": "2026-10-25T17:54:38"
     }
   ],
   "channels": {
@@ -2459,10 +2513,10 @@
     },
     "UCUoJk48pujh29p8zLsnD5PQ": {
       "name": "Talking Sasquach",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-11T17:55:06"
+      "last_seen": "2026-10-25T17:53:33"
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
