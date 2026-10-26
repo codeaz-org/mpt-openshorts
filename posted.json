@@ -2501,6 +2501,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-25T17:54:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bGhAPOg7ZCg",
+      "source_title": "Claude Mods are Game Changers if you make Websites. Set Up these 3 Now!",
+      "source_channel": "Yuri Souza",
+      "source_url": "https://www.youtube.com/watch?v=bGhAPOg7ZCg",
+      "clip_index": 0,
+      "clip_title": "Stop Claude from deleting your files with this simple mod",
+      "job_id": "0a10acf9-8776-4670-a2bc-338b17b3b3e9",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6adfb3240988d5affea06fd0",
+        "via": "buffer"
+      },
+      "ts": "2026-10-26T20:08:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bGhAPOg7ZCg",
+      "source_title": "Claude Mods are Game Changers if you make Websites. Set Up these 3 Now!",
+      "source_channel": "Yuri Souza",
+      "source_url": "https://www.youtube.com/watch?v=bGhAPOg7ZCg",
+      "clip_index": 1,
+      "clip_title": "How to build a custom Privacy Mode mod for Claude Code",
+      "job_id": "0a10acf9-8776-4670-a2bc-338b17b3b3e9",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6adfb3360988d5affea07691",
+        "via": "buffer"
+      },
+      "ts": "2026-10-26T20:08:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bGhAPOg7ZCg",
+      "source_title": "Claude Mods are Game Changers if you make Websites. Set Up these 3 Now!",
+      "source_channel": "Yuri Souza",
+      "source_url": "https://www.youtube.com/watch?v=bGhAPOg7ZCg",
+      "clip_index": 2,
+      "clip_title": "Get a human-readable change report from Claude AI",
+      "job_id": "0a10acf9-8776-4670-a2bc-338b17b3b3e9",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6adfb3472f2faff70b783c5f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-26T20:08:49"
     }
   ],
   "channels": {
@@ -2685,6 +2739,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-10-23T18:23:47"
+    },
+    "UCozD7Ixle3TlbxWemsU_Gsw": {
+      "name": "Yuri Souza",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-10-26T20:07:57"
     }
   }
 }
