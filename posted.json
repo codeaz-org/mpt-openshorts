@@ -2555,6 +2555,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-26T20:08:49"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "DfUZWxiD6lw",
+      "source_title": "MFRC522 RFID with ESP32: Control LEDs & Access Control Tutorial",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=DfUZWxiD6lw",
+      "clip_index": 0,
+      "clip_title": "How to Build an RFID Access Control System with MFRC522",
+      "job_id": "6635df06-599b-41ac-9547-f32e35438102",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae0fc53dec875ec9586417f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-27T19:32:45"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "DfUZWxiD6lw",
+      "source_title": "MFRC522 RFID with ESP32: Control LEDs & Access Control Tutorial",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=DfUZWxiD6lw",
+      "clip_index": 1,
+      "clip_title": "How to Connect an RC522 RFID Module to an ESP32 Microcontroller",
+      "job_id": "6635df06-599b-41ac-9547-f32e35438102",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae0fc65dec875ec9586453b",
+        "via": "buffer"
+      },
+      "ts": "2026-10-27T19:33:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "DfUZWxiD6lw",
+      "source_title": "MFRC522 RFID with ESP32: Control LEDs & Access Control Tutorial",
+      "source_channel": "Upload Ideas With Itamar",
+      "source_url": "https://www.youtube.com/watch?v=DfUZWxiD6lw",
+      "clip_index": 2,
+      "clip_title": "How to wire blue and red LEDs to ESP32 GPIO pins",
+      "job_id": "6635df06-599b-41ac-9547-f32e35438102",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae0fc78e8126ef6141ec610",
+        "via": "buffer"
+      },
+      "ts": "2026-10-27T19:33:22"
     }
   ],
   "channels": {
@@ -2616,10 +2670,10 @@
     },
     "UCg000s7WtHV0yps-hQ-SHwA": {
       "name": "Upload Ideas With Itamar",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-10-10T18:25:35"
+      "last_seen": "2026-10-27T19:32:26"
     },
     "UC1AgWV7PLk_uVDkh35VVf9w": {
       "name": "Kian Brose",
