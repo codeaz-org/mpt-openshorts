@@ -2609,6 +2609,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-27T19:33:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "htYsFg2RSJY",
+      "source_title": "Can a $30 Cyberdeck Beat a $500 Rig",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=htYsFg2RSJY",
+      "clip_index": 0,
+      "clip_title": "Exploring this powerful CM5 handheld cyberdeck",
+      "job_id": "e431bdc9-df8a-4c44-806d-ad8bd7a81c14",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae24fec787994b522796783",
+        "via": "buffer"
+      },
+      "ts": "2026-10-28T19:41:42"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "htYsFg2RSJY",
+      "source_title": "Can a $30 Cyberdeck Beat a $500 Rig",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=htYsFg2RSJY",
+      "clip_index": 1,
+      "clip_title": "Hands on with the Pi Flux cyberdeck and FreeWill from Defcon",
+      "job_id": "e431bdc9-df8a-4c44-806d-ad8bd7a81c14",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae25007317f77fea415c2d7",
+        "via": "buffer"
+      },
+      "ts": "2026-10-28T19:42:10"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "htYsFg2RSJY",
+      "source_title": "Can a $30 Cyberdeck Beat a $500 Rig",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=htYsFg2RSJY",
+      "clip_index": 2,
+      "clip_title": "Fixing my uConsole: Screen peels and faceplate swaps",
+      "job_id": "e431bdc9-df8a-4c44-806d-ad8bd7a81c14",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae25026317f77fea415c9d8",
+        "via": "buffer"
+      },
+      "ts": "2026-10-28T19:42:40"
     }
   ],
   "channels": {
@@ -2621,10 +2675,10 @@
     },
     "UCUoJk48pujh29p8zLsnD5PQ": {
       "name": "Talking Sasquach",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-10-25T17:53:33"
+      "last_seen": "2026-10-28T19:41:17"
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
