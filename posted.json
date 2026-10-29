@@ -2663,15 +2663,69 @@
         "via": "buffer"
       },
       "ts": "2026-10-28T19:42:40"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N00of-7uIzo",
+      "source_title": "An RTX 5090 Mobile Inside My Personal AI Cloud - Olares One",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=N00of-7uIzo",
+      "clip_index": 0,
+      "clip_title": "How to Fix Remote Desktop Lag: A Speed Test with Remina",
+      "job_id": "e5cb5f6b-da5b-4a65-85b2-d1e2677a1ef1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae3a1d1a50b3f7a41930bcf",
+        "via": "buffer"
+      },
+      "ts": "2026-10-29T19:43:23"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N00of-7uIzo",
+      "source_title": "An RTX 5090 Mobile Inside My Personal AI Cloud - Olares One",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=N00of-7uIzo",
+      "clip_index": 1,
+      "clip_title": "Testing Augmentor Agent Speed: 53.3 Tokens Per Second",
+      "job_id": "e5cb5f6b-da5b-4a65-85b2-d1e2677a1ef1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae3a1e3be6b4bd5b62e5537",
+        "via": "buffer"
+      },
+      "ts": "2026-10-29T19:43:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N00of-7uIzo",
+      "source_title": "An RTX 5090 Mobile Inside My Personal AI Cloud - Olares One",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=N00of-7uIzo",
+      "clip_index": 2,
+      "clip_title": "Watching an AI Agent Research the Olares One Desktop Specs",
+      "job_id": "e5cb5f6b-da5b-4a65-85b2-d1e2677a1ef1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae3a1f598c11c76e375b483",
+        "via": "buffer"
+      },
+      "ts": "2026-10-29T19:43:59"
     }
   ],
   "channels": {
     "UC9HwoV7VQpDRDXOzviV2DIQ": {
       "name": "Manolo Remiddi",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-10-08T19:53:53"
+      "last_seen": "2026-10-29T19:43:04"
     },
     "UCUoJk48pujh29p8zLsnD5PQ": {
       "name": "Talking Sasquach",
