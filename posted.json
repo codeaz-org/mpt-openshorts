@@ -2717,6 +2717,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-29T19:43:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PfgzlqjpHAY",
+      "source_title": "Working with Photo Meta Tags",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=PfgzlqjpHAY",
+      "clip_index": 0,
+      "clip_title": "Fix images rotating sideways after clearing metadata with ExifTool",
+      "job_id": "96f5963b-a975-4007-839d-75c5ca95cae8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae4ed44260ad0ee5bc57113",
+        "via": "buffer"
+      },
+      "ts": "2026-10-30T19:17:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PfgzlqjpHAY",
+      "source_title": "Working with Photo Meta Tags",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=PfgzlqjpHAY",
+      "clip_index": 1,
+      "clip_title": "How to bulk-update photo metadata dates with a custom bash script",
+      "job_id": "96f5963b-a975-4007-839d-75c5ca95cae8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae4ed5634702c2daac92749",
+        "via": "buffer"
+      },
+      "ts": "2026-10-30T19:17:53"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PfgzlqjpHAY",
+      "source_title": "Working with Photo Meta Tags",
+      "source_channel": "Kris Occhipinti",
+      "source_url": "https://www.youtube.com/watch?v=PfgzlqjpHAY",
+      "clip_index": 2,
+      "clip_title": "How to bulk add custom GPS locations to old photos using ExifTool",
+      "job_id": "96f5963b-a975-4007-839d-75c5ca95cae8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae4ed6998505e7f522de344",
+        "via": "buffer"
+      },
+      "ts": "2026-10-30T19:18:12"
     }
   ],
   "channels": {
@@ -2806,10 +2860,10 @@
     },
     "UCf93fPKwotph47H3_KDcRyg": {
       "name": "Kris Occhipinti",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-10-16T18:11:39"
+      "last_seen": "2026-10-30T19:17:15"
     },
     "UC7YOGHUfC1Tb6E4pudI9STA": {
       "name": "Mental Outlaw",
