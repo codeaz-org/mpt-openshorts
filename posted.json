@@ -2771,6 +2771,60 @@
         "via": "buffer"
       },
       "ts": "2026-10-30T19:18:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "z3tJjb0g_hw",
+      "source_title": "PlayStation 5 Console Killer - $500 Gaming PC",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=z3tJjb0g_hw",
+      "clip_index": 0,
+      "clip_title": "Is the PS5 the best value in gaming?",
+      "job_id": "89a82465-0dd5-4a23-a4c9-9cc5144540d4",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae634e9cf3a3112f3b9b32f",
+        "via": "buffer"
+      },
+      "ts": "2026-10-31T18:35:31"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "z3tJjb0g_hw",
+      "source_title": "PlayStation 5 Console Killer - $500 Gaming PC",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=z3tJjb0g_hw",
+      "clip_index": 1,
+      "clip_title": "How to get cheap GPUs with EVGA B-Stock",
+      "job_id": "89a82465-0dd5-4a23-a4c9-9cc5144540d4",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae63500ab019b90871b3ec0",
+        "via": "buffer"
+      },
+      "ts": "2026-10-31T18:35:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "z3tJjb0g_hw",
+      "source_title": "PlayStation 5 Console Killer - $500 Gaming PC",
+      "source_channel": "KristoferYee",
+      "source_url": "https://www.youtube.com/watch?v=z3tJjb0g_hw",
+      "clip_index": 2,
+      "clip_title": "Can a $550 PC match PlayStation 5 performance in 3DMark?",
+      "job_id": "89a82465-0dd5-4a23-a4c9-9cc5144540d4",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae63514ab019b90871b4219",
+        "via": "buffer"
+      },
+      "ts": "2026-10-31T18:36:15"
     }
   ],
   "channels": {
@@ -2804,10 +2858,10 @@
     },
     "UC_sHe3M2R5d_EWnv6Euaqlw": {
       "name": "KristoferYee",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-14T19:19:00"
+      "last_seen": "2026-10-31T18:35:09"
     },
     "UCOJV9jf1qKzzrgomdYTr9bg": {
       "name": "Exercising Ingenuity",
