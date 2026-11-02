@@ -2879,6 +2879,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-01T19:36:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "14In2xNRrFA",
+      "source_title": "CobaltX Linux: Install, Sign In, Play (No Setup Needed)",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=14In2xNRrFA",
+      "clip_index": 0,
+      "clip_title": "Transform\u0103 PC-ul \u00een consol\u0103: X-Mode \u00een CobaltX 0.3",
+      "job_id": "0cdfdb45-fd44-4148-a9ee-8881fd4d5184",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae917e09e9bda3b49d466c4",
+        "via": "buffer"
+      },
+      "ts": "2026-11-02T23:08:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "14In2xNRrFA",
+      "source_title": "CobaltX Linux: Install, Sign In, Play (No Setup Needed)",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=14In2xNRrFA",
+      "clip_index": 1,
+      "clip_title": "How to type easily on handheld with CobaltX Keyboard",
+      "job_id": "0cdfdb45-fd44-4148-a9ee-8881fd4d5184",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae917f325014d8f320f1d06",
+        "via": "buffer"
+      },
+      "ts": "2026-11-02T23:08:45"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "14In2xNRrFA",
+      "source_title": "CobaltX Linux: Install, Sign In, Play (No Setup Needed)",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=14In2xNRrFA",
+      "clip_index": 2,
+      "clip_title": "CobaltX: Sistemul de operare optimizat pentru gaming cu Linux Zen Kernel",
+      "job_id": "0cdfdb45-fd44-4148-a9ee-8881fd4d5184",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6ae918064e401f604e4ef434",
+        "via": "buffer"
+      },
+      "ts": "2026-11-02T23:09:04"
     }
   ],
   "channels": {
@@ -3045,10 +3099,10 @@
     },
     "UC7txXhmfldON1qREhxMGNXA": {
       "name": "Linux Network",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-10-19T20:34:10"
+      "last_seen": "2026-11-02T23:08:07"
     },
     "UCxIRBSD4f1dbeqVqsykAQXg": {
       "name": "SuperUzer",
