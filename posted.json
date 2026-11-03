@@ -2933,6 +2933,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-02T23:09:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "-3gfLNdYt90",
+      "source_title": "This Week in the Clonosphere: AI Clones, Open Firmware & Synth Hacks",
+      "source_channel": "J\u00fcrgen Mo\u00dfgraber",
+      "source_url": "https://www.youtube.com/watch?v=-3gfLNdYt90",
+      "clip_index": 0,
+      "clip_title": "How AI is Resurrecting Old Hardware Synths",
+      "job_id": "4ecef34a-3e5f-43fa-a7f8-87b39d2771a8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aea49c3170b6e898edb59de",
+        "via": "buffer"
+      },
+      "ts": "2026-11-03T20:53:33"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "-3gfLNdYt90",
+      "source_title": "This Week in the Clonosphere: AI Clones, Open Firmware & Synth Hacks",
+      "source_channel": "J\u00fcrgen Mo\u00dfgraber",
+      "source_url": "https://www.youtube.com/watch?v=-3gfLNdYt90",
+      "clip_index": 1,
+      "clip_title": "Turn Your $50 M-VAVE FM-1 Into Anything With Custom Open Source Firmwares",
+      "job_id": "4ecef34a-3e5f-43fa-a7f8-87b39d2771a8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aea49d6dd6313a10718fb4b",
+        "via": "buffer"
+      },
+      "ts": "2026-11-03T20:53:53"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "-3gfLNdYt90",
+      "source_title": "This Week in the Clonosphere: AI Clones, Open Firmware & Synth Hacks",
+      "source_channel": "J\u00fcrgen Mo\u00dfgraber",
+      "source_url": "https://www.youtube.com/watch?v=-3gfLNdYt90",
+      "clip_index": 2,
+      "clip_title": "Is This Open Source Firmware Real? MusicTribe GitHub Discovery",
+      "job_id": "4ecef34a-3e5f-43fa-a7f8-87b39d2771a8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aea49fcdd6313a107190c83",
+        "via": "buffer"
+      },
+      "ts": "2026-11-03T20:54:30"
     }
   ],
   "channels": {
@@ -3131,6 +3185,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-01T19:35:29"
+    },
+    "UCMgtq3iKqYamt9C-xbxwjTA": {
+      "name": "J\u00fcrgen Mo\u00dfgraber",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-03T20:51:31"
     }
   }
 }
