@@ -2987,6 +2987,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-03T20:54:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7EyXsfvS_rI",
+      "source_title": "Linux Lite 8.2 Is Out: Kernel 7.3 and a Gaming Kernel",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=7EyXsfvS_rI",
+      "clip_index": 0,
+      "clip_title": "How Linux Lite Gaming Kernel BORE scheduler improves your game performance",
+      "job_id": "27328864-db35-434c-a94d-a9fd606c8edf",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aeba5093a6057e11e771707",
+        "via": "buffer"
+      },
+      "ts": "2026-11-04T21:35:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7EyXsfvS_rI",
+      "source_title": "Linux Lite 8.2 Is Out: Kernel 7.3 and a Gaming Kernel",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=7EyXsfvS_rI",
+      "clip_index": 1,
+      "clip_title": "Cum s\u0103 rezolvi erorile de bootloader la instalarea Linux Lite 8.2",
+      "job_id": "27328864-db35-434c-a94d-a9fd606c8edf",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aeba51c4cb090f0ac3e4a97",
+        "via": "buffer"
+      },
+      "ts": "2026-11-04T21:35:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7EyXsfvS_rI",
+      "source_title": "Linux Lite 8.2 Is Out: Kernel 7.3 and a Gaming Kernel",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=7EyXsfvS_rI",
+      "clip_index": 2,
+      "clip_title": "Cum repari automat driverele Nvidia pe Linux Lite dup\u0103 update-ul de kernel",
+      "job_id": "27328864-db35-434c-a94d-a9fd606c8edf",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aeba52ec91738fad5059ed9",
+        "via": "buffer"
+      },
+      "ts": "2026-11-04T21:35:53"
     }
   ],
   "channels": {
@@ -3153,10 +3207,10 @@
     },
     "UC7txXhmfldON1qREhxMGNXA": {
       "name": "Linux Network",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-11-02T23:08:07"
+      "last_seen": "2026-11-04T21:34:57"
     },
     "UCxIRBSD4f1dbeqVqsykAQXg": {
       "name": "SuperUzer",
