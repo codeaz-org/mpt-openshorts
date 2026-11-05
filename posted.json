@@ -3041,6 +3041,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-04T21:35:53"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4I3uKmMtSSM",
+      "source_title": "How to Use the AI Agent in Cubric Studio (Ollama or DeepInfra)",
+      "source_channel": "MadPonyInteractive",
+      "source_url": "https://www.youtube.com/watch?v=4I3uKmMtSSM",
+      "clip_index": 0,
+      "clip_title": "Why you should clear your AI chat history",
+      "job_id": "fba23a5c-5693-4fd7-ac69-1a6dcfa90ab7",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aecf07a5a4f8c0d3fa61218",
+        "via": "buffer"
+      },
+      "ts": "2026-11-05T21:09:25"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4I3uKmMtSSM",
+      "source_title": "How to Use the AI Agent in Cubric Studio (Ollama or DeepInfra)",
+      "source_channel": "MadPonyInteractive",
+      "source_url": "https://www.youtube.com/watch?v=4I3uKmMtSSM",
+      "clip_index": 1,
+      "clip_title": "Stop writing basic AI prompts",
+      "job_id": "fba23a5c-5693-4fd7-ac69-1a6dcfa90ab7",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aecf08ccf99e575e90cf401",
+        "via": "buffer"
+      },
+      "ts": "2026-11-05T21:09:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4I3uKmMtSSM",
+      "source_title": "How to Use the AI Agent in Cubric Studio (Ollama or DeepInfra)",
+      "source_channel": "MadPonyInteractive",
+      "source_url": "https://www.youtube.com/watch?v=4I3uKmMtSSM",
+      "clip_index": 2,
+      "clip_title": "Run AI Models for Pennies: Cheap Model Settings Explained",
+      "job_id": "fba23a5c-5693-4fd7-ac69-1a6dcfa90ab7",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aecf09fcf99e575e90cfb19",
+        "via": "buffer"
+      },
+      "ts": "2026-11-05T21:10:01"
     }
   ],
   "channels": {
@@ -3246,6 +3300,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-03T20:51:31"
+    },
+    "UC_dWlm9jz7xc4wJQp05Nrag": {
+      "name": "MadPonyInteractive",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-05T21:09:07"
     }
   }
 }
