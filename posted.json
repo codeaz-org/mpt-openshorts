@@ -3095,6 +3095,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-05T21:10:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "g2jbho0foVM",
+      "source_title": "QUICKEE - Installing VirtualBox on NixOS!!",
+      "source_channel": "TechHeart",
+      "source_url": "https://www.youtube.com/watch?v=g2jbho0foVM",
+      "clip_index": 0,
+      "clip_title": "How to Fix VirtualBox Kernel Driver Not Installed Error on NixOS",
+      "job_id": "2d34a873-e5dc-4cd8-bcfa-3563456f7e0a",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aee3ac4004e4879a713efaa",
+        "via": "buffer"
+      },
+      "ts": "2026-11-06T20:38:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "g2jbho0foVM",
+      "source_title": "QUICKEE - Installing VirtualBox on NixOS!!",
+      "source_channel": "TechHeart",
+      "source_url": "https://www.youtube.com/watch?v=g2jbho0foVM",
+      "clip_index": 1,
+      "clip_title": "How to Properly Install and Configure VirtualBox on NixOS",
+      "job_id": "2d34a873-e5dc-4cd8-bcfa-3563456f7e0a",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aee3ae0d6bbae6fa1473026",
+        "via": "buffer"
+      },
+      "ts": "2026-11-06T20:39:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "g2jbho0foVM",
+      "source_title": "QUICKEE - Installing VirtualBox on NixOS!!",
+      "source_channel": "TechHeart",
+      "source_url": "https://www.youtube.com/watch?v=g2jbho0foVM",
+      "clip_index": 2,
+      "clip_title": "How to Properly Install and Configure VirtualBox on NixOS",
+      "job_id": "2d34a873-e5dc-4cd8-bcfa-3563456f7e0a",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aee3af9d6bbae6fa1473c1a",
+        "via": "buffer"
+      },
+      "ts": "2026-11-06T20:39:31"
     }
   ],
   "channels": {
@@ -3307,6 +3361,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-05T21:09:07"
+    },
+    "UCwNgCTYI29nTVAnWa7ZyD6A": {
+      "name": "TechHeart",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-06T20:38:17"
     }
   }
 }
