@@ -3149,6 +3149,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-06T20:39:31"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "d9zRn5gAgC4",
+      "source_title": "I UPGRADED TO THE M5 MAX MAC STUDIO. You probably don't need it...",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=d9zRn5gAgC4",
+      "clip_index": 0,
+      "clip_title": "Why AI Depth Map slows down your DaVinci Resolve exports",
+      "job_id": "2b96e29c-edaf-4b06-bd28-d0137dfdf3d8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aef714d562f2e6de974e715",
+        "via": "buffer"
+      },
+      "ts": "2026-11-07T18:43:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "d9zRn5gAgC4",
+      "source_title": "I UPGRADED TO THE M5 MAX MAC STUDIO. You probably don't need it...",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=d9zRn5gAgC4",
+      "clip_index": 1,
+      "clip_title": "The Big Mistake I Made With My Mac Storage",
+      "job_id": "2b96e29c-edaf-4b06-bd28-d0137dfdf3d8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aef7160562f2e6de974eb67",
+        "via": "buffer"
+      },
+      "ts": "2026-11-07T18:43:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "d9zRn5gAgC4",
+      "source_title": "I UPGRADED TO THE M5 MAX MAC STUDIO. You probably don't need it...",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=d9zRn5gAgC4",
+      "clip_index": 2,
+      "clip_title": "Why You Don't Need The M5 Ultra",
+      "job_id": "2b96e29c-edaf-4b06-bd28-d0137dfdf3d8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aef7174004e4879a773508a",
+        "via": "buffer"
+      },
+      "ts": "2026-11-07T18:44:15"
     }
   ],
   "channels": {
@@ -3196,10 +3250,10 @@
     },
     "UCBSkxS1vn41aJqT7E8s2ueA": {
       "name": "Herokme",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-19T17:20:12"
+      "last_seen": "2026-11-07T18:43:17"
     },
     "UCqnKDzxO2M_-B-MJYx5qz1Q": {
       "name": "Ionic1k",
