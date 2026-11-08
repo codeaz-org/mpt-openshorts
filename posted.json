@@ -3203,6 +3203,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-07T18:44:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "eqB1Cp62y8w",
+      "source_title": "My Website Has Almost Nothing Left to Patch",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=eqB1Cp62y8w",
+      "clip_index": 0,
+      "clip_title": "Why I Switched from WordPress to Hugo for Better Security",
+      "job_id": "acf1c7a5-11f6-4eb3-a544-0159b22012e6",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af0c7e1004e4879a7d65b73",
+        "via": "buffer"
+      },
+      "ts": "2026-11-08T19:05:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "eqB1Cp62y8w",
+      "source_title": "My Website Has Almost Nothing Left to Patch",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=eqB1Cp62y8w",
+      "clip_index": 1,
+      "clip_title": "Watching cyber attacks in real-time",
+      "job_id": "acf1c7a5-11f6-4eb3-a544-0159b22012e6",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af0c7f6d6bbae6fa1078166",
+        "via": "buffer"
+      },
+      "ts": "2026-11-08T19:05:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "eqB1Cp62y8w",
+      "source_title": "My Website Has Almost Nothing Left to Patch",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=eqB1Cp62y8w",
+      "clip_index": 2,
+      "clip_title": "How Hugo static site generation works",
+      "job_id": "acf1c7a5-11f6-4eb3-a544-0159b22012e6",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af0c813562f2e6de9d7e4e4",
+        "via": "buffer"
+      },
+      "ts": "2026-11-08T19:06:05"
     }
   ],
   "channels": {
@@ -3222,10 +3276,10 @@
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
-      "sources_used": 5,
-      "clips_kept": 15,
+      "sources_used": 6,
+      "clips_kept": 18,
       "clips_rejected": 0,
-      "last_seen": "2026-10-06T19:32:05"
+      "last_seen": "2026-11-08T19:04:51"
     },
     "UCVls1GmFKf6WlTraIb_IaJg": {
       "name": "DistroTube",
