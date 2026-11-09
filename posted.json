@@ -3257,6 +3257,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-08T19:06:05"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ejKjFDBis_g",
+      "source_title": "I Can't Leave Home Without These...",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=ejKjFDBis_g",
+      "clip_index": 0,
+      "clip_title": "Does an RFID Blocking Wallet Actually Stop a Flipper Zero?",
+      "job_id": "c67e20a4-533a-47f8-bdb2-39d7ed7863b8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af25b9205af22d726f3ab43",
+        "via": "buffer"
+      },
+      "ts": "2026-11-09T23:47:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ejKjFDBis_g",
+      "source_title": "I Can't Leave Home Without These...",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=ejKjFDBis_g",
+      "clip_index": 1,
+      "clip_title": "Learn Python, Go and SQL with Gamified Coding on Boot.dev",
+      "job_id": "c67e20a4-533a-47f8-bdb2-39d7ed7863b8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af25ba3b59b34913a433320",
+        "via": "buffer"
+      },
+      "ts": "2026-11-09T23:47:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ejKjFDBis_g",
+      "source_title": "I Can't Leave Home Without These...",
+      "source_channel": "Talking Sasquach",
+      "source_url": "https://www.youtube.com/watch?v=ejKjFDBis_g",
+      "clip_index": 2,
+      "clip_title": "Lock Picking on Camera is Harder Than It Looks",
+      "job_id": "c67e20a4-533a-47f8-bdb2-39d7ed7863b8",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af25bb5223aa16048d7a183",
+        "via": "buffer"
+      },
+      "ts": "2026-11-09T23:48:15"
     }
   ],
   "channels": {
@@ -3269,10 +3323,10 @@
     },
     "UCUoJk48pujh29p8zLsnD5PQ": {
       "name": "Talking Sasquach",
-      "sources_used": 3,
-      "clips_kept": 9,
+      "sources_used": 4,
+      "clips_kept": 12,
       "clips_rejected": 0,
-      "last_seen": "2026-10-28T19:41:17"
+      "last_seen": "2026-11-09T23:47:22"
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
