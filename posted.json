@@ -3347,6 +3347,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-10T20:51:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LDLisRPAC_g",
+      "source_title": "A Linux Shell Prompt That's Out Of This World!",
+      "source_channel": "DistroTube",
+      "source_url": "https://www.youtube.com/watch?v=LDLisRPAC_g",
+      "clip_index": 0,
+      "clip_title": "How to convert your two-line terminal prompt to a single line using starship.toml",
+      "job_id": "97de1443-e227-451a-8465-61a8b4efc97b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af4e1563d8c751bfdf77c0d",
+        "via": "buffer"
+      },
+      "ts": "2026-11-11T21:42:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LDLisRPAC_g",
+      "source_title": "A Linux Shell Prompt That's Out Of This World!",
+      "source_channel": "DistroTube",
+      "source_url": "https://www.youtube.com/watch?v=LDLisRPAC_g",
+      "clip_index": 1,
+      "clip_title": "This terminal prompt is actually smart",
+      "job_id": "97de1443-e227-451a-8465-61a8b4efc97b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af4e1688a1a2f52b5049564",
+        "via": "buffer"
+      },
+      "ts": "2026-11-11T21:43:14"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LDLisRPAC_g",
+      "source_title": "A Linux Shell Prompt That's Out Of This World!",
+      "source_channel": "DistroTube",
+      "source_url": "https://www.youtube.com/watch?v=LDLisRPAC_g",
+      "clip_index": 2,
+      "clip_title": "Simplify your shell configs with one tool",
+      "job_id": "97de1443-e227-451a-8465-61a8b4efc97b",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af4e179cb4c7286fdf609eb",
+        "via": "buffer"
+      },
+      "ts": "2026-11-11T21:43:32"
     }
   ],
   "channels": {
@@ -3373,10 +3427,10 @@
     },
     "UCVls1GmFKf6WlTraIb_IaJg": {
       "name": "DistroTube",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-09-13T17:38:48"
+      "last_seen": "2026-11-11T21:42:38"
     },
     "UC_sHe3M2R5d_EWnv6Euaqlw": {
       "name": "KristoferYee",
