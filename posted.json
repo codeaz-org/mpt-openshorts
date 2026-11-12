@@ -3401,6 +3401,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-11T21:43:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "SaQM53tiVo0",
+      "source_title": "Claude Code is FREE Now?! Here's How to Use It Without Paying",
+      "source_channel": "The Tech Girl",
+      "source_url": "https://www.youtube.com/watch?v=SaQM53tiVo0",
+      "clip_index": 0,
+      "clip_title": "How to Run Claude Code on Free Open Source Models using Ollama",
+      "job_id": "143417fd-4ba2-420a-990e-c1d1ed0c7f91",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af6313ff8f0d4b832a1344e",
+        "via": "buffer"
+      },
+      "ts": "2026-11-12T21:36:10"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "SaQM53tiVo0",
+      "source_title": "Claude Code is FREE Now?! Here's How to Use It Without Paying",
+      "source_channel": "The Tech Girl",
+      "source_url": "https://www.youtube.com/watch?v=SaQM53tiVo0",
+      "clip_index": 1,
+      "clip_title": "How to Build a Custom Web App with Claude Code in Minutes",
+      "job_id": "143417fd-4ba2-420a-990e-c1d1ed0c7f91",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af631527d05892cceab5a55",
+        "via": "buffer"
+      },
+      "ts": "2026-11-12T21:36:29"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "SaQM53tiVo0",
+      "source_title": "Claude Code is FREE Now?! Here's How to Use It Without Paying",
+      "source_channel": "The Tech Girl",
+      "source_url": "https://www.youtube.com/watch?v=SaQM53tiVo0",
+      "clip_index": 2,
+      "clip_title": "Is local AI coding actually free?",
+      "job_id": "143417fd-4ba2-420a-990e-c1d1ed0c7f91",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af63167c71c605d9eaefa94",
+        "via": "buffer"
+      },
+      "ts": "2026-11-12T21:36:50"
     }
   ],
   "channels": {
@@ -3511,10 +3565,10 @@
     },
     "UCjzWsRM05uCgkSEELJZWciA": {
       "name": "The Tech Girl",
-      "sources_used": 1,
-      "clips_kept": 3,
+      "sources_used": 2,
+      "clips_kept": 6,
       "clips_rejected": 0,
-      "last_seen": "2026-10-04T18:14:45"
+      "last_seen": "2026-11-12T21:35:50"
     },
     "UCrEd_gD_cq7GzGSpn892tFg": {
       "name": "Eliot Prince",
