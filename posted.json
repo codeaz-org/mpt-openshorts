@@ -3455,6 +3455,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-12T21:36:50"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "akmFFqIfZyA",
+      "source_title": "deepin 25.3 Is Here: A Linux Distro With Freeze Protection?",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=akmFFqIfZyA",
+      "clip_index": 0,
+      "clip_title": "How Deepin 25.3 Ends System Freezes Without Losing Your Work",
+      "job_id": "78b8a07e-edc4-44c5-b012-0afb6b1729d1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af77a5c4b28296eb11525bf",
+        "via": "buffer"
+      },
+      "ts": "2026-11-13T21:00:23"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "akmFFqIfZyA",
+      "source_title": "deepin 25.3 Is Here: A Linux Distro With Freeze Protection?",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=akmFFqIfZyA",
+      "clip_index": 1,
+      "clip_title": "Manage Your Linux Hardware Easily: Deepin Maintenance Tools Explained",
+      "job_id": "78b8a07e-edc4-44c5-b012-0afb6b1729d1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af77a7078196a0a971e0a02",
+        "via": "buffer"
+      },
+      "ts": "2026-11-13T21:00:42"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "akmFFqIfZyA",
+      "source_title": "deepin 25.3 Is Here: A Linux Distro With Freeze Protection?",
+      "source_channel": "Linux Network",
+      "source_url": "https://www.youtube.com/watch?v=akmFFqIfZyA",
+      "clip_index": 2,
+      "clip_title": "How to Use UOS AI Automations in Deepin",
+      "job_id": "78b8a07e-edc4-44c5-b012-0afb6b1729d1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af77a8281e1228421c35880",
+        "via": "buffer"
+      },
+      "ts": "2026-11-13T21:01:01"
     }
   ],
   "channels": {
@@ -3621,10 +3675,10 @@
     },
     "UC7txXhmfldON1qREhxMGNXA": {
       "name": "Linux Network",
-      "sources_used": 3,
-      "clips_kept": 9,
+      "sources_used": 4,
+      "clips_kept": 12,
       "clips_rejected": 0,
-      "last_seen": "2026-11-04T21:34:57"
+      "last_seen": "2026-11-13T21:00:03"
     },
     "UCxIRBSD4f1dbeqVqsykAQXg": {
       "name": "SuperUzer",
