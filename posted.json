@@ -3509,6 +3509,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-13T21:01:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4R8aQdyJlc4",
+      "source_title": "Meta Ray-Ban Display Glasses: 24 Hours Later (Honest First Impressions)",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=4R8aQdyJlc4",
+      "clip_index": 0,
+      "clip_title": "Control Your Glasses With Your Fingers? The Meta Neuroband Test",
+      "job_id": "e5226c84-98cb-452c-a239-eb79015c6e2f",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af8b2cbc5b364e0620f9869",
+        "via": "buffer"
+      },
+      "ts": "2026-11-14T19:13:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4R8aQdyJlc4",
+      "source_title": "Meta Ray-Ban Display Glasses: 24 Hours Later (Honest First Impressions)",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=4R8aQdyJlc4",
+      "clip_index": 1,
+      "clip_title": "Testing the Meta Ray-Ban Beta Handwriting Feature on My Desk",
+      "job_id": "e5226c84-98cb-452c-a239-eb79015c6e2f",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af8b2de76c23bf1c73615c8",
+        "via": "buffer"
+      },
+      "ts": "2026-11-14T19:13:45"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4R8aQdyJlc4",
+      "source_title": "Meta Ray-Ban Display Glasses: 24 Hours Later (Honest First Impressions)",
+      "source_channel": "Herokme",
+      "source_url": "https://www.youtube.com/watch?v=4R8aQdyJlc4",
+      "clip_index": 2,
+      "clip_title": "Perfectly Frame Your Shots Using the Meta Ray-Ban Viewfinder Display",
+      "job_id": "e5226c84-98cb-452c-a239-eb79015c6e2f",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6af8b2f2e86a5789a6c84da3",
+        "via": "buffer"
+      },
+      "ts": "2026-11-14T19:14:04"
     }
   ],
   "channels": {
@@ -3556,10 +3610,10 @@
     },
     "UCBSkxS1vn41aJqT7E8s2ueA": {
       "name": "Herokme",
-      "sources_used": 2,
-      "clips_kept": 6,
+      "sources_used": 3,
+      "clips_kept": 9,
       "clips_rejected": 0,
-      "last_seen": "2026-11-07T18:43:17"
+      "last_seen": "2026-11-14T19:13:05"
     },
     "UCqnKDzxO2M_-B-MJYx5qz1Q": {
       "name": "Ionic1k",
