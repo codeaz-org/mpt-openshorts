@@ -3563,6 +3563,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-14T19:14:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Hdo_rrtNtz4",
+      "source_title": "UniFi 11: External Lists, Live Flows, and Postgres",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=Hdo_rrtNtz4",
+      "clip_index": 0,
+      "clip_title": "How to track live SSH network connections in UniFi",
+      "job_id": "56d74e17-71f0-47ca-99c4-967e27980fe1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6afa0bc5b9a106584ccf0740",
+        "via": "buffer"
+      },
+      "ts": "2026-11-15T19:45:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Hdo_rrtNtz4",
+      "source_title": "UniFi 11: External Lists, Live Flows, and Postgres",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=Hdo_rrtNtz4",
+      "clip_index": 1,
+      "clip_title": "How to create dynamic automated firewall blocklists in UniFi Network",
+      "job_id": "56d74e17-71f0-47ca-99c4-967e27980fe1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6afa0bd74f0276ab945c3761",
+        "via": "buffer"
+      },
+      "ts": "2026-11-15T19:45:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Hdo_rrtNtz4",
+      "source_title": "UniFi 11: External Lists, Live Flows, and Postgres",
+      "source_channel": "Lawrence Systems",
+      "source_url": "https://www.youtube.com/watch?v=Hdo_rrtNtz4",
+      "clip_index": 2,
+      "clip_title": "Unifi 11: Why switch to zone-based firewalls",
+      "job_id": "56d74e17-71f0-47ca-99c4-967e27980fe1",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6afa0beae5a113497a0c9884",
+        "via": "buffer"
+      },
+      "ts": "2026-11-15T19:45:57"
     }
   ],
   "channels": {
@@ -3582,10 +3636,10 @@
     },
     "UCHkYOD-3fZbuGhwsADBd9ZQ": {
       "name": "Lawrence Systems",
-      "sources_used": 6,
-      "clips_kept": 18,
+      "sources_used": 7,
+      "clips_kept": 21,
       "clips_rejected": 0,
-      "last_seen": "2026-11-08T19:04:51"
+      "last_seen": "2026-11-15T19:45:03"
     },
     "UCVls1GmFKf6WlTraIb_IaJg": {
       "name": "DistroTube",
