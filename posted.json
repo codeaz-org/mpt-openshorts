@@ -3617,15 +3617,69 @@
         "via": "buffer"
       },
       "ts": "2026-11-15T19:45:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bApG6rRzqdI",
+      "source_title": "AI Is Evil. I Still Use It.",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=bApG6rRzqdI",
+      "clip_index": 0,
+      "clip_title": "How AI Uses Your Data to Create 1,000 Personalized Voices",
+      "job_id": "a3541931-1c70-4d9b-819d-120222421300",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aff738ee01ca3a03025031f",
+        "via": "buffer"
+      },
+      "ts": "2026-11-19T22:09:28"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bApG6rRzqdI",
+      "source_title": "AI Is Evil. I Still Use It.",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=bApG6rRzqdI",
+      "clip_index": 1,
+      "clip_title": "Why 66% of Developers Don't Trust AI Accuracy",
+      "job_id": "a3541931-1c70-4d9b-819d-120222421300",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aff73a0e01ca3a030250921",
+        "via": "buffer"
+      },
+      "ts": "2026-11-19T22:09:47"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bApG6rRzqdI",
+      "source_title": "AI Is Evil. I Still Use It.",
+      "source_channel": "Manolo Remiddi",
+      "source_url": "https://www.youtube.com/watch?v=bApG6rRzqdI",
+      "clip_index": 2,
+      "clip_title": "How AI Solved 50 Years of Protein Research in Only Months",
+      "job_id": "a3541931-1c70-4d9b-819d-120222421300",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6aff73b343805190f08e3b6a",
+        "via": "buffer"
+      },
+      "ts": "2026-11-19T22:10:05"
     }
   ],
   "channels": {
     "UC9HwoV7VQpDRDXOzviV2DIQ": {
       "name": "Manolo Remiddi",
-      "sources_used": 3,
-      "clips_kept": 9,
+      "sources_used": 4,
+      "clips_kept": 12,
       "clips_rejected": 0,
-      "last_seen": "2026-10-29T19:43:04"
+      "last_seen": "2026-11-19T22:09:10"
     },
     "UCUoJk48pujh29p8zLsnD5PQ": {
       "name": "Talking Sasquach",
