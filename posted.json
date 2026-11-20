@@ -3671,6 +3671,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-19T22:10:05"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ueRRjDxD4sk",
+      "source_title": "50 lines of code to rebuild Claude Code in R",
+      "source_channel": "R Consortium",
+      "source_url": "https://www.youtube.com/watch?v=ueRRjDxD4sk",
+      "clip_index": 0,
+      "clip_title": "Run LLMs Locally in R with ellmer and Ollama (No API Keys)",
+      "job_id": "0566ef05-5527-4fa0-83cf-a6832c256b26",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b00c39f20a2d09a0ab36a1d",
+        "via": "buffer"
+      },
+      "ts": "2026-11-20T22:03:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ueRRjDxD4sk",
+      "source_title": "50 lines of code to rebuild Claude Code in R",
+      "source_channel": "R Consortium",
+      "source_url": "https://www.youtube.com/watch?v=ueRRjDxD4sk",
+      "clip_index": 1,
+      "clip_title": "Stop AI from using Markdown in your code responses",
+      "job_id": "0566ef05-5527-4fa0-83cf-a6832c256b26",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b00c3b3dd205ed7799c6c32",
+        "via": "buffer"
+      },
+      "ts": "2026-11-20T22:03:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ueRRjDxD4sk",
+      "source_title": "50 lines of code to rebuild Claude Code in R",
+      "source_channel": "R Consortium",
+      "source_url": "https://www.youtube.com/watch?v=ueRRjDxD4sk",
+      "clip_index": 2,
+      "clip_title": "How to add a manual approval step to your AI agent's file writing tool",
+      "job_id": "0566ef05-5527-4fa0-83cf-a6832c256b26",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b00c3c620a2d09a0ab37668",
+        "via": "buffer"
+      },
+      "ts": "2026-11-20T22:04:00"
     }
   ],
   "channels": {
@@ -3890,6 +3944,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-06T20:38:17"
+    },
+    "UC_R5smHVXRYGhZYDJsnXTwg": {
+      "name": "R Consortium",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-20T22:03:02"
     }
   }
 }
