@@ -3725,6 +3725,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-20T22:04:00"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "85Avki4ihNE",
+      "source_title": "This Claude Skill Changed Web Design Forever! (i wish someone showed me this before)",
+      "source_channel": "Create With AI",
+      "source_url": "https://www.youtube.com/watch?v=85Avki4ihNE",
+      "clip_index": 0,
+      "clip_title": "How to Create Mesmerizing Fluid Line Web Animations",
+      "job_id": "cbd12121-8dad-42be-80eb-ba08dd28ffac",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b02097dc72676f5e9dfd1de",
+        "via": "buffer"
+      },
+      "ts": "2026-11-21T21:13:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "85Avki4ihNE",
+      "source_title": "This Claude Skill Changed Web Design Forever! (i wish someone showed me this before)",
+      "source_channel": "Create With AI",
+      "source_url": "https://www.youtube.com/watch?v=85Avki4ihNE",
+      "clip_index": 1,
+      "clip_title": "Transform Generic AI Websites Into Agency-Level Designs Without Coding",
+      "job_id": "cbd12121-8dad-42be-80eb-ba08dd28ffac",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b02098fd864a0110576293e",
+        "via": "buffer"
+      },
+      "ts": "2026-11-21T21:14:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "85Avki4ihNE",
+      "source_title": "This Claude Skill Changed Web Design Forever! (i wish someone showed me this before)",
+      "source_channel": "Create With AI",
+      "source_url": "https://www.youtube.com/watch?v=85Avki4ihNE",
+      "clip_index": 2,
+      "clip_title": "How to create choreographed 3D liquid animations for web design",
+      "job_id": "cbd12121-8dad-42be-80eb-ba08dd28ffac",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b0209a1d864a01105762ba9",
+        "via": "buffer"
+      },
+      "ts": "2026-11-21T21:14:19"
     }
   ],
   "channels": {
@@ -3951,6 +4005,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-20T22:03:02"
+    },
+    "UCC6nGrp8G1v_BQNwcvyXArQ": {
+      "name": "Create With AI",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-21T21:13:24"
     }
   }
 }
