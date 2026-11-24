@@ -3779,6 +3779,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-21T21:14:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Zk2g7NGWGgQ",
+      "source_title": "Taking WebMCP to production",
+      "source_channel": "Chrome for Developers",
+      "source_url": "https://www.youtube.com/watch?v=Zk2g7NGWGgQ",
+      "clip_index": 0,
+      "clip_title": "Simplify AI Agent Tooling with React Lifecycle and Enum Parameters",
+      "job_id": "c018cdca-3d52-491d-afcd-0ab4c103d51c",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b04eb9bdb52b449cf165857",
+        "via": "buffer"
+      },
+      "ts": "2026-11-24T01:43:02"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Zk2g7NGWGgQ",
+      "source_title": "Taking WebMCP to production",
+      "source_channel": "Chrome for Developers",
+      "source_url": "https://www.youtube.com/watch?v=Zk2g7NGWGgQ",
+      "clip_index": 1,
+      "clip_title": "Keep your AI tools synced with your UI",
+      "job_id": "c018cdca-3d52-491d-afcd-0ab4c103d51c",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b04ebaec43c1f2f5c7b2fec",
+        "via": "buffer"
+      },
+      "ts": "2026-11-24T01:43:21"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Zk2g7NGWGgQ",
+      "source_title": "Taking WebMCP to production",
+      "source_channel": "Chrome for Developers",
+      "source_url": "https://www.youtube.com/watch?v=Zk2g7NGWGgQ",
+      "clip_index": 2,
+      "clip_title": "How to interview your AI agents to optimize tool usage and reduce tokens",
+      "job_id": "c018cdca-3d52-491d-afcd-0ab4c103d51c",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b04ebc19a4bd32ca3e4add6",
+        "via": "buffer"
+      },
+      "ts": "2026-11-24T01:43:39"
     }
   ],
   "channels": {
@@ -4012,6 +4066,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-21T21:13:24"
+    },
+    "UCnUYZLuoy1rq1aVMwx4aTzw": {
+      "name": "Chrome for Developers",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-24T01:42:43"
     }
   }
 }
