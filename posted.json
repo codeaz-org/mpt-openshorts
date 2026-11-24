@@ -3833,6 +3833,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-24T01:43:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "QPLI-iWNTdw",
+      "source_title": "Managing Processes On Linux",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=QPLI-iWNTdw",
+      "clip_index": 0,
+      "clip_title": "How to quickly find process IDs using pgrep in Linux",
+      "job_id": "815ba4bc-0d90-499c-aea1-385881330743",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b062103919291941323e36c",
+        "via": "buffer"
+      },
+      "ts": "2026-11-24T23:43:09"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "QPLI-iWNTdw",
+      "source_title": "Managing Processes On Linux",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=QPLI-iWNTdw",
+      "clip_index": 1,
+      "clip_title": "How to kill your Linux graphical environment with the pkill command",
+      "job_id": "815ba4bc-0d90-499c-aea1-385881330743",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b062115a2fd17422e6cf78a",
+        "via": "buffer"
+      },
+      "ts": "2026-11-24T23:43:28"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "QPLI-iWNTdw",
+      "source_title": "Managing Processes On Linux",
+      "source_channel": "Mental Outlaw",
+      "source_url": "https://www.youtube.com/watch?v=QPLI-iWNTdw",
+      "clip_index": 2,
+      "clip_title": "How Linux Niceness Values Actually Work in Htop",
+      "job_id": "815ba4bc-0d90-499c-aea1-385881330743",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b062128a8becebb77441d0c",
+        "via": "buffer"
+      },
+      "ts": "2026-11-24T23:43:46"
     }
   ],
   "channels": {
@@ -3929,10 +3983,10 @@
     },
     "UC7YOGHUfC1Tb6E4pudI9STA": {
       "name": "Mental Outlaw",
-      "sources_used": 4,
-      "clips_kept": 10,
+      "sources_used": 5,
+      "clips_kept": 13,
       "clips_rejected": 2,
-      "last_seen": "2026-10-22T18:46:00"
+      "last_seen": "2026-11-24T23:42:51"
     },
     "UC709hclecm3T8_3jkRWhG1Q": {
       "name": "AI Tools Quest",
