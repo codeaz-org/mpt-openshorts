@@ -5327,6 +5327,60 @@
       "source_channel": "Upload Ideas With Itamar",
       "error": "Job a708ac23-422c-46e4-b9a2-db335f08e4ef failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] wZ50I2e8f6M: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
       "ts": "2026-11-26T00:06:52"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "tiLWCNFzThE",
+      "source_title": "Introduction to React | ReactJS Tutorial for Beginners in Hindi 2020 #1",
+      "source_channel": "Thapa Technical",
+      "source_url": "https://www.youtube.com/watch?v=tiLWCNFzThE",
+      "clip_index": 0,
+      "clip_title": "React development: Component-based and declarative approach explained",
+      "job_id": "70abcf30-1d55-463e-bd9c-3127efb56986",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b08bf809131f7416c55630e",
+        "via": "buffer"
+      },
+      "ts": "2026-11-26T23:23:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "tiLWCNFzThE",
+      "source_title": "Introduction to React | ReactJS Tutorial for Beginners in Hindi 2020 #1",
+      "source_channel": "Thapa Technical",
+      "source_url": "https://www.youtube.com/watch?v=tiLWCNFzThE",
+      "clip_index": 1,
+      "clip_title": "React \u092e\u0947\u0902 div \u0915\u0947 \u092c\u091c\u093e\u092f Components \u0915\u093e \u0938\u0939\u0940 \u0907\u0938\u094d\u0924\u0947\u092e\u093e\u0932 \u0915\u0948\u0938\u0947 \u0915\u0930\u0947\u0902",
+      "job_id": "70abcf30-1d55-463e-bd9c-3127efb56986",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b08bf909131f7416c556700",
+        "via": "buffer"
+      },
+      "ts": "2026-11-26T23:24:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "tiLWCNFzThE",
+      "source_title": "Introduction to React | ReactJS Tutorial for Beginners in Hindi 2020 #1",
+      "source_channel": "Thapa Technical",
+      "source_url": "https://www.youtube.com/watch?v=tiLWCNFzThE",
+      "clip_index": 2,
+      "clip_title": "Why you should use React: Checking the GitHub repository stats",
+      "job_id": "70abcf30-1d55-463e-bd9c-3127efb56986",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b08bfa17c3f43554e3ac35c",
+        "via": "buffer"
+      },
+      "ts": "2026-11-26T23:24:27"
     }
   ],
   "channels": {
@@ -5567,6 +5621,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-24T01:42:43"
+    },
+    "UCwfaAHy4zQUb2APNOGXUCCA": {
+      "name": "Thapa Technical",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-26T23:23:38"
     }
   }
 }
