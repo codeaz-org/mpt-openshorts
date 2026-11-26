@@ -3887,6 +3887,1446 @@
         "via": "buffer"
       },
       "ts": "2026-11-24T23:43:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "n8tYitFgDZw",
+      "source_title": "YOU SHOULD PROBABLY START EDITING OFF OF A NAS | UGREEN iDX6011 Pro",
+      "source_channel": "Herokme",
+      "error": "Job e975bfef-7938-492c-b50a-981e5776b223 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] n8tYitFgDZw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:00:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "E0ZUmbWPSug",
+      "source_title": "Private Loopback Webserver",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job 5ac82f11-b396-4f59-ae21-5a1e8df270e7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] E0ZUmbWPSug: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:01:00"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "S5BE0aHCzew",
+      "source_title": "Let's Make A.I. Generated Animated Videos",
+      "source_channel": "DistroTube",
+      "error": "Job 7c8b6170-68f5-477c-b6d6-aceb7012d14b failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] S5BE0aHCzew: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:01:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "UqGanXdaVXA",
+      "source_title": "Do You Need a New PC for AI Agents This Black Friday?",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 76bc6522-7143-459d-be8c-4cf59dfb8d60 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] UqGanXdaVXA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:01:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "GIZyNJEyl0c",
+      "source_title": "PopOS 26.04 LTS Is Here: One Click Changes Your Whole Desktop",
+      "source_channel": "Linux Network",
+      "error": "Job ee8b12c0-2334-4c64-8fce-a6ada4a0b931 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] GIZyNJEyl0c: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:02:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "vD7lpQeU_Io",
+      "source_title": "How Secure Is Your Password Manager?",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 3ca08fee-590f-4a19-8d4a-e62019e05dba failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] vD7lpQeU_Io: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:02:29"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "iUgxwbfkIqU",
+      "source_title": "ESP32-Cam on your water meter with \"AI-on-the-edge\" -- also for gas and power meters",
+      "source_channel": "MakerMeik",
+      "error": "Job 7e559f7e-4d4d-428e-b4b3-6cbd93912971 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] iUgxwbfkIqU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:02:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "y8bIt4K_Kfo",
+      "source_title": "Stop Using Tor With VPNs",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 54e49445-e1dc-4c2f-851a-46bce0521872 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] y8bIt4K_Kfo: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:03:13"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "_Q4inzSIZN0",
+      "source_title": "Claude Duet Review: Features, Pricing & Hands-On Demo",
+      "source_channel": "The Tech Girl",
+      "error": "Job 8d5863ef-41aa-43f1-b413-00f042d48d7b failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] _Q4inzSIZN0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:03:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "vxbuO1zWo3w",
+      "source_title": "ESP8266 as Window Sensor with years of battery life",
+      "source_channel": "MakerMeik",
+      "error": "Job f8a4a41a-67ad-428e-af79-60295a9f5e61 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] vxbuO1zWo3w: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:03:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ylh9mI4VfgU",
+      "source_title": "Are UniFi Parental Controls Actually Blocking Content?",
+      "source_channel": "Home Network Solutions Berkshire",
+      "error": "Job 31171a6e-2225-44ac-9581-5b556afc0d2d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Ylh9mI4VfgU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:04:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "8USI98_5GeU",
+      "source_title": "Momentum Firmware for Flipper Zero :  The Next Generation of Flipper Custom Firmware!!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 3820c8fd-092f-4db3-b331-747e20e69ecf failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 8USI98_5GeU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:04:42"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "phYBnQ7z7jw",
+      "source_title": "I Spent Days With the Cardputer Zero - It RULES!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 48334a2a-a294-4e37-a050-3911a1a81e4c failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] phYBnQ7z7jw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:05:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3RfulXEEEN4",
+      "source_title": "Vidman - A Program To View Video Man Pages",
+      "source_channel": "DistroTube",
+      "error": "Job 77ff6240-eea5-454c-9c36-7d7b6b1f62fd failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 3RfulXEEEN4: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:05:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "iaJ0hCTCvdY",
+      "source_title": "The Shady Business of VPNs",
+      "source_channel": "Eric Murphy",
+      "error": "Job 7a95e922-11b1-4a29-ade4-15fa53ddd5f8 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] iaJ0hCTCvdY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:05:48"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "8bKAo6rMBEo",
+      "source_title": "Creating a robot for my childhood self",
+      "source_channel": "Exercising Ingenuity",
+      "error": "Job ac88fabb-0076-4e49-9c94-b2fc25e93dd2 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 8bKAo6rMBEo: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:06:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "mvDngSAmqUA",
+      "source_title": "Fixing my Broken Router",
+      "source_channel": "Ionic1k",
+      "error": "Job 545db887-733b-4868-b674-bfdae6b7e7c2 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] mvDngSAmqUA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:06:33"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "hMvwQ3kd-5I",
+      "source_title": "Bitwarden Follow Up Review & Security Audit July 2020",
+      "source_channel": "Lawrence Systems",
+      "error": "Job c9111527-aeb3-49bf-a37e-d7658d8479a5 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] hMvwQ3kd-5I: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:06:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "HqTxv7y6sDM",
+      "source_title": "$50 Human Detecting Radar Feels Illegal (It's Easy)",
+      "source_channel": "Talking Sasquach",
+      "error": "Job f94e2ebf-c312-4d2f-bed4-6e5d5169a39a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] HqTxv7y6sDM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:07:18"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Z9y29Wxo060",
+      "source_title": "How To Torrent Anonymously With Mullvad VPN",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 46f8e928-fe81-47f9-a530-9d1feedde4b3 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Z9y29Wxo060: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:07:40"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "L6JhQkFYx3Q",
+      "source_title": "TOP 10 Flipper Zero Apps You NEED to Install!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 57088ebe-d586-4c5f-9e05-5e009bbb6ae2 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] L6JhQkFYx3Q: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:08:02"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "RG__x4AiPrg",
+      "source_title": "A PC for EVERY Budget",
+      "source_channel": "KristoferYee",
+      "error": "Job 0d83df7b-5cd9-4cf9-a516-b0f0f257d0f2 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] RG__x4AiPrg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:08:25"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "8Yf3PUaDYkM",
+      "source_title": "Create Music Like It Is 1999",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job 2366bbee-2788-4ef3-94f7-b29705847a3f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 8Yf3PUaDYkM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:08:47"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "e0Qp-AOBj54",
+      "source_title": "Is it impossible to be private online?",
+      "source_channel": "Eric Murphy",
+      "error": "Job 0e236e7a-177d-4e48-bce8-649fe338c931 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] e0Qp-AOBj54: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:09:09"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "SIOF3WIwu9E",
+      "source_title": "Hermes Agent Tutorial: Complete Setup Guide + Real AI Automation Examples (2026)",
+      "source_channel": "The Tech Girl",
+      "error": "Job 71cf7e24-8404-4283-85ed-4543086f2cfe failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] SIOF3WIwu9E: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:09:31"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "a65dhPnjoAQ",
+      "source_title": "I Ran a 225B Model on 16, 24 and 32GB GPUs. Only One Made Sense.",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 29d14e52-5d15-4bd2-8f1d-976505d75b95 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] a65dhPnjoAQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:09:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "WoGCImV76xY",
+      "source_title": "Deauth 5GHz WiFi using mdk4 & aircrack-ng",
+      "source_channel": "spacehuhn",
+      "error": "Job e3718f3f-357c-46dd-b438-4065b3564880 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] WoGCImV76xY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:10:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "toi0keDnOsc",
+      "source_title": "DEF CON 34 - Video Team - Voting Machine Hacking Village",
+      "source_channel": "DEFCONConference",
+      "error": "Job 16a3fb3d-11f4-4063-87bb-dda6f94187f6 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] toi0keDnOsc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:10:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "OM2FqnMFCLw",
+      "source_title": "ESP8266 WiFi Repeater (NAT Router)",
+      "source_channel": "Martin Ger",
+      "error": "Job d8814a77-ef01-4d87-b29d-5bf42166d9b3 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] OM2FqnMFCLw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:11:00"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "dxMmR-jEEbU",
+      "source_title": "Is This the Budget Flipper Zero? HaleHound Firmware",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 781eccae-bbf0-4542-b936-8957a2dfb56e failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] dxMmR-jEEbU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:11:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6DuSbmfdZC8",
+      "source_title": "But Will It Perform? Testing the $1200 Gaming PC Build",
+      "source_channel": "Paul's Hardware",
+      "error": "Job 54d755ee-057a-4e8c-8edf-d742270cc468 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 6DuSbmfdZC8: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:11:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "a7qWErb9knc",
+      "source_title": "Online Ads Are Getting Out of Control",
+      "source_channel": "Eric Murphy",
+      "error": "Job 98553d1e-32fc-470f-a22f-8fa9d61f9711 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] a7qWErb9knc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:12:07"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "be10OfcQu6s",
+      "source_title": "Self Hosting A Chatbot For My New Discord Server",
+      "source_channel": "Ionic1k",
+      "error": "Job ccac0f6a-b8d5-4f07-bb6d-d71bb1d3358f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] be10OfcQu6s: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:12:29"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "RcUsavWxwoc",
+      "source_title": "Flipper Zero CAN Hack Your Car!!  CAN Bus Hacking With Flipper Zero!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job f678e1dc-2cc7-4275-820e-1a9017830277 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] RcUsavWxwoc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:12:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "FIEcTNjFZNA",
+      "source_title": "Open Source Self Hosted Teamviewer Replacement",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 93023282-23fc-48be-9b38-6c316a562365 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] FIEcTNjFZNA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:13:13"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "PsqMCoCTgTg",
+      "source_title": "Don't be Fooled!! This Cheap Yellow Display Can Do a LOT!!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 11a064b7-8722-4871-b913-d339304db0c9 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] PsqMCoCTgTg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:13:36"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Kwrff6h0rEw",
+      "source_title": "Netbird: The Easy to Use Open-Source Wireguard Based Overlay VPN That You Can Host Yourself",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 8ec04beb-44c3-4636-b385-e718327c1853 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Kwrff6h0rEw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:13:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "dzV7ncT_RTg",
+      "source_title": "Mastering Flipper Zero: Your Ultimate Day One Guide!  December 2024 Version!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 1dedde25-a903-4cdc-9f76-c2d2100b6afa failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] dzV7ncT_RTg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:14:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Val_14lzjrA",
+      "source_title": "I Tested High Boy Against Flipper Zero - Here's What I Found",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 32f47484-9285-4466-bae0-93344547c09c failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Val_14lzjrA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:14:42"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LC81gbmTsiE",
+      "source_title": "Reverse Engineering Malware Day 1 Part 1: Prerequisites",
+      "source_channel": "OpenSecurityTraining2",
+      "error": "Job db1d2e89-eda5-4aa3-86e8-12b93253e287 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] LC81gbmTsiE: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:15:05"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZQX4FLrm9ac",
+      "source_title": "How ThinkPads Became The Internet's Favorite Laptop",
+      "source_channel": "Eric Murphy",
+      "error": "Job 2b849a94-e4cb-46f8-af48-a483961166ff failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ZQX4FLrm9ac: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:15:27"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YPtB8owYkSQ",
+      "source_title": "The State of pfSense in 2026",
+      "source_channel": "Lawrence Systems",
+      "error": "Job d7103ef4-7995-4b54-94c1-260c63a3355c failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] YPtB8owYkSQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:15:49"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "q9K_iBPHZZc",
+      "source_title": "Bazzite 45 Is Here: Is Your PC Ready for Fortnite on Linux?",
+      "source_channel": "Linux Network",
+      "error": "Job 42258421-a352-4119-be92-e35dfb7e8350 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] q9K_iBPHZZc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:16:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "_KRyIp8TETY",
+      "source_title": "Cardboard Smart Door Controlled by Rain! Arduino Uno R4 WiFi + Servo + Rain Sensor",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job c4fd12e7-d260-4ea8-8c84-5bc972a19476 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] _KRyIp8TETY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:16:33"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "8jnXJ7mD8kQ",
+      "source_title": "Budget Ethical Hacking Gets a Major Upgrade : M5Stack Cardputer Adv",
+      "source_channel": "Talking Sasquach",
+      "error": "Job bf0f4c36-10d0-4879-b571-0847888a2812 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 8jnXJ7mD8kQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:16:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "R3b5cxLZMpo",
+      "source_title": "Discover & Monitor Your Network with This Self-Hosted Open Source Tool",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 3cfd0de0-d617-4890-969e-5c8c006fa0d0 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] R3b5cxLZMpo: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:17:18"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "OeogSzLhRLk",
+      "source_title": "ESP32-Cam Basics (for timelapse, pet surveillance, nesting boxes, front door cameras etc.)",
+      "source_channel": "MakerMeik",
+      "error": "Job c23a25de-4861-4b34-8af9-471703502940 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] OeogSzLhRLk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:17:40"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6M8LIl4UzwI",
+      "source_title": "Which is Better: Overlay Networks or Traditional VPN?",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 9588248d-3ec0-4ad9-95e1-cc8dabac221e failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 6M8LIl4UzwI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:18:02"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "oq_e-AU4wQg",
+      "source_title": "Flipper One: New Updates - Is It Worth It?",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 05e95109-1826-4e0e-95ca-cf9716c23ea7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] oq_e-AU4wQg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:18:24"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "LOlehsNns6g",
+      "source_title": "Kode Dot : This Tiny Hacking Gadget Can Do SO MUCH!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 5782a98d-a406-43de-821e-ee6b2628feb3 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] LOlehsNns6g: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:18:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "9XsbVriF7HI",
+      "source_title": "FORTNITE How To Get Better At Building And Editing PC Master Guide (Settings/Keybinds + Tips)",
+      "source_channel": "SpookyLuke",
+      "error": "Job df35750c-5681-44f9-8f5e-6d2daa294e83 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 9XsbVriF7HI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:19:08"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "dDDlpMLSDFQ",
+      "source_title": "Walmart Just Dropped This Insane $800 Gaming PC... Is It Worth It",
+      "source_channel": "Weenie Tech Builds",
+      "error": "Job c50482fe-def4-40ce-8ce9-9a3af8f4f370 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] dDDlpMLSDFQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:19:31"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cp8si5zO2m0",
+      "source_title": "I'm Not A Web Dev...So Claude Designed A Website For Me!",
+      "source_channel": "DistroTube",
+      "error": "Job 3da5ed20-7516-49d1-9c23-a1ac99f29e3a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] cp8si5zO2m0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:19:53"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "oeP1gwACRA8",
+      "source_title": "Enjoying 1990's Linux on an $8 PC From 1995!",
+      "source_channel": "Ionic1k",
+      "error": "Job 8de3376e-475d-4f8a-b1ba-ee5657835203 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] oeP1gwACRA8: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:20:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "yQMIxUWse6M",
+      "source_title": "The PHP Bug That Broke The Internet",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 996cd42b-9ab9-41d9-9d6f-f799d0bba4cf failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] yQMIxUWse6M: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:20:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "0SOiSOugGa4",
+      "source_title": "Is Fedora 45 Worth the Wait? Everything New, Explained",
+      "source_channel": "Linux Network",
+      "error": "Job c413b602-f9ca-4bb7-9fd0-534bc223746f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 0SOiSOugGa4: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:21:00"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "eCXl09h7lqo",
+      "source_title": "Comparing Top Overlay VPN Networks: Tailscale, Netbird, Netmaker, Zerotier",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 33b5feb6-0f10-4866-a70f-375b3177633a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] eCXl09h7lqo: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:21:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "GDC9aKtebAU",
+      "source_title": "Which VPN To Use In pfsense?",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 531cdb4b-c904-4015-91be-4959b51788f5 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] GDC9aKtebAU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:21:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "lhY0E9Mhgvw",
+      "source_title": "PortexAnalyzer GUI v1.0.0 - Interactive visualization of PE files",
+      "source_channel": "MalwareAnalysisForHedgehogs",
+      "error": "Job 1335a9d2-dc55-4813-8cd3-e499924144a3 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] lhY0E9Mhgvw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:22:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "flD_iPNM_mE",
+      "source_title": "Is Your PC Ready for GTA 6? DON'T Upgrade Until You Watch This!",
+      "source_channel": "OCmodshop",
+      "error": "Job 18193dcc-0f2b-4aa7-9e80-9c18dc48a925 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] flD_iPNM_mE: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:22:28"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cLqiG_ZfDyU",
+      "source_title": "Shelly Is A GUI Package Manager For Arch Linux",
+      "source_channel": "DistroTube",
+      "error": "Job aafeda1a-a3f6-4544-9219-4b78ace52b16 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] cLqiG_ZfDyU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:22:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "wb1oJ4L0nQg",
+      "source_title": "I Built a FREE AI Second Brain That Organizes Everything for Me!",
+      "source_channel": "The Tech Girl",
+      "error": "Job 70237969-6057-4b13-b1af-303db3fca6c7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] wb1oJ4L0nQg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:23:13"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YnTj6s1ZWks",
+      "source_title": "DIY Bike Rack: Repurposing a Futon",
+      "source_channel": "Exercising Ingenuity",
+      "error": "Job ba1b5d97-6677-49d2-8844-07472d9febf8 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] YnTj6s1ZWks: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:23:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "1PP--lVTPCQ",
+      "source_title": "A $36,000 Graphical Workstation from 1993 | SGI Indigo 2",
+      "source_channel": "Ionic1k",
+      "error": "Job e1794d5f-21c4-4974-b817-1660b5fe40f1 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 1PP--lVTPCQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:23:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "hMEsNTBiDVg",
+      "source_title": "AI Is Great at Finding Vulnerabilities. So Where's the Vulnpocalypse?",
+      "source_channel": "Lawrence Systems",
+      "error": "Job c13afb13-ba97-4d2d-b418-2e663d7ef6d6 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] hMEsNTBiDVg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:24:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "a--eq8BOIi4",
+      "source_title": "Turn Claps Into a Toggle Switch! (ESP32-S3 + INMP441 Servo)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 9dd78fed-4957-40ea-ab4d-d6797b5b33ab failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] a--eq8BOIi4: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:24:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "QfcwiSkV_AU",
+      "source_title": "Overlay Network, SDWAN, and Open Source Mesh VPN Solutions Explained",
+      "source_channel": "Lawrence Systems",
+      "error": "Job abd30916-5203-4aa0-939a-c34b76276f8e failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] QfcwiSkV_AU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:25:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "_PpiFLb2m3w",
+      "source_title": "MeowKit Teardown: Why This $100 Device Might Replace Your Flipper Zero",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 05f96ad8-c468-46e4-b3de-b9bca296c1fe failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] _PpiFLb2m3w: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:25:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "KBjr1fdb3jY",
+      "source_title": "Quick Malware Analysis with Security Onion - malware-traffic-analysis.net pcap from 2021-08-05",
+      "source_channel": "Security Onion",
+      "error": "Job 3a1016d9-73aa-4c33-96e1-d7b5caa63a46 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] KBjr1fdb3jY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:25:48"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "emeS51ImQfg",
+      "source_title": "How To Build a Home Network for Beginners (2026 Guide)",
+      "source_channel": "Ultimate Tech Hub",
+      "error": "Job a1fc031c-2abc-4da7-bd0e-dffb41edb9d1 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] emeS51ImQfg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:26:10"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "bBS4do3RbQY",
+      "source_title": "Windows Has These Apps...Linux Doesn't!",
+      "source_channel": "DistroTube",
+      "error": "Job 3d14f340-086f-4bed-a145-6cc40d8e6b0a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] bBS4do3RbQY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:26:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "JHN0u9n8qgU",
+      "source_title": "How I Lost $2,000 on a 10 Year Old Pair Of Shoes...",
+      "source_channel": "KristoferYee",
+      "error": "Job d076c1ae-ae41-4b36-950a-10898dcfe12b failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] JHN0u9n8qgU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:26:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "rteYHxcLCZk",
+      "source_title": "YouTube sucks now. Here's how to fix it.",
+      "source_channel": "Eric Murphy",
+      "error": "Job 458219b7-75ac-4518-9450-9ab80a36f184 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] rteYHxcLCZk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:27:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "9CpVV0RYUxk",
+      "source_title": "The MonstaTek M1 Was A Scam... Until Now.",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 558c3542-0005-47b7-8d86-892bbb5ecdca failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 9CpVV0RYUxk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:27:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "FcMPjvF2l0w",
+      "source_title": "Manjaro 26.1.3 Is Out: Do This BEFORE You Update",
+      "source_channel": "Linux Network",
+      "error": "Job 1ef16089-1c14-4b89-b088-c59288149a90 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] FcMPjvF2l0w: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:28:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "_pKE7IL8Ncg",
+      "source_title": "ESP32 RFID Security System: Red & Blue Access Control with Buzzer Alarm",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 2fb57e9d-9ad0-4700-be8b-06b157d9fc48 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] _pKE7IL8Ncg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:28:23"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jbvgrK-mAW0",
+      "source_title": "I Built a $50 Mini Cyberdeck (Cardputer ADV Mod)",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 4a0d5d18-3a77-4ddc-b476-af31ff5fa071 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] jbvgrK-mAW0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:28:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "wU9QVF9iqOI",
+      "source_title": "Explain By Example: VPN Gateway or ExpressRoute",
+      "source_channel": "Explain By Example",
+      "error": "Job 02add6b0-1c3d-4b3a-9311-de01b9f003e7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] wU9QVF9iqOI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:29:08"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "p4uhwWnXlYM",
+      "source_title": "Flipper Zero Killers?  Devices Trying to Out Hack Flipper Zero!!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 7d6c4b13-8242-4318-8791-2f44a72d3898 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] p4uhwWnXlYM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:29:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "o2y6LeEe0Uc",
+      "source_title": "How To use the Axiom Mod to build Structures | Guide & Tutorial",
+      "source_channel": "Calven",
+      "error": "Job b021e0d8-f6f0-48b0-86c6-de438cc3386c failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] o2y6LeEe0Uc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:29:52"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "tFINFcTJ2BA",
+      "source_title": "Install Programs From Any Linux Distro With BoxBuddy",
+      "source_channel": "DistroTube",
+      "error": "Job b5e24398-dfb2-43b9-8abe-2de73e279a49 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] tFINFcTJ2BA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:30:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "z4pH4WBaNx4",
+      "source_title": "I Built Fuslie A PC",
+      "source_channel": "KristoferYee",
+      "error": "Job b70346e0-b500-4177-9ee4-4aa285d586ae failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] z4pH4WBaNx4: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:30:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "VgXNUuvDQ5w",
+      "source_title": "Does Apple REALLY care about your privacy?",
+      "source_channel": "Eric Murphy",
+      "error": "Job 166ff09f-7a43-4263-b1fb-4208e0da7d79 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] VgXNUuvDQ5w: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:30:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "QsYkkrlxF5Y",
+      "source_title": "Installing Windows 98 on a Single Board Computer",
+      "source_channel": "Ionic1k",
+      "error": "Job acae7cc7-6cf2-4c6d-924a-c72939eccb5d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] QsYkkrlxF5Y: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:31:21"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cnOiP8hq3so",
+      "source_title": "GPT-6 Astra: I Burned My Entire Weekly Allowance in One Day",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 6b0c3f1c-1ed1-46ae-9084-b32436804892 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] cnOiP8hq3so: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:31:43"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "2_pHMDbFfoY",
+      "source_title": "RefreshOS 3.1 Is Out: Debian 13.7, Steam Support and a New Repo",
+      "source_channel": "Linux Network",
+      "error": "Job 168105e9-1687-4e00-8ba0-d84cfd602e56 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 2_pHMDbFfoY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:32:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "DSLUN_nQgdw",
+      "source_title": "DIY Water Level Monitoring System with Arduino Uno R3, Ultrasonic Sensor & DFPlayer Mini",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job a4704ef7-a77f-4156-9931-41e0f7d9735b failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] DSLUN_nQgdw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:32:28"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "F0jPAEAZbKY",
+      "source_title": "I SHOT ONLY ON THE SONY A7V IN JAPAN. HERE'S WHAT I LEARNED | Sony A7V vs Sony A7IV",
+      "source_channel": "Herokme",
+      "error": "Job c4c3f29c-df9c-464a-9d6a-aaf75c6da1f3 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] F0jPAEAZbKY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:32:50"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "pFkGmcpQmTI",
+      "source_title": "Is It Time To Leave Arch Linux?",
+      "source_channel": "DistroTube",
+      "error": "Job d8ca58b2-b38b-421a-b3bc-23f6fdc4c2dc failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] pFkGmcpQmTI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:33:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "rrxobeWP8nk",
+      "source_title": "HP OMEN 16 (2022) Review - Can We Break This Gaming Laptop?",
+      "source_channel": "KristoferYee",
+      "error": "Job 4a9c2c59-1013-45de-b99a-a9706b8f177e failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] rrxobeWP8nk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:33:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "mFPuDaVA7wI",
+      "source_title": "I wasted my 20s online.",
+      "source_channel": "Eric Murphy",
+      "error": "Job 436748bd-e9d6-489e-b748-2b320c8ae30f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] mFPuDaVA7wI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:33:56"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "GVHxa11wUxY",
+      "source_title": "I Built an AI Agent That Trades Stocks and made me Money!",
+      "source_channel": "The Tech Girl",
+      "error": "Job 68f0eab4-8169-4021-a6eb-a54421657d8d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] GVHxa11wUxY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:34:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "B7no7Ll3D7M",
+      "source_title": "Building a Really Fast Server for Video Editing!",
+      "source_channel": "Ionic1k",
+      "error": "Job 91e7b617-1eef-428b-9ce2-cc7a67a64ed0 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] B7no7Ll3D7M: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:34:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "rvdnywaXZWU",
+      "source_title": "DSH the AI Harness Where Everything Is a Plugin",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job b4eb83c6-2e7a-4b94-a71d-60c8004a7f46 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] rvdnywaXZWU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:35:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "HTtZKhcOe9M",
+      "source_title": "Build a Smart Smoke Detector with ESP8266 & Audio Alerts! (DIY Project)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 1aa56d8e-dc11-416f-a34e-b6be1f515b8d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] HTtZKhcOe9M: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:35:25"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "7RaU1ghMkVk",
+      "source_title": "IP Camera Firmware Hacking - Thingino Install",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job 7245c1e5-abe3-4dcb-8dea-49d7d5fe2d85 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 7RaU1ghMkVk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:35:47"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "s0um0CJBaWU",
+      "source_title": "This Laptop is Worth MILLIONS",
+      "source_channel": "KristoferYee",
+      "error": "Job 322f2b19-464a-4237-b0a5-c6b78d2b082d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] s0um0CJBaWU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:36:09"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "V1aqZT7jbo8",
+      "source_title": "The Secret Online Piracy Club You've Never Heard Of",
+      "source_channel": "Eric Murphy",
+      "error": "Job 12693bc2-53c4-4b09-ac30-4b485c5b6f45 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] V1aqZT7jbo8: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:36:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "L42j8-uHs-U",
+      "source_title": "Grok Just Got a HUGE Upgrade! 7 New AI Features You Need to Try",
+      "source_channel": "The Tech Girl",
+      "error": "Job efbc6646-0672-4f3a-8a79-d31992353261 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] L42j8-uHs-U: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:36:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "u38-b7E3bSU",
+      "source_title": "X Has Shut Down Nitter",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 4e2449b4-23e8-4633-9146-b29c0e2b0952 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] u38-b7E3bSU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:37:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "OIVZC4edQ48",
+      "source_title": "Apple Just Made the Best Local AI Machine. Do Not Buy It Yet.",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 0dd64c14-a850-4819-a99c-0444baec501f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] OIVZC4edQ48: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:37:38"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "L9tTuKVKBEQ",
+      "source_title": "Is OmarchyOS Good for Gaming? Real FPS Numbers on Linux",
+      "source_channel": "Linux Network",
+      "error": "Job a510bee0-2434-4519-b5a8-cac36e78e4b1 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] L9tTuKVKBEQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:38:00"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "_dpt9175sn0",
+      "source_title": "Printing Color Output From Shell Commands",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job 09b1656b-5e78-46fb-8183-4cedf14ca42e failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] _dpt9175sn0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:38:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "lRFfAiQ9Q1I",
+      "source_title": "I Almost Quit YouTube Because Of This Audio Issue",
+      "source_channel": "DistroTube",
+      "error": "Job 996919d4-6259-40c7-8dcd-38a7909931c7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] lRFfAiQ9Q1I: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:38:45"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5vVCYechSXY",
+      "source_title": "I Bought a $1000 Mechanical Keyboard...",
+      "source_channel": "KristoferYee",
+      "error": "Job 116aa597-51fb-44ab-af04-567aa4934f2d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 5vVCYechSXY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:39:07"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ljFAODAfAC8",
+      "source_title": "Can You REALLY Trust Proton Mail?",
+      "source_channel": "Eric Murphy",
+      "error": "Job 880e5fdf-5e48-4641-9d5d-c8309262cc4d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ljFAODAfAC8: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:39:29"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "TJDaSRqX9-o",
+      "source_title": "ChatGPT Doesnt Just Answer Anymore   10 Things To Try With FREE GPT 6",
+      "source_channel": "The Tech Girl",
+      "error": "Job edd1628f-4e70-4628-b10c-98d275d2fc71 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] TJDaSRqX9-o: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:39:51"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ddCLuQLMq_8",
+      "source_title": "How Ad Blockers Work",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 05b607a6-8559-40be-b407-2f954906bd59 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ddCLuQLMq_8: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:40:13"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Ll8d9lbOSvI",
+      "source_title": "Omarchy 4.0.5 Is Out: New Kernel and a Pile of Fixes",
+      "source_channel": "Linux Network",
+      "error": "Job 9265eda6-ff95-444a-a4b2-ea854fd132a8 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Ll8d9lbOSvI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:40:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "BYhjgOnBymk",
+      "source_title": "Retroarch Quick Setup Guide Linux 2024",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job ee61cc6c-30b9-4a4b-be9b-02a7874ebe7d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] BYhjgOnBymk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:40:58"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "NLCPh9iAknk",
+      "source_title": "7 Aliases That Make The Terminal Great Again",
+      "source_channel": "DistroTube",
+      "error": "Job b4798003-d726-41d6-bf9b-6b704300b257 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] NLCPh9iAknk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:41:20"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Gi8IkdPoGoM",
+      "source_title": "This Kid Interrupted My Date...",
+      "source_channel": "KristoferYee",
+      "error": "Job 969449d3-1309-4065-b1c1-ea2558279bab failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Gi8IkdPoGoM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:41:42"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cTIoXv0g6kg",
+      "source_title": "Voyager 26.10 Has an AI Kill Switch (and a Cube Desktop)",
+      "source_channel": "Linux Network",
+      "error": "Job 5bb6afd2-8386-412a-be2f-8409bae0dcf5 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] cTIoXv0g6kg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:42:04"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Rxs9kcEJC5w",
+      "source_title": "I Built a Retro Game on a Tiny ESP32-C3 OLED! (DIY Space Trash)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job ed336022-0711-4df8-9892-fee66e2ab146 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Rxs9kcEJC5w: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:42:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "kLCXRj8CaWg",
+      "source_title": "THE ONLY SAMSUNG S26 ULTRA CASES WORTH BUYING",
+      "source_channel": "Herokme",
+      "error": "Job 16fd0bfa-4057-4594-8102-c9261b08885d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] kLCXRj8CaWg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:42:49"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "v0WbKKhod74",
+      "source_title": "5 Open Source Apps I'd Install Even On Windows",
+      "source_channel": "DistroTube",
+      "error": "Job 250c2d88-3bd2-4c9b-88df-2f492bafca3a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] v0WbKKhod74: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:43:11"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "VE4Ruz_JEf0",
+      "source_title": "I Built LilyPichu a PC",
+      "source_channel": "KristoferYee",
+      "error": "Job c7d8c38e-b22d-4f23-abe9-963aa617a2f8 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] VE4Ruz_JEf0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:43:33"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "nMyvQ8NBbjk",
+      "source_title": "ChatGPT Dots vs Meta Muse: Which AI Assistant Is Better?",
+      "source_channel": "The Tech Girl",
+      "error": "Job 3e8a156f-7359-4b7d-a94b-f2d39d7e5e37 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] nMyvQ8NBbjk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:43:55"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "eDQtUwad5vg",
+      "source_title": "The Government's War On GrapheneOS",
+      "source_channel": "Mental Outlaw",
+      "error": "Job f0371412-ba85-49ff-b59a-0411f7f94d4a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] eDQtUwad5vg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:44:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "2Dh0ics1vTE",
+      "source_title": "Stop Wardriving With Your Phone! Use These Instead!",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 61d01f09-4c79-4a3e-9438-661974cbce0f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 2Dh0ics1vTE: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:44:40"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "vt-a0nWqjKk",
+      "source_title": "I Set Up a Hyprland Desktop Without Typing a Single Command: Mainstream OS 3.0.0",
+      "source_channel": "Linux Network",
+      "error": "Job a1775e9a-013d-481d-9da4-88aec7737b62 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] vt-a0nWqjKk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:45:02"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "N6w511lWv5I",
+      "source_title": "Get Started with the INMP441 Omnidirectional Microphone",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 3d61644d-7f8f-4d25-b80b-b68596f4b7ac failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] N6w511lWv5I: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:45:24"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "AxcNUr8WefY",
+      "source_title": "Installing Nextcloud",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job a4c59f9d-7d76-462c-846e-c67d47a57676 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] AxcNUr8WefY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:45:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "fL_uT-VdnQs",
+      "source_title": "I Visited Micro Center on RTX 3070 Launch Day",
+      "source_channel": "KristoferYee",
+      "error": "Job 45ddd201-4fa0-4f33-89f1-a1f2e5a1e5ba failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] fL_uT-VdnQs: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:46:08"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YNVRmcT82aU",
+      "source_title": "The $46 Windows XP Gaming PC",
+      "source_channel": "Ionic1k",
+      "error": "Job 0ce8f278-927d-42a3-a770-5ce5edfafaed failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] YNVRmcT82aU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:46:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ltv7OiV0CjU",
+      "source_title": "The Easiest HA Firewall Setup I've Ever Done: UniFi Shadow Mode in 2026",
+      "source_channel": "Lawrence Systems",
+      "error": "Job da4e3a36-f96c-42f3-bc8c-4b7efc784a76 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ltv7OiV0CjU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:46:53"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4am_n25wOuI",
+      "source_title": "Fuzzel Is A Run Launcher For Wayland Desktops",
+      "source_channel": "DistroTube",
+      "error": "Job fc9b88e8-3a6f-401e-8fb7-0ee4968dcda1 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 4am_n25wOuI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:47:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Y5ym6e8Zi6g",
+      "source_title": "He thought he was getting something else",
+      "source_channel": "KristoferYee",
+      "error": "Job ea23fece-769f-4a13-851e-4f2c4c3e37e4 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Y5ym6e8Zi6g: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:47:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "CDNc68cvaa4",
+      "source_title": "How Police Are Abusing AI Systems",
+      "source_channel": "Mental Outlaw",
+      "error": "Job f1221c64-f899-4c92-9737-54a1fd75cbef failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] CDNc68cvaa4: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:47:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ljwKy0wgiMI",
+      "source_title": "I Use AI Every Day. I Haven't Shipped Anything.",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job fbe4926e-b20e-4902-99c6-91f7fc6f1cb9 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ljwKy0wgiMI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:48:22"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZFMTASMIFAA",
+      "source_title": "Ubuntu 26.10 Is Coming October 15: Should You Upgrade?",
+      "source_channel": "Linux Network",
+      "error": "Job ffe71141-3252-4914-a626-3be3cbab5da7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ZFMTASMIFAA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:48:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "61vipPMUYGc",
+      "source_title": "DIY DIY ESP32-CAM AI-Thinker Robot Car with Live Video Stream!",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job b1abee6d-1c26-4921-abbf-adfc5b132e5f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 61vipPMUYGc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:49:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "OZAsO6a5f6k",
+      "source_title": "I STOPPED PAYING FOR CLOUD STORAGE | UGREEN AI NAS iDX6011 Pro",
+      "source_channel": "Herokme",
+      "error": "Job 55b915b7-de12-4d87-a13f-faba21f5b960 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] OZAsO6a5f6k: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:49:28"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "onw826NsgWQ",
+      "source_title": "Create Beautiful Websites With Hugo",
+      "source_channel": "DistroTube",
+      "error": "Job a1cb1c71-1d82-42cb-97f8-17e827f4e493 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] onw826NsgWQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:49:50"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "6cqpa5G_3rU",
+      "source_title": "ChatGPT Dots Is Here! Your AI Agent That Works For You 24 7",
+      "source_channel": "The Tech Girl",
+      "error": "Job 57f896e4-f2e2-4aa6-9759-d96c410155e8 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 6cqpa5G_3rU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:50:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "FNMOLizFL2s",
+      "source_title": "When Your Computer Gets Hacked Through A Bluetooth Speaker",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 682dfcfc-8c4e-498f-a6a7-d42eeb14bfe7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] FNMOLizFL2s: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:50:35"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Inmv4nynDQE",
+      "source_title": "DIY Home Server with ZimaOS - Local AI in Seconds",
+      "source_channel": "Talking Sasquach",
+      "error": "Job da6427ea-8db7-4e5f-86eb-3103e8bc207a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Inmv4nynDQE: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:50:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "qJwFlICd3Us",
+      "source_title": "Proxmox Local Storage Explained: Why I Recommend ZFS Over Ceph for Small Clusters",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 47dbc4b1-519e-4de2-baf2-b65d438b2998 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] qJwFlICd3Us: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:51:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "P3Z0Va-F4M0",
+      "source_title": "MX Linux 25.3 \"Infinity\" Explained",
+      "source_channel": "Linux Network",
+      "error": "Job 4a93bb42-1a91-4f02-bec8-69e678ee9724 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] P3Z0Va-F4M0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:51:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "yJmeJRMXkMc",
+      "source_title": "Build a Biometric Smart Lock! (ESP32-C3 SuperMini + AS608 Fingerprint Scanner)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 34d43095-754f-4d8d-b5e8-b37e2a707c7a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] yJmeJRMXkMc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:52:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "NebhEVR44Jc",
+      "source_title": "Taking Notes With Emacs Org Mode (It's Easy!)",
+      "source_channel": "DistroTube",
+      "error": "Job 63801c8d-8577-4ee2-927c-e0e5980e1483 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] NebhEVR44Jc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:52:26"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "YRNmJZm4_2g",
+      "source_title": "I Sold Him This Gaming PC for $1",
+      "source_channel": "KristoferYee",
+      "error": "Job f6ea2d36-d133-4c35-8872-ba335fd0ff66 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] YRNmJZm4_2g: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:52:48"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "fL9HzADcTsY",
+      "source_title": "Microsoft's Bug Bounty Betrayal Puts Everyone in Danger",
+      "source_channel": "Mental Outlaw",
+      "error": "Job 3da70152-cdf0-4ff8-b5fb-2c2649e3049c failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] fL9HzADcTsY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:53:10"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "4ka1JwlIG8Q",
+      "source_title": "Local AI Is Not Enough. We Need Transparent AI",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job a4e782fa-5b96-4472-b302-75b6dc63605e failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 4ka1JwlIG8Q: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:53:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cYr-f89RcnM",
+      "source_title": "GNOME 50.5: The Update That Stops Your Screen From Crashing",
+      "source_channel": "Linux Network",
+      "error": "Job 318a9e82-cb56-4c6a-81e7-94cb1cfeca38 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] cYr-f89RcnM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:53:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZZhnmdJSqYk",
+      "source_title": "How to Detect Claps and Snaps with ESP32-S3 and INMP441 Microphone",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 2fe6909a-e5ab-4bc0-8523-35e0ac6297a9 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ZZhnmdJSqYk: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:54:17"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "CPsMqjjsyhI",
+      "source_title": "CachyOS Dethrones Arch As Top Gaming Distro",
+      "source_channel": "DistroTube",
+      "error": "Job c46bc231-ade6-4b0e-83d0-c4a56577b461 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] CPsMqjjsyhI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:54:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "zQ0iVWUvvDM",
+      "source_title": "Linux Is Too Powerful For Age Check Laws",
+      "source_channel": "Mental Outlaw",
+      "error": "Job d9b00397-b907-4bc8-8e8e-de780af3d308 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] zQ0iVWUvvDM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:55:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "G97LJ_w3fug",
+      "source_title": "Should You Run Docker in LXC on Proxmox 9?",
+      "source_channel": "Lawrence Systems",
+      "error": "Job dba37986-ad67-4d2e-a961-e9fd6c9d99c7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] G97LJ_w3fug: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:55:23"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ZRF6yTD1cZo",
+      "source_title": "By August, We'll Have Frontier AI Running Locally",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 7ae542f9-6a6b-4606-8367-f7e1afb9f052 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ZRF6yTD1cZo: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:55:46"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "xzWm40Tq4F4",
+      "source_title": "The Worst Hobby on the Internet - Mechanical Keyboards (Beginners Guide)",
+      "source_channel": "KristoferYee",
+      "error": "Job 3eb87a50-e0af-40b9-aaf2-5a14bb4608e9 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] xzWm40Tq4F4: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:56:08"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "cBNQYbXVLNo",
+      "source_title": "The Ultimate Multiplatform Security Tool? (Monster C5 Review)",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 81e438fc-f5df-46f0-8f14-b2d2a3d1c346 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] cBNQYbXVLNo: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:56:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "fEWobaEIAHM",
+      "source_title": "TrueNAS 2026 Hardening Guide: Step-by-Step Security",
+      "source_channel": "Lawrence Systems",
+      "error": "Job b222453e-9258-4b9f-bc1f-e0dd8a43c966 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] fEWobaEIAHM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:56:52"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "lCwHlXxrUxY",
+      "source_title": "DIY Space Game on ESP32-C3! (3-Button Mini OLED Setup)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job d397ef9a-fc9b-4579-bd83-a1090d03efae failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] lCwHlXxrUxY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:57:15"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Wkd0spaWeBQ",
+      "source_title": "Compiling Programs from Debian Source Repositories",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job 0f825656-db42-4c9c-abc0-38ad6f3c22f6 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Wkd0spaWeBQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:57:37"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "fjI0IRsjizA",
+      "source_title": "Mediocrity Is Destroying Everything...Including Our Software",
+      "source_channel": "DistroTube",
+      "error": "Job e37aeba3-4944-43ce-a705-6c80cb91856b failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] fjI0IRsjizA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:57:59"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "Fdvelgu8uZw",
+      "source_title": "I Scammed One of My Viewers",
+      "source_channel": "KristoferYee",
+      "error": "Job 5efa38fd-a76e-475a-bfb0-d7f09e0c2b07 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] Fdvelgu8uZw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:58:21"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "2jpqYK1duWg",
+      "source_title": "Meet The POOM: The 5GHz Powerhouse No One Is Talking About",
+      "source_channel": "Talking Sasquach",
+      "error": "Job de2945c9-a616-4fc7-9e8e-c57e0abecaf7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 2jpqYK1duWg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:58:44"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "HQHqdcVwBvA",
+      "source_title": "They Are Using Your Creativity to Train AI You Will Never Touch",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job acbb9f03-386a-427a-a478-b3c21857399a failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] HQHqdcVwBvA: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:59:06"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "QQxowaagtlg",
+      "source_title": "Creating Magisk Modules on Android",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job b9700429-ed18-47de-96bf-1aebaace7dda failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] QQxowaagtlg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:59:28"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "J_PfMreLxA0",
+      "source_title": "A First Look At NebiOS (Ubuntu-Based Linux With Wayfire)",
+      "source_channel": "DistroTube",
+      "error": "Job c485da69-1dc0-43e6-8ab4-85eab33d91f1 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] J_PfMreLxA0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-25T23:59:50"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "HCez3uluZI0",
+      "source_title": "I Broke Quarantine to Buy This PC",
+      "source_channel": "KristoferYee",
+      "error": "Job 012b4933-b556-4dac-8337-d6a3252d5c47 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] HCez3uluZI0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:00:12"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "WmaadlL6SxY",
+      "source_title": "ChatGPT Edited Hours of My Alaska Vacation Footage",
+      "source_channel": "The Tech Girl",
+      "error": "Job 5e70b6a1-75d4-4d4d-b51e-4f22c0d8e95f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] WmaadlL6SxY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:00:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "3cvjtPu8k_0",
+      "source_title": "DIY Off-Grid Messaging: Full Breakdown (Meshtastic and Meshcore)",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 6ea286d2-9839-46da-93bf-c41035dce00d failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 3cvjtPu8k_0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:00:57"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "mLOXh0FEwhM",
+      "source_title": "How to Run Proxmox Backup Server on TrueNAS",
+      "source_channel": "Lawrence Systems",
+      "error": "Job b3f6bc84-a9a7-4c10-83f0-9b25b178a0fd failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] mLOXh0FEwhM: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:01:19"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "2lgJvdo25ak",
+      "source_title": "Anthropic Is Building a Three-Tier Society. You Are in the Bottom One.",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job d233a5a8-76da-4833-9b1b-8d6c9a7165de failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 2lgJvdo25ak: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:01:41"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "pBcSsZYusqY",
+      "source_title": "Build Your Own ESP32 Robot Car! (Arduino WiFi Camera Kit Tutorial)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 745e3d7c-65fd-4451-beb8-f6a33411cbf7 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] pBcSsZYusqY: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:02:03"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "eJag0014isw",
+      "source_title": "Transform Arch Linux Into XeroLinux",
+      "source_channel": "DistroTube",
+      "error": "Job 856c4831-5545-4d7a-99c4-aad391f231d3 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] eJag0014isw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:02:25"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "5ItNmh_1spQ",
+      "source_title": "I Built an Offline TV Member a PC",
+      "source_channel": "KristoferYee",
+      "error": "Job 132b0efd-3903-4c3a-9fa1-405f78de0e24 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 5ItNmh_1spQ: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:02:48"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "1wuQ_o4STxE",
+      "source_title": "This 5GHz WiFi Device is INSANE",
+      "source_channel": "Talking Sasquach",
+      "error": "Job 574b2b5e-1842-4a5a-abd8-078534019c9f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 1wuQ_o4STxE: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:03:10"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "ujBf7TlKMBw",
+      "source_title": "GPT 5.6 is Here and You Are Locked Out",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 83888b13-5cc3-41ab-b18e-40bb407aa30f failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] ujBf7TlKMBw: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:03:32"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "2MS8xH9iMSU",
+      "source_title": "Turn Sound Into Action! DIY Voice & Clap Control with ESP32 & I2S",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job 47eaa3b8-b163-4f15-8f5f-146cdf0c18e8 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] 2MS8xH9iMSU: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:03:54"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "HsPBhIUqRw8",
+      "source_title": "THE TOOL I USE TO GET UNIQUE SHOTS ft. Mofage Talos Magic Arm",
+      "source_channel": "Herokme",
+      "error": "Job c14faa77-be19-4f8d-8c25-c0cd378c86c2 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] HsPBhIUqRw8: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:04:16"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "u9EcWrsjE20",
+      "source_title": "Simple Push Notifications ntfy",
+      "source_channel": "Kris Occhipinti",
+      "error": "Job f70216e0-5264-46a3-9cb5-3696b9936fb1 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] u9EcWrsjE20: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:04:39"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "RQppXZ6H-J0",
+      "source_title": "Digital Detox And Being Self Sufficient",
+      "source_channel": "DistroTube",
+      "error": "Job 68abcba2-5176-477c-84f9-d314684a54d4 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] RQppXZ6H-J0: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:05:01"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "KcfzEyR8Kmc",
+      "source_title": "How To Make Money on YouTube (Like MrBeast)",
+      "source_channel": "KristoferYee",
+      "error": "Job ca27b44f-f94f-4944-bab4-55ecee8e5283 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] KcfzEyR8Kmc: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:05:23"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "jbGYcOWvCZI",
+      "source_title": "Meta Muse Tips & Tricks   6 Features You Should Be Using",
+      "source_channel": "The Tech Girl",
+      "error": "Job 5cd7ca36-1cfe-4ef4-8fed-a0a1966911c5 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] jbGYcOWvCZI: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:05:45"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "la0rbheTx2c",
+      "source_title": "Comet Pro Review: The KVM That Gives You The Finger",
+      "source_channel": "Lawrence Systems",
+      "error": "Job 06591c87-1469-4752-95ca-6568406deefa failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] la0rbheTx2c: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:06:07"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "n1xLemC6hpg",
+      "source_title": "Beyond the Centralized AI Bubble: Securing Your Cognitive Sovereignty",
+      "source_channel": "Manolo Remiddi",
+      "error": "Job 5acd2cd7-4170-4393-a3b0-170d0c393c32 failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] n1xLemC6hpg: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:06:30"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "wZ50I2e8f6M",
+      "source_title": "Control a Servo Motor with Sound! (ESP32 + INMP441 Tutorial)",
+      "source_channel": "Upload Ideas With Itamar",
+      "error": "Job a708ac23-422c-46e4-b9a2-db335f08e4ef failed: raise DownloadError(message, exc_info if exc_info and exc_info[0] else sys.exc_info()) | yt_dlp.utils.DownloadError: ERROR: [youtube] wZ50I2e8f6M: Sign in to confirm you\u2019re not a bot. This helps protect our community. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies | Process failed with exit code 1",
+      "ts": "2026-11-26T00:06:52"
     }
   ],
   "channels": {
