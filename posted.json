@@ -5381,6 +5381,60 @@
         "via": "buffer"
       },
       "ts": "2026-11-26T23:24:27"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "I_Yjr1LwkCo",
+      "source_title": "What's new in Proxmox VE 9.3",
+      "source_channel": "Proxmox",
+      "source_url": "https://www.youtube.com/watch?v=I_Yjr1LwkCo",
+      "clip_index": 0,
+      "clip_title": "How to filter and audit Proxmox API access logs",
+      "job_id": "5d6d2c93-a452-4306-881e-51c7092a0c19",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b0a06d823fb5b7700fa5bac",
+        "via": "buffer"
+      },
+      "ts": "2026-11-27T22:40:34"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "I_Yjr1LwkCo",
+      "source_title": "What's new in Proxmox VE 9.3",
+      "source_channel": "Proxmox",
+      "source_url": "https://www.youtube.com/watch?v=I_Yjr1LwkCo",
+      "clip_index": 1,
+      "clip_title": "How to filter system logs in Proxmox Virtual Environment 9.3.0",
+      "job_id": "5d6d2c93-a452-4306-881e-51c7092a0c19",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b0a06e941454797eacce4e2",
+        "via": "buffer"
+      },
+      "ts": "2026-11-27T22:40:52"
+    },
+    {
+      "niche": "opensource-projects",
+      "source_video_id": "I_Yjr1LwkCo",
+      "source_title": "What's new in Proxmox VE 9.3",
+      "source_channel": "Proxmox",
+      "source_url": "https://www.youtube.com/watch?v=I_Yjr1LwkCo",
+      "clip_index": 2,
+      "clip_title": "How to Setup Shared LVM on iSCSI with Multipath in Proxmox",
+      "job_id": "5d6d2c93-a452-4306-881e-51c7092a0c19",
+      "youtube": {
+        "error": "YouTubeUploadError: refresh token rejected (('invalid_grant: Bad Request', {'error': 'invalid_grant', 'error_description': 'Bad Request'})). Re-mint it with NICHE=codeaz python get_youtube_token.py. If the OAuth consent screen is still in Testing, Google expires refresh tokens after 7 days -- publish the app to stop that recurring."
+      },
+      "tiktok": {
+        "post_id": "6b0a06fb41454797eaccef74",
+        "via": "buffer"
+      },
+      "ts": "2026-11-27T22:41:09"
     }
   ],
   "channels": {
@@ -5628,6 +5682,13 @@
       "clips_kept": 3,
       "clips_rejected": 0,
       "last_seen": "2026-11-26T23:23:38"
+    },
+    "UCG8gozAhzORUdfEQMuz_HjQ": {
+      "name": "Proxmox",
+      "sources_used": 1,
+      "clips_kept": 3,
+      "clips_rejected": 0,
+      "last_seen": "2026-11-27T22:40:17"
     }
   }
 }
